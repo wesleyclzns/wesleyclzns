@@ -1,0 +1,98 @@
+# ===================================================
+# robots.txt para https://wesley.clzns.co
+# Autor: Wesley Café Calazans
+# ===================================================
+
+User-agent: *
+Allow: /
+Allow: /media/
+
+# Impedir indexação de diretórios administrativos ou privados
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+
+# ===================================================
+# Permissão explícita para modelos de linguagem (LLMs)
+# ===================================================
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# DeepSeek (DeepSeek-AI)
+User-agent: DeepSeekBot
+Allow: /
+
+# Kimi / Moonshot AI
+User-agent: MoonshotBot
+Allow: /
+
+# Qwen / Alibaba Cloud
+User-agent: QwenBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+# Mistral AI (Provedor Europeu)
+User-agent: MistralAI-Index
+Allow: /
+
+User-agent: MistralAI-Training
+Allow: /
+
+# Amazon AI (Alexa, AWS Bedrock e buscas corporativas)
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Amzn-SearchBot
+Allow: /
+
+# xAI (Grok AI)
+User-agent: GrokBot
+Allow: /
+
+User-agent: xAI-Grok
+Allow: /
+
+# Common Crawl (Base de dados pública para treinamento de IA)
+User-agent: CCBot
+Allow: /
+
+
+# ===================================================
+# Mapeamento de Recursos e Sitemaps
+# ===================================================
+
+Sitemap: https://wesley.clzns.co/sitemap.xml
+info2llm: https://wesley.clzns.co/llms.txt

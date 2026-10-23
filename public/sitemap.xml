@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- Página Pessoal / Currículo -->
+  <url>
+    <loc>https://wesley.clzns.co/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Documento / Página de Projetos de Lei de Mauá -->
+  <url>
+    <loc>https://wesley.clzns.co/media/documentos/maua/maua_projetos_lei.html</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>quarterly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
