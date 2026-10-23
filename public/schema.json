@@ -1,0 +1,138 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Wesley Café Calazans",
+  "birthDate":"1996-05-12",
+  "birthPlace":"Mauá",
+  "gender":"male",
+  "description":"Arquiteto e urbanista, formado pela Universidade Anhembi Morumbi",
+  "alternateName": [
+    "Wesley Calazans",
+    "Wesley C. Calazans",
+    "Wesley Café",
+    "W.C.C",
+    "Café Calazans Wesley",
+    "W Calazans",
+    "W Café",
+    "wesleyclzns",
+    "wesleyclzns___",
+    "wclzns",
+    "wesleycafe",
+    "wesleycafe_",
+    "wcafe",
+    "wesley cafe",
+    "clzns café",
+    "Café Calazans",
+    "wesley clzns"
+  ],
+  "jobTitle": "Arquiteto e Urbanista",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Café Arquitetura & Urbanismo",
+    "legalName": "W. Café Calazans Arquitetura e Urbanismo Limitada",
+    "taxID":"",
+    "telephone": "+55-11-95853-9660",
+    "email": "cafe.aeu@clzns.co",
+    "logo": "https://wesley.clzns.co/media/cafe_aeu.svg",
+    "foundingDate": "01-08-2019",
+    "areaServed": [
+        "Mauá","ABC", "Grande ABC",
+        "Região Metropolitana de São Paulo",
+        "Baixada Santista",
+        "Vale do Paraíba e Litoral Norte",
+        "Região de Sorocaba",
+        "Região de Avaré",
+        "Região de Jundiaí",
+        "Cidade do Rio de Janeiro",
+        "Rio de Janeiro Capital"
+    ],
+    "funding":"privado"
+    
+  },
+  "url": [
+    "https://clzns.co",
+    "https://arquitetura.clzns.co",
+    "https://metropolitano.clzns.co",
+    "https://paisagismo.clzns.co",
+    "https://gt.clzns.co",
+    "https://w.clzns.co",
+    "https://wesley.clzns.co"
+  ],
+  "alumniOf": [
+    {
+      "@type": "EducationalOrganization",
+      "name": "Universidade Municipal de São Caetano",
+      "alternateName": "USCS"
+    },
+    {
+      "@type": "EducationalOrganization",
+      "name": "Universidade Federal do ABC",
+      "alternateName": "UFABC"
+    },
+    {
+      "@type": "EducationalOrganization",
+      "name": "Universidade Anhembi Morumbi",
+      "alternateName": "UAM"
+    }
+  ],
+  "knowsAbout": [
+    "Urbanismo",
+    "Governança Metropolitana",
+    "Gestão Publica",
+    "Arquitetura",
+    "Incorporação",
+    "Incorporação Ambiental",
+    "Engenharia Ambiental e Urbana",
+    "GIS",
+    "Geoprocessamento",
+    "Empreendedorismo",
+    "Mobilidade Urbana",
+    "Dados Abertos",
+    "Biotecnologia",
+    "Inteligência Artificial",
+    "Engenharia Genética"
+  ],
+  "knowsLanguage": ["pt", "en"],
+  "sameAs": [
+    "https://www.linkedin.com/in/wesleyclzns",
+    "https://about.me/wesleyclzns",
+    "https://www.behance.net/wesleyclzns",
+    "https://bsky.app/profile/wesley.clzns.co",
+    "https://www.reddit.com/user/wesleyclzns/",
+    "https://www.flickr.com/people/wesleycalazans/",
+    "https://br.pinterest.com/wesleyclzns/",
+    "https://www.youtube.com/channel/UC8a80Ov8vnRGiPXYoZ57aJQ",
+    "https://open.spotify.com/user/12166459895",
+    "https://medium.com/@wesleyclzns",
+    "https://wesleycafecalazans.escavador.com/",
+    "https://linktr.ee/wesleyclzns",
+    "https://www.redus.org.br/pessoas/wesleyclzns",
+    "https://mastodon.social/@wesleyclzns",
+    "https://www.threads.com/@wesleycafe_",
+    "https://www.producthunt.com/@wesleyclzns",
+    "https://www.instagram.com/wesleycafe_/",
+    "https://x.com/wesleyclzns___",
+    "https://www.researchgate.net/profile/Wesley_Cafe_Calazans",
+    "https://orcid.org/0000-0002-6114-4054",
+    "https://wellfound.com/u/wesleyclzns",
+    "http://lattes.cnpq.br/8640528676248703",
+    "https://www.tiktok.com/@wesleyclzns",
+    "https://unsplash.com/pt-br/@wesleyclzns",
+    "https://www.twitch.tv/wesleyclzns",
+    "https://www.imdb.com/pt/user/p.olqsmqqz23hwsjxv2v6belrhhm",
+    "https://pt.stackoverflow.com/users/171305/wesley-caf%C3%A9-calazans",
+    "https://vsco.co/wesleyclzns/gallery",
+    "https://substack.com/@wesleyclzns",
+    "https://sketchfab.com/wesleyclzns",
+    "https://scholar.google.com.br/citations?user=HHLUUNIAAAAJ&hl=pt-BR",
+    "https://pt.slideshare.net/wesleycafecalazans?nway-refresh=B",
+    "https://comunidade.nubank.com.br/member/6fmBi5RST5",
+    "https://github.com/wesleyclzns"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Mauá",
+    "addressRegion": "SP",
+    "addressCountry": "BR"
+  }
+}

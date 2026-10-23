@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "clznsco"
+  },
+  "targets": {
+    "clznsco": {
+      "hosting": {
+        "wesleyclzns": [
+          "wesleyclzns"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
