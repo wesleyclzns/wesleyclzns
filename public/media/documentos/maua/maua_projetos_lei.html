@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projetos de Lei para a Cidade de Mauá</title>
+<style>
+@import url(https://themes.googleusercontent.com/fonts/css?kit=i4OsFGn26gMDTnDtCO4H9SRKTo29o-mJpTj0YYi-SE57ONtQ5a4SPXkjZSXpzESj_xmhJ4-pWNYAa8qrx2NWppWRsd50AKwwd54WO6DMJTu7SAP0GXEcBVwfz2FiETMoyEMTZwUu2Nj-xhbdpE0LtPxsaSk--ze729O1MRSNjhA);
+
+/* ===== Base elements ===== */
+ol, ul { margin: 0; padding: 0; }
+table td, table th { padding: 0; }
+li { color: #000; font-size: 11pt; font-family: "Open Sans"; }
+p { margin: 0; color: #000; font-size: 11pt; font-family: "Open Sans"; }
+h1 { padding-top: 24pt; color: #000; font-weight: 700; font-size: 16pt; padding-bottom: 6pt; font-family: "Roboto"; line-height: 1.15; page-break-after: avoid; orphans: 2; widows: 2; text-align: justify; }
+h2 { padding-top: 18pt; color: #000; font-weight: 500; font-size: 13pt; padding-bottom: 4pt; font-family: "Roboto"; line-height: 1.15; page-break-after: avoid; orphans: 2; widows: 2; text-align: justify; }
+h3 { padding-top: 24pt; color: #000; font-weight: 700; font-size: 15pt; padding-bottom: 6pt; font-family: "Open Sans"; line-height: 1.15; page-break-after: avoid; orphans: 2; widows: 2; text-align: justify; }
+h4 { padding-top: 12pt; color: #000; font-weight: 500; font-size: 12pt; padding-bottom: 12pt; font-family: "Roboto"; line-height: 1.5; page-break-after: avoid; orphans: 2; widows: 2; text-align: justify; }
+h5 { padding-top: 12pt; color: #000; font-weight: 500; font-size: 12pt; padding-bottom: 12pt; font-family: "Roboto"; line-height: 1.5; page-break-after: avoid; orphans: 2; widows: 2; text-align: justify; }
+h6 { padding-top: 12pt; color: #666; font-size: 11pt; padding-bottom: 4pt; font-family: "Open Sans"; line-height: 1.15; page-break-after: avoid; font-style: italic; orphans: 2; widows: 2; text-align: justify; }
+.title { padding-top: 12pt; color: #000; font-weight: 500; font-size: 19pt; padding-bottom: 12pt; font-family: "Roboto"; line-height: 1.15; page-break-after: avoid; orphans: 2; widows: 2; text-align: center; }
+.subtitle { padding-top: 0pt; color: #666; font-size: 15pt; padding-bottom: 16pt; font-family: "Arial"; line-height: 1.15; page-break-after: avoid; orphans: 2; widows: 2; text-align: justify; }
+li.li-bullet-0:before { margin-left: -18pt; white-space: nowrap; display: inline-block; min-width: 18pt; }
+
+/* ===== Utility classes ===== */
+.c0 { color: #000; font-weight: 400; text-decoration: none; vertical-align: baseline; font-size: 11pt; font-family: "Open Sans"; font-style: normal; }
+.c1 { margin-left: 36pt; padding-top: 12pt; padding-left: 0pt; padding-bottom: 12pt; line-height: 1.15; orphans: 2; widows: 2; text-align: justify; }
+.c2 { margin-left: 36pt; padding-top: 12pt; padding-bottom: 12pt; line-height: 1.15; orphans: 2; widows: 2; text-align: justify; }
+.c3 { font-weight: 700; }
+.c4 { padding-top: 12pt; padding-bottom: 12pt; line-height: 1.15; orphans: 2; widows: 2; text-align: justify; }
+.c5 { padding-top: 18pt; padding-bottom: 4pt; line-height: 1.15; orphans: 2; widows: 2; text-align: justify; }
+.c6 { padding: 0; margin: 0; }
+.c7 { page-break-after: avoid; }
+.c8 { border-right-style: solid; padding-top: 0pt; border-top-width: 0pt; border-right-width: 0pt; padding-left: 0pt; padding-bottom: 0pt; line-height: 1.15; border-left-width: 0pt; border-top-style: solid; border-left-style: solid; border-bottom-width: 0pt; border-bottom-style: solid; orphans: 2; widows: 2; text-align: justify; padding-right: 0pt; }
+.c9 { margin-left: 36pt; }
+.c10 { margin-left: 72pt; padding-top: 10pt; padding-left: 0pt; padding-bottom: 12pt; line-height: 1.15; orphans: 2; widows: 2; text-align: justify; }
+.c11 { padding-top: 10pt; padding-bottom: 12pt; line-height: 1.15; orphans: 2; widows: 2; text-align: justify; }
+.c12 { color: #111; }
+.c13 { padding-left: 0pt; }
+.c14 { padding-top: 12pt; padding-bottom: 12pt; line-height: 1.15; orphans: 2; widows: 2; text-align: center; height: 11pt; }
+.c15 { color: #000; font-weight: 500; text-decoration: none; vertical-align: baseline; font-size: 13pt; font-family: "Roboto"; font-style: normal; }
+.c16 { text-indent: 36pt; }
+.c17 { padding-top: 0pt; padding-bottom: 0pt; line-height: 1.0; orphans: 2; widows: 2; text-align: justify; }
+.c18 { color: #000; font-weight: 400; text-decoration: none; vertical-align: baseline; font-size: 10pt; font-family: "Open Sans"; font-style: normal; }
+.c19 { color: inherit; text-decoration: inherit; }
+.c20 { color: #000; text-decoration: none; vertical-align: baseline; font-size: 11pt; font-family: "Arial"; font-style: normal; }
+.c21 { font-weight: 400; text-decoration: none; vertical-align: baseline; font-size: 11pt; font-family: "Open Sans"; font-style: normal; }
+.c22 { color: #000; font-weight: 500; text-decoration: none; vertical-align: baseline; font-size: 12pt; font-family: "Roboto"; font-style: normal; }
+.c23 { padding-top: 24pt; padding-bottom: 6pt; line-height: 1.15; orphans: 2; widows: 2; text-align: left; height: 15pt; }
+.c24 { color: #000; text-decoration: none; vertical-align: baseline; font-size: 11pt; font-family: "Open Sans"; font-style: normal; }
+.c25 { padding-top: 24pt; padding-bottom: 6pt; line-height: 1.15; orphans: 2; widows: 2; text-align: justify; }
+.c26 { font-size: 10pt; }
+.c27 { margin-left: 72pt; }
+.c30 { color: #000; text-decoration: none; vertical-align: baseline; font-size: 16pt; font-family: "Roboto"; font-style: normal; }
+.c31 { height: 11pt; }
+.c32 { font-weight: 300; font-family: "Open Sans"; }
+.c33 { font-weight: 500; font-family: "Open Sans"; }
+.c34 { font-weight: 500; }
+.c35 { margin-left: 216pt; }
+.c36 { font-size: 17pt; font-family: "Roboto"; }
+.c37 { text-decoration-skip-ink: none; -webkit-text-decoration-skip: none; color: #1155cc; text-decoration: underline; }
+.c38 { padding-top: 0pt; padding-bottom: 0pt; line-height: 1.15; text-align: justify; }
+.c39 { padding-top: 3pt; padding-bottom: 0pt; line-height: 1.0; text-align: left; }
+.c40 { margin-left: 213pt; }
+.c41 { padding-top: 12pt; padding-bottom: 12pt; line-height: 1.05; orphans: 2; widows: 2; text-align: justify; }
+.c42 { margin-left: 108pt; }
+.c43 { font-weight: 300; }
+.c44 { color: #000; text-decoration: none; vertical-align: baseline; font-style: normal; }
+.c45 { color: #000; font-weight: 400; text-decoration: none; vertical-align: baseline; font-size: 11pt; font-family: "Open Sans"; font-style: italic; }
+.c46 { padding-top: 12pt; padding-bottom: 12pt; line-height: 1.15; orphans: 2; widows: 2; text-align: center; }
+.c47 { padding-top: 12pt; padding-bottom: 12pt; line-height: 1.05; orphans: 2; widows: 2; text-align: left; }
+.c48 { background-color: #fff; max-width: 451.4pt; padding: 72pt; }
+.c49 { margin-left: 144pt; }
+.c50 { font-size: 19pt; font-family: "Roboto"; }
+.c51 { padding-top: 12pt; padding-bottom: 12pt; line-height: 1.5; orphans: 2; widows: 2; text-align: justify; }
+.c52 { padding-top: 12pt; padding-bottom: 12pt; line-height: 1.15; orphans: 2; widows: 2; text-align: left; }
+.c53 { font-style: italic; }
+.c54 { padding-top: 10pt; padding-bottom: 0pt; line-height: 1.15; orphans: 2; widows: 2; text-align: left; }
+.c55 { margin-left: 170.1pt; }
+.c56 { padding-top: 24pt; padding-bottom: 6pt; line-height: 1.15; orphans: 2; widows: 2; text-align: center; }
+.c59 { width: 33%; height: 1px; }
+.c61 { font-size: 15pt; font-family: "Open Sans"; }
+.c62 { background-color: #fff; font-size: 12pt; font-family: "Calibri"; color: #333; font-weight: 400; }
+.c63 { height: 16pt; }
+
+/* ===== List counter styles (only used prefixes) ===== */
+.lst-kix_53jup6d1ac3u-0>li{counter-increment:lst-ctn-kix_53jup6d1ac3u-0}
+.lst-kix_53jup6d1ac3u-0>li:before{content:"" counter(lst-ctn-kix_53jup6d1ac3u-0,upper-roman) ". "}
+ol.lst-kix_53jup6d1ac3u-0.start{counter-reset:lst-ctn-kix_53jup6d1ac3u-0 0}
+
+.lst-kix_ijj3eb32bqzj-0>li{counter-increment:lst-ctn-kix_ijj3eb32bqzj-0}
+.lst-kix_ijj3eb32bqzj-0>li:before{content:"" counter(lst-ctn-kix_ijj3eb32bqzj-0,upper-roman) ". "}
+ol.lst-kix_ijj3eb32bqzj-0.start{counter-reset:lst-ctn-kix_ijj3eb32bqzj-0 0}
+
+.lst-kix_2bwlcc8gnf8z-0>li{counter-increment:lst-ctn-kix_2bwlcc8gnf8z-0}
+.lst-kix_2bwlcc8gnf8z-0>li:before{content:"" counter(lst-ctn-kix_2bwlcc8gnf8z-0,upper-roman) ". "}
+ol.lst-kix_2bwlcc8gnf8z-0.start{counter-reset:lst-ctn-kix_2bwlcc8gnf8z-0 0}
+
+.lst-kix_e00us2csshes-0>li{counter-increment:lst-ctn-kix_e00us2csshes-0}
+.lst-kix_e00us2csshes-0>li:before{content:"" counter(lst-ctn-kix_e00us2csshes-0,upper-roman) ". "}
+ol.lst-kix_e00us2csshes-0.start{counter-reset:lst-ctn-kix_e00us2csshes-0 0}
+
+.lst-kix_5jz1lnjekohi-0>li{counter-increment:lst-ctn-kix_5jz1lnjekohi-0}
+.lst-kix_5jz1lnjekohi-0>li:before{content:"" counter(lst-ctn-kix_5jz1lnjekohi-0,upper-roman) ". "}
+ol.lst-kix_5jz1lnjekohi-0.start{counter-reset:lst-ctn-kix_5jz1lnjekohi-0 0}
+
+.lst-kix_q5dtlvblvzcf-0>li{counter-increment:lst-ctn-kix_q5dtlvblvzcf-0}
+.lst-kix_q5dtlvblvzcf-0>li:before{content:"" counter(lst-ctn-kix_q5dtlvblvzcf-0,upper-roman) ". "}
+ol.lst-kix_q5dtlvblvzcf-0.start{counter-reset:lst-ctn-kix_q5dtlvblvzcf-0 0}
+
+.lst-kix_hivcru4617bc-0>li{counter-increment:lst-ctn-kix_hivcru4617bc-0}
+.lst-kix_hivcru4617bc-0>li:before{content:"" counter(lst-ctn-kix_hivcru4617bc-0,upper-roman) ". "}
+ol.lst-kix_hivcru4617bc-0.start{counter-reset:lst-ctn-kix_hivcru4617bc-0 0}
+
+.lst-kix_qzpu5s1kv2e8-0>li{counter-increment:lst-ctn-kix_qzpu5s1kv2e8-0}
+.lst-kix_qzpu5s1kv2e8-0>li:before{content:"" counter(lst-ctn-kix_qzpu5s1kv2e8-0,upper-roman) ". "}
+ol.lst-kix_qzpu5s1kv2e8-0.start{counter-reset:lst-ctn-kix_qzpu5s1kv2e8-0 0}
+
+.lst-kix_zgkgglmtd1k0-0>li{counter-increment:lst-ctn-kix_zgkgglmtd1k0-0}
+.lst-kix_zgkgglmtd1k0-0>li:before{content:"" counter(lst-ctn-kix_zgkgglmtd1k0-0,upper-roman) ". "}
+ol.lst-kix_zgkgglmtd1k0-0.start{counter-reset:lst-ctn-kix_zgkgglmtd1k0-0 0}
+
+.lst-kix_473tlo3fbnzw-0>li{counter-increment:lst-ctn-kix_473tlo3fbnzw-0}
+.lst-kix_473tlo3fbnzw-0>li:before{content:"" counter(lst-ctn-kix_473tlo3fbnzw-0,upper-roman) ". "}
+ol.lst-kix_473tlo3fbnzw-0.start{counter-reset:lst-ctn-kix_473tlo3fbnzw-0 0}
+
+.lst-kix_vfmra3dqud4y-0>li{counter-increment:lst-ctn-kix_vfmra3dqud4y-0}
+.lst-kix_vfmra3dqud4y-0>li:before{content:"" counter(lst-ctn-kix_vfmra3dqud4y-0,upper-roman) ". "}
+ol.lst-kix_vfmra3dqud4y-0.start{counter-reset:lst-ctn-kix_vfmra3dqud4y-0 0}
+
+.lst-kix_v7rru12lp36i-0>li{counter-increment:lst-ctn-kix_v7rru12lp36i-0}
+.lst-kix_v7rru12lp36i-0>li:before{content:"" counter(lst-ctn-kix_v7rru12lp36i-0,upper-roman) ". "}
+ol.lst-kix_v7rru12lp36i-0.start{counter-reset:lst-ctn-kix_v7rru12lp36i-0 0}
+
+.lst-kix_3jkdwslat3vc-0>li{counter-increment:lst-ctn-kix_3jkdwslat3vc-0}
+.lst-kix_3jkdwslat3vc-0>li:before{content:"" counter(lst-ctn-kix_3jkdwslat3vc-0,upper-roman) ". "}
+ol.lst-kix_3jkdwslat3vc-0.start{counter-reset:lst-ctn-kix_3jkdwslat3vc-0 0}
+
+.lst-kix_xecdj9dk0kj0-0>li{counter-increment:lst-ctn-kix_xecdj9dk0kj0-0}
+.lst-kix_xecdj9dk0kj0-0>li:before{content:"" counter(lst-ctn-kix_xecdj9dk0kj0-0,upper-roman) ". "}
+ol.lst-kix_xecdj9dk0kj0-0.start{counter-reset:lst-ctn-kix_xecdj9dk0kj0-0 0}
+
+.lst-kix_5syunskwn8k2-0>li{counter-increment:lst-ctn-kix_5syunskwn8k2-0}
+.lst-kix_5syunskwn8k2-0>li:before{content:"" counter(lst-ctn-kix_5syunskwn8k2-0,upper-roman) ". "}
+ol.lst-kix_5syunskwn8k2-0.start{counter-reset:lst-ctn-kix_5syunskwn8k2-0 0}
+
+.lst-kix_35ub3n7c9my0-0>li{counter-increment:lst-ctn-kix_35ub3n7c9my0-0}
+.lst-kix_35ub3n7c9my0-0>li:before{content:"" counter(lst-ctn-kix_35ub3n7c9my0-0,upper-roman) ". "}
+ol.lst-kix_35ub3n7c9my0-0.start{counter-reset:lst-ctn-kix_35ub3n7c9my0-0 0}
+
+.lst-kix_qukzpk9l44xk-0>li{counter-increment:lst-ctn-kix_qukzpk9l44xk-0}
+.lst-kix_qukzpk9l44xk-0>li:before{content:"" counter(lst-ctn-kix_qukzpk9l44xk-0,upper-roman) ". "}
+ol.lst-kix_qukzpk9l44xk-0.start{counter-reset:lst-ctn-kix_qukzpk9l44xk-0 0}
+
+.lst-kix_pkchvgni0osy-0>li{counter-increment:lst-ctn-kix_pkchvgni0osy-0}
+.lst-kix_pkchvgni0osy-0>li:before{content:"" counter(lst-ctn-kix_pkchvgni0osy-0,upper-roman) ". "}
+ol.lst-kix_pkchvgni0osy-0.start{counter-reset:lst-ctn-kix_pkchvgni0osy-0 0}
+
+.lst-kix_lz62i22sq1uz-0>li{counter-increment:lst-ctn-kix_lz62i22sq1uz-0}
+.lst-kix_lz62i22sq1uz-0>li:before{content:"" counter(lst-ctn-kix_lz62i22sq1uz-0,upper-roman) ". "}
+ol.lst-kix_lz62i22sq1uz-0.start{counter-reset:lst-ctn-kix_lz62i22sq1uz-0 0}
+
+.lst-kix_jpfowvx9csl6-0>li{counter-increment:lst-ctn-kix_jpfowvx9csl6-0}
+.lst-kix_jpfowvx9csl6-0>li:before{content:"" counter(lst-ctn-kix_jpfowvx9csl6-0,upper-roman) ". "}
+ol.lst-kix_jpfowvx9csl6-0.start{counter-reset:lst-ctn-kix_jpfowvx9csl6-0 0}
+
+.lst-kix_xpr8x73ddfvw-0>li{counter-increment:lst-ctn-kix_xpr8x73ddfvw-0}
+.lst-kix_xpr8x73ddfvw-0>li:before{content:"" counter(lst-ctn-kix_xpr8x73ddfvw-0,upper-roman) ". "}
+ol.lst-kix_xpr8x73ddfvw-0.start{counter-reset:lst-ctn-kix_xpr8x73ddfvw-0 0}
+
+.lst-kix_6gempc3z2eyc-0>li{counter-increment:lst-ctn-kix_6gempc3z2eyc-0}
+.lst-kix_6gempc3z2eyc-0>li:before{content:"" counter(lst-ctn-kix_6gempc3z2eyc-0,upper-roman) ". "}
+ol.lst-kix_6gempc3z2eyc-0.start{counter-reset:lst-ctn-kix_6gempc3z2eyc-0 0}
+
+.lst-kix_6l5ylja060yl-0>li{counter-increment:lst-ctn-kix_6l5ylja060yl-0}
+.lst-kix_6l5ylja060yl-0>li:before{content:"" counter(lst-ctn-kix_6l5ylja060yl-0,decimal) ". "}
+ol.lst-kix_6l5ylja060yl-0.start{counter-reset:lst-ctn-kix_6l5ylja060yl-0 0}
+
+.lst-kix_k75s0r5tlocr-0>li{counter-increment:lst-ctn-kix_k75s0r5tlocr-0}
+.lst-kix_k75s0r5tlocr-0>li:before{content:"" counter(lst-ctn-kix_k75s0r5tlocr-0,upper-roman) ". "}
+ol.lst-kix_k75s0r5tlocr-0.start{counter-reset:lst-ctn-kix_k75s0r5tlocr-0 0}
+
+.lst-kix_h7mlnhxdm2n3-0>li{counter-increment:lst-ctn-kix_h7mlnhxdm2n3-0}
+.lst-kix_h7mlnhxdm2n3-0>li:before{content:"" counter(lst-ctn-kix_h7mlnhxdm2n3-0,upper-roman) ". "}
+ol.lst-kix_h7mlnhxdm2n3-0.start{counter-reset:lst-ctn-kix_h7mlnhxdm2n3-0 0}
+
+.lst-kix_3064pqwg1vkq-0>li{counter-increment:lst-ctn-kix_3064pqwg1vkq-0}
+.lst-kix_3064pqwg1vkq-0>li:before{content:"" counter(lst-ctn-kix_3064pqwg1vkq-0,upper-roman) ". "}
+ol.lst-kix_3064pqwg1vkq-0.start{counter-reset:lst-ctn-kix_3064pqwg1vkq-0 0}
+
+.lst-kix_5h4n57it5qz1-0>li{counter-increment:lst-ctn-kix_5h4n57it5qz1-0}
+.lst-kix_5h4n57it5qz1-0>li:before{content:"" counter(lst-ctn-kix_5h4n57it5qz1-0,upper-roman) ". "}
+ol.lst-kix_5h4n57it5qz1-0.start{counter-reset:lst-ctn-kix_5h4n57it5qz1-0 0}
+
+.lst-kix_ym7i2kpgupu9-0>li{counter-increment:lst-ctn-kix_ym7i2kpgupu9-0}
+.lst-kix_ym7i2kpgupu9-0>li:before{content:"" counter(lst-ctn-kix_ym7i2kpgupu9-0,upper-roman) ". "}
+ol.lst-kix_ym7i2kpgupu9-0.start{counter-reset:lst-ctn-kix_ym7i2kpgupu9-0 0}
+
+.lst-kix_p75d4vi80uaf-0>li{counter-increment:lst-ctn-kix_p75d4vi80uaf-0}
+.lst-kix_p75d4vi80uaf-0>li:before{content:"" counter(lst-ctn-kix_p75d4vi80uaf-0,upper-roman) ". "}
+ol.lst-kix_p75d4vi80uaf-0.start{counter-reset:lst-ctn-kix_p75d4vi80uaf-0 0}
+
+.lst-kix_e5hsbxjqid5c-0>li{counter-increment:lst-ctn-kix_e5hsbxjqid5c-0}
+.lst-kix_e5hsbxjqid5c-0>li:before{content:"" counter(lst-ctn-kix_e5hsbxjqid5c-0,upper-roman) ". "}
+ol.lst-kix_e5hsbxjqid5c-0.start{counter-reset:lst-ctn-kix_e5hsbxjqid5c-0 0}
+.lst-kix_e5hsbxjqid5c-1>li{counter-increment:lst-ctn-kix_e5hsbxjqid5c-1}
+.lst-kix_e5hsbxjqid5c-1>li:before{content:"" counter(lst-ctn-kix_e5hsbxjqid5c-1,upper-latin) ". "}
+ol.lst-kix_e5hsbxjqid5c-1.start{counter-reset:lst-ctn-kix_e5hsbxjqid5c-1 0}
+
+.lst-kix_2oedla2lct02-0>li{counter-increment:lst-ctn-kix_2oedla2lct02-0}
+.lst-kix_2oedla2lct02-0>li:before{content:"" counter(lst-ctn-kix_2oedla2lct02-0,upper-roman) ". "}
+ol.lst-kix_2oedla2lct02-0.start{counter-reset:lst-ctn-kix_2oedla2lct02-0 0}
+
+.lst-kix_ulfy45kdpral-0>li{counter-increment:lst-ctn-kix_ulfy45kdpral-0}
+.lst-kix_ulfy45kdpral-0>li:before{content:"" counter(lst-ctn-kix_ulfy45kdpral-0,upper-roman) ". "}
+ol.lst-kix_ulfy45kdpral-0.start{counter-reset:lst-ctn-kix_ulfy45kdpral-0 0}
+
+.lst-kix_3zsxijsorqz3-0>li{counter-increment:lst-ctn-kix_3zsxijsorqz3-0}
+.lst-kix_3zsxijsorqz3-0>li:before{content:"" counter(lst-ctn-kix_3zsxijsorqz3-0,upper-roman) ". "}
+ol.lst-kix_3zsxijsorqz3-0.start{counter-reset:lst-ctn-kix_3zsxijsorqz3-0 0}
+
+.lst-kix_syg1m7yu1etn-0>li{counter-increment:lst-ctn-kix_syg1m7yu1etn-0}
+.lst-kix_syg1m7yu1etn-0>li:before{content:"" counter(lst-ctn-kix_syg1m7yu1etn-0,upper-roman) ". "}
+ol.lst-kix_syg1m7yu1etn-0.start{counter-reset:lst-ctn-kix_syg1m7yu1etn-0 0}
+.lst-kix_syg1m7yu1etn-1>li{counter-increment:lst-ctn-kix_syg1m7yu1etn-1}
+.lst-kix_syg1m7yu1etn-1>li:before{content:"" counter(lst-ctn-kix_syg1m7yu1etn-1,upper-latin) ". "}
+ol.lst-kix_syg1m7yu1etn-1.start{counter-reset:lst-ctn-kix_syg1m7yu1etn-1 0}
+
+ul.lst-kix_jnkr0kn1sxoq-0 { list-style-type: none; }
+</style>
+</head>
+<body class="c48 doc-content">
+<div><p class="c4 c31"><span class="c0"></span></p></div>
+<p class="c4 c31"><span class="c24 c34"></span></p>
+<p class="c31 c52"><span class="c44 c50 c34"></span></p>
+<p class="c14"><span class="c44 c50 c34"></span></p>
+<p class="c14"><span class="c44 c34 c50"></span></p>
+<p class="c7 c46 title" id="h.npklxwyd47ve"><span class="c44 c50 c34">Projetos de Lei para a Cidade de Mauá.</span></p>
+<p class="c4 c31"><span class="c0"></span></p>
+<p class="c4 c31"><span class="c0"></span></p>
+<p class="c4 c16 c55"><span class="c0">Elaborado e idealizado por Wesley Café Calazans, Arquiteto, Urbanista, Designer, Estudante da UFABC&nbsp;&mdash;&nbsp;Universidade Federal do ABC, &nbsp;no Bacharelado Interdisciplinar em Ciência e Tecnologia&nbsp;&mdash;&nbsp;BCT, representante discente na Comissão de Pesquisa da UFABC, na Plenária do BCT e como representante suplente da Coordenação do BCT e no Conselho do Centro de Engenharias, Modelagem e &nbsp;Ciências Sociais Aplicadas&nbsp;&mdash;&nbsp;ConCECS. Conselheiro do Orçamento Participativo do Município de Mauá, Conselheiro Gestor da Saúde da Unidade de Saúde do Feital e Conselheiro Suplente do CAU-SP&nbsp;&mdash;&nbsp;Conselho de Arquitetura e Urbanismo de São Paulo.</span></p>
+<p class="c4 c31"><span class="c0"></span></p>
+<h3 class="c7 c23" id="h.ahqdys72sckf"><span class="c44 c61 c3"></span></h3>
+<h3 class="c23 c7" id="h.41pup59cfliq"><span class="c44 c61 c3"></span></h3>
+<h3 class="c7 c56" id="h.8j43llen9zb3"><span>Mauá, 2023&ndash;24</span><hr style="page-break-before:always;display:none;"></h3>
+<h3 class="c25 c7" id="h.ooxrkx12wnsm"><span class="c44 c3 c61">Sumário</span></h3>
+<p class="c39"><span class="c24 c3"><a class="c19" href="#h.pl80k058nonm">1. Política Municipal de Combate às Mudanças Climática e Enfrentamento de Eventos Climáticos Extremos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3</a></span></p>
+<p class="c39"><span class="c24 c3"><a class="c19" href="#h.614k2nvc2dhv">2. Lei para a contratação de concursos de arquitetura para projetos públicos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6</a></span></p>
+<p class="c39"><span class="c24 c3"><a class="c19" href="#h.lsoojdkn9tt">3. Projeto de Lei que cria o Plano de Mobilidade Ativa do município de Mauá&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10</a></span></p>
+<p class="c39"><span class="c24 c3"><a class="c19" href="#h.dh2sn8139x7q">4. Política de Visão Zero&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13</a></span></p>
+<p class="c39"><span class="c24 c3"><a class="c19" href="#h.u7bfndvuo9nl">5. Projeto de Lei para nomeação de logradouros visando a valorização da democracia e da história local da cidade de Mauá&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16</a></span></p>
+<p class="c39"><span class="c3 c24"><a class="c19" href="#h.204c86qaeclk">6. Projeto de Lei para nomeação e valorização de corpos hídricos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;22</a></span></p>
+<p class="c39"><span class="c24 c3"><a class="c19" href="#h.2m96e2dibodd">7. Projeto de Lei que cria a Catraca livre no horário entre pico&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;28</a></span></p>
+<p class="c39"><span class="c24 c3"><a class="c19" href="#h.vdrstn43meaj">8. Projeto de Lei que cria o Portal de gestão urbana e territorial de Mauá&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;31</a></span></p>
+<p class="c39"><span class="c20 c3"><a class="c19" href="#h.i8hc39tolwws">9. Projeto de Lei que cria o Parque das Nascentes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;39</a></span></p>
+<p class="c39"><span class="c20 c3"><a class="c19" href="#h.kbwsxn7w3647">10. Projeto de Lei que institui o uso de epígrafes, QR Codes e identificação das Regiões de Planejamento nas placas de logradouro&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;41</a></span></p>
+<p class="c39"><span class="c20 c3"><a class="c19" href="#h.7z03rrc3avup">11. Projeto de Regulamentação de Projetos de Iniciativa Popular Digital&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;45</a></span></p>
+<p class="c39"><span class="c20 c3"><a class="c19" href="#h.tbffvpv6s95j">12. Projeto de Resolução - Projetos de Indicação de Lei&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;48</a></span></p>
+<p class="c39"><span class="c20 c3"><a class="c19" href="#h.ftwab0bsdybk">13. Projeto de Lei que Cria o Fundo Soberano Mauaense&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;52</a></span></p>
+<p class="c39"><span class="c20 c3"><a class="c19" href="#h.1iplcbrmm0v8">14. Projeto de Lei que Cria Parque dos Alpes Mauaenses&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;55</a></span></p>
+<p class="c39"><span class="c20 c3"><a class="c19" href="#h.r1nq4nwzw55f">15. Projeto de Lei para Valorização da História e Cultura Local&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;55</a></span></p>
+<p class="c39"><span class="c20 c3"><a class="c19" href="#h.e0gs52et3wdv">16. Projeto de Lei para Criação de Passe do Conselheiro&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;58</a></span></p>
+<p class="c39"><span class="c20 c3"><a class="c19" href="#h.6hn8z2k2c51d">17. Projeto de Lei que Cria o Fundo de Resiliência Urbana e Climática de Mauá - FRUCM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;60</a></span></p>
+<hr style="page-break-before:always;display:none;">
+<h1 class="c25 c16 c63" id="h.9syjrtuxie5r"><span class="c30 c3"></span></h1>
+<h1 class="c25 c16" id="h.pl80k058nonm"><span class="c30 c3">1. Política Municipal de Combate às Mudanças Climática e Enfrentamento de Eventos Climáticos Extremos</span></h1>
+<h2 class="c5 c7" id="h.388skw78l3yb"><span class="c15">Justificativa</span></h2>
+<p class="c4"><span>A presente lei tem por objetivo criar uma política municipal de enfrentamento das mudanças climáticas e dos eventos climáticos extremos, a fim de estabelecer diretrizes e medidas que visem à mitigação e adaptação aos efeitos das mudanças climáticas, promovendo a sustentabilidade ambiental e a proteção dos cidadãos do município contra os impactos negativos desses fenômenos. A adoção de uma política municipal é de suma importância, pois permitirá a criação de estratégias, projetos e ações voltados à prevenção e redução dos impactos negativos das mudanças climáticas e dos eventos climáticos extremos no município de Mauá. Assim, a presente lei tem o intuito de garantir um futuro sustentável para o município, com a proteção do meio ambiente e dos recursos naturais, além de promover a segurança e a qualidade de vida da população.</span></p>
+<p class="c4"><span class="c3">Considerando</span><span class="c0">&nbsp;que as mudanças climáticas são uma realidade global e que impactam diretamente a qualidade de vida das pessoas nas cidades, bem como o meio ambiente e os recursos naturais; </span></p>
+<p class="c4"><span class="c3">Considerando</span><span class="c0">&nbsp;que o município de Mauá vem sofrendo cada vez mais com eventos climáticos extremos, como enchentes, deslizamentos e ondas de calor, que causam prejuízos econômicos e danos irreparáveis à saúde e bem-estar da população; </span></p>
+<p class="c4"><span class="c3">Considerando</span><span class="c0">&nbsp;que é necessário que o poder público municipal tome medidas efetivas para enfrentar as mudanças climáticas e seus impactos no município; </span></p>
+<p class="c4"><span class="c3">Considerando</span><span class="c0">&nbsp;que a adoção de uma Política Municipal de Combate às Mudanças Climática e Enfrentamento de Eventos Climáticos Extremos é uma medida essencial para a promoção da sustentabilidade ambiental e a proteção da vida no município.</span></p>
+<h2 class="c5" id="h.8qya5z8p7kr3"><span>PROJETO DE LEI Nº</span><span class="c15">&nbsp;[XX/2024]</span></h2>
+<p class="c4 c16 c35"><span class="c0">Cria a Política Municipal de Combate às Mudanças Climática e Enfrentamento de Eventos Climáticos Extremos no Município de Mauá e dá outras providências.</span></p>
+<p class="c4"><span class="c3">Art. 1º</span><span class="c0">&nbsp;Fica instituída a Política Municipal de Combate às Mudanças Climáticas e Enfrentamento dos Eventos Climáticos Extremos no Município de Mauá, que terá como objetivo principal o desenvolvimento de ações integradas para a prevenção, mitigação e adaptação aos efeitos das mudanças climáticas e eventos climáticos extremos no âmbito municipal. </span></p>
+<p class="c4"><span class="c3">Art. 2º</span><span class="c0">&nbsp;A Política Municipal de Enfrentamento das Mudanças Climáticas e dos Eventos Climáticos Extremos será desenvolvida em consonância com a Política Nacional sobre Mudança do Clima, LEI n.º 12.187, DE 29 DE DEZEMBRO DE 2009, o Plano Nacional sobre Mudança do Clima, o &nbsp;Política Estadual de Mudanças Climáticas &ndash; PEMC, &nbsp;Lei Estadual nº 13.798, de 9 de novembro de 2009 e o Plano Diretor do Município de Mauá, LEI Nº 4153, DE 26 DE MARÇO DE 2007. </span></p>
+<p class="c4"><span class="c3">Art. 3º</span><span class="c0">&nbsp;A Política Municipal de Enfrentamento das Mudanças Climáticas e dos Eventos Climáticos Extremos terá como princípios: </span></p>
+<ol class="c6 lst-kix_53jup6d1ac3u-0 start" start="1">
+<li class="c1 li-bullet-0"><span class="c0">Prevenção: adoção de medidas que visem à redução da emissão de gases de efeito estufa e à mitigação dos impactos das mudanças climáticas; </span></li>
+<li class="c1 li-bullet-0"><span class="c0">Mitigação: adoção de medidas que visem à minimização dos efeitos das mudanças climáticas no município;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Adaptação: adoção de medidas que visem à adaptação do município aos impactos das mudanças climáticas, especialmente os eventos climáticos extremos; </span></li>
+<li class="c1 li-bullet-0"><span class="c0">Participação Social: promoção da participação da sociedade na construção, implementação e monitoramento da política; </span></li>
+<li class="c1 li-bullet-0"><span class="c0">Intersetorialidade: adoção de medidas que integrem as ações dos diferentes setores da administração municipal na promoção da política; </span></li>
+<li class="c1 li-bullet-0"><span class="c0">Transparência: promoção da transparência na gestão da política, garantindo o acesso à informação e à participação popular. </span></li>
+</ol>
+<p class="c4"><span class="c3">Art. 4º</span><span class="c0">&nbsp;A Política Municipal de Enfrentamento das Mudanças Climáticas e dos Eventos Climáticos Extremos será implementada por meio da adoção de medidas e programas que visem: </span></p>
+<ol class="c6 lst-kix_ijj3eb32bqzj-0 start" start="1">
+<li class="c1 li-bullet-0"><span class="c0">o monitoramento e a avaliação dos impactos das mudanças climáticas e eventos climáticos extremos no município; </span></li>
+<li class="c1 li-bullet-0"><span class="c0">a redução da emissão de gases de efeito estufa no município; </span></li>
+<li class="c1 li-bullet-0"><span class="c0">a promoção da eficiência energética e do uso de fontes de energia renováveis no município; </span></li>
+<li class="c1 li-bullet-0"><span class="c0">a promoção da mobilidade urbana sustentável no município com a total descarbonização dos ônibus municipais até 2050, mediante a substituição gradativa dos ônibus movidos a diesel por ônibus elétricos, a hidrogênio, híbridos, trólebus ou outras tecnologias de baixa emissão de gases do efeito estufa, dando preferência para tecnologias desenvolvidas em território nacional.</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Estimular a utilização de meios de transporte alternativos ao veículo individual, como bicicletas, patinetes elétricos, transporte coletivo e outras opções de mobilidade sustentável;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Aumentar a cobertura de áreas verdes na cidade, mediante a criação de novos parques e praças, a recuperação de áreas degradadas e a ampliação de áreas verdes já existentes;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">a gestão sustentável dos resíduos sólidos no município, com adoção de coleta seletiva e da compostagem urbana em todo o município; </span></li>
+<li class="c1 li-bullet-0"><span class="c0">a proteção e recuperação dos recursos naturais no município; </span></li>
+<li class="c1 li-bullet-0"><span class="c0">a despoluição e revitalização dos córregos e rios, com a implantação de sistemas de tratamento de esgoto e a adoção de medidas para prevenir a contaminação das águas;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">a desocupação de áreas em encostas e outras áreas de risco, mediante a realocação das famílias para locais seguros e adequados, com o objetivo de prevenir deslizamentos e outros eventos climáticos extremos.</span></li>
+<li class="c1 li-bullet-0"><span class="c0">a promoção da segurança alimentar e nutricional no município; </span></li>
+<li class="c1 li-bullet-0"><span class="c0">a promoção da educação ambiental e da cultura de sustentabilidade no município; </span></li>
+<li class="c1 li-bullet-0"><span class="c0">a promoção da adaptação do município aos impactos das mudanças climáticas e eventos climáticos extremos, especialmente os relacionados à saúde pública, saneamento, habitação e infraestrutura urbana. </span></li>
+</ol>
+<p class="c4"><span class="c3">Art. 5º</span><span class="c0">&nbsp;- A implementação da Política Municipal de Enfrentamento das Mudanças Climáticas e dos Eventos Climáticos Extremos será coordenada por um Comitê Municipal de Sustentabilidade e Resiliência Climática - COMSUREC, composto por representantes dos seguintes órgãos e entidades: </span></p>
+<ol class="c6 lst-kix_2bwlcc8gnf8z-0 start" start="1">
+<li class="c1 li-bullet-0"><span class="c0">Secretaria Municipal de Meio Ambiente; </span></li>
+<li class="c1 li-bullet-0"><span class="c0">Secretaria Municipal de Planejamento Urbano; </span></li>
+<li class="c1 li-bullet-0"><span class="c0">Secretaria Municipal de Saúde; </span></li>
+<li class="c1 li-bullet-0"><span class="c0">Secretaria Municipal de Educação; </span></li>
+<li class="c1 li-bullet-0"><span class="c0">Secretaria Municipal de Serviços Urbanos; </span></li>
+<li class="c1 li-bullet-0"><span class="c0">Secretaria Municipal de Transportes e Mobilidade Urbana; </span></li>
+<li class="c1 li-bullet-0"><span class="c0">Secretaria Municipal de Segurança Alimentar; </span></li>
+<li class="c1 li-bullet-0"><span class="c0">Secretaria Municipal de Habitação; </span></li>
+<li class="c1 li-bullet-0"><span class="c0">Defesa Civil; </span></li>
+<li class="c1 li-bullet-0"><span class="c0">Empresa de Saneamento Básico do Estado de São Paulo - Sabesp; </span></li>
+<li class="c1 li-bullet-0"><span class="c0">Concessionária de Energia elétrica - ENEL ; </span></li>
+<li class="c1 li-bullet-0"><span class="c0">Concessionária de Iluminação pública - Mauá Luz </span></li>
+<li class="c1 li-bullet-0"><span class="c0">Representantes da sociedade civil;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Representantes arquitetos e urbanistas do CAU ou IAB;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Representantes engenheiros do CREA;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Representantes do setor empresarial;</span></li>
+</ol>
+<p class="c4"><span class="c0">Parágrafo Único - O Comitê Municipal de Mudanças Climáticas e Eventos Climáticos Extremos terá como atribuições: </span></p>
+<ol class="c6 lst-kix_e00us2csshes-0 start" start="1">
+<li class="c1 li-bullet-0"><span class="c0">elaborar e monitorar a implementação do Plano Municipal de Enfrentamento das Mudanças Climáticas e dos Eventos Climáticos Extremos; </span></li>
+<li class="c1 li-bullet-0"><span class="c0">coordenar ações e projetos voltados à prevenção, mitigação e adaptação aos efeitos das mudanças climáticas e eventos climáticos extremos no município; </span></li>
+<li class="c1 li-bullet-0"><span class="c0">promover a integração entre os diferentes setores da administração municipal na promoção da política; </span></li>
+<li class="c1 li-bullet-0"><span class="c0">garantir a participação da sociedade civil na construção, implementação e monitoramento da política; </span></li>
+<li class="c1 li-bullet-0"><span class="c0">promover a transparência na gestão da política, garantindo o acesso à informação e à participação popular. </span></li>
+<li class="c1 li-bullet-0"><span class="c0">monitorar indicadores de desempenho e a realizar avaliações periódicas da efetividade das medidas adotadas.</span></li>
+</ol>
+<p class="c4"><span class="c3">Art. 6º</span><span class="c0">&nbsp;O Poder Executivo Municipal poderá firmar convênios, acordos de cooperação e parcerias com entidades públicas e privadas, nacionais e internacionais, visando à promoção da Política Municipal de Enfrentamento das Mudanças Climáticas e dos Eventos Climáticos Extremos. </span></p>
+<p class="c4"><span class="c3">Art. 7º</span><span class="c0">&nbsp;As despesas decorrentes da execução desta Lei correrão por conta das dotações orçamentárias próprias, suplementadas se necessário. </span></p>
+<p class="c4"><span class="c3">Art. 8º</span><span class="c0">&nbsp;Esta Lei entrará em vigor na data de sua publicação. </span></p>
+
+<h1 class="c25 c7 c16" id="h.614k2nvc2dhv"><span>2. L</span><span class="c34 c36">ei para a contratação de c</span><span class="c30 c3">oncursos de arquitetura para projetos públicos</span></h1>
+<p class="c4"><span class="c0">Considerando a importância da promoção do desenvolvimento social e econômico do país, por meio de investimentos em projetos e programas que visem ao avanço tecnológico, à inovação e à melhoria da qualidade de vida da população, faz-se necessário estabelecer diretrizes para a realização desses investimentos. Para tanto, o presente projeto de lei pretende estabelecer critérios para a análise e seleção de projetos e programas a serem financiados com recursos públicos, a fim de assegurar a efetividade desses investimentos e o alcance dos resultados esperados.</span></p>
+<h2 class="c5 c7" id="h.xtdifns5qphx"><span class="c15">Justificativa</span></h2>
+<p class="c4"><span class="c0">O presente projeto de lei tem por objetivo regulamentar a realização de concursos públicos de projetos como instrumento preferencial de contratação de serviços técnicos especializados de arquitetura e urbanismo e engenharia no âmbito do Município de Mauá.</span></p>
+<p class="c4"><span class="c0">Os concursos de arquitetura para projetos públicos são uma forma democrática de selecionar os melhores projetos para edificações que serão construídas em espaços públicos. Esses concursos oferecem a oportunidade para que arquitetos e urbanistas apresentem suas ideias e projetos para a construção de edifícios que serão utilizados pela comunidade em geral.</span></p>
+<p class="c4"><span class="c0">Os concursos de arquitetura também são uma forma de incentivar a inovação e a criatividade na área de arquitetura e urbanismo. Os projetos selecionados geralmente apresentam soluções arquitetônicas inovadoras e sustentáveis, que podem servir de inspiração para outras construções.</span></p>
+<p class="c4"><span class="c0">A utilização de concursos públicos de projetos é uma prática consolidada no Brasil e no mundo, sendo amplamente reconhecida como um instrumento de seleção de projetos de qualidade, que estimula a criatividade, a inovação e a excelência técnica.</span></p>
+<p class="c4"><span class="c0">Nesse sentido, a presente lei busca estabelecer normas e procedimentos para a realização de concursos públicos de projetos no âmbito do Município de Mauá, como forma de fomentar o desenvolvimento da arquitetura e urbanismo e da engenharia no município, promovendo a valorização do trabalho dos profissionais dessas áreas e garantindo a contrata</span></p>
+<p class="c4"><span class="c3">Considerando</span><span class="c0">&nbsp;que a contratação por meio de concursos públicos de projetos é uma forma democrática e transparente de seleção dos melhores projetos, garantindo a participação ampla e equitativa dos profissionais da área;</span></p>
+<p class="c4"><span class="c3">Considerando</span><span class="c0">&nbsp;que a contratação de projetos por meio de concursos públicos possibilita a seleção de projetos inovadores, criativos e de alta qualidade técnica, em detrimento de projetos baseados em critérios meramente comerciais;</span></p>
+<p class="c4"><span class="c3">Considerando</span><span class="c0">&nbsp;que o Instituto de Arquitetos do Brasil (IAB) e a União Internacional dos Arquitetos (UIA) estabeleceram diretrizes e recomendações para a realização de concursos públicos de projetos;</span></p>
+<p class="c4"><span class="c3">Considerando</span><span class="c0">&nbsp;que a regulamentação dos concursos públicos de projetos no âmbito municipal pode contribuir para a melhoria da qualidade dos projetos e para o desenvolvimento do município de Mauá;</span></p>
+<p class="c4"><span class="c3">Considerando</span><span class="c0">&nbsp;que a presente Lei se alinha aos princípios da Constituição Federal, em especial os princípios da legalidade, impessoalidade, moralidade, publicidade e eficiência;</span></p>
+<h2 class="c5" id="h.ssbi6p5dnn8"><span class="c15">PROJETO DE LEI Nº [XX/2024]</span></h2>
+<p class="c4 c16 c35"><span class="c0">Institui a realização de concursos públicos de projetos de arquitetura, engenharia e urbanismo como instrumento preferencial de contratação de serviços técnicos especializados no âmbito do Município de Mauá, com a utilização da metodologia BIM e estabelece critérios específicos para a seleção dos projetos vencedores.</span></p>
+<p class="c4"><span class="c3">Art. 1º</span><span class="c0">&nbsp;- Fica instituída a realização de concursos públicos de projetos de arquitetura, engenharia e urbanismo como instrumento preferencial de contratação de serviços técnicos especializados no âmbito do Município de Mauá, a serem realizados pelo poder público.</span></p>
+<p class="c4"><span class="c3">Art. 2º </span><span class="c0">- Os concursos deverão ser realizados com a metodologia Building Information Modeling (BIM), visando garantir maior eficiência na gestão e na execução dos projetos.</span></p>
+<p class="c4"><span class="c3">Art. 3º</span><span class="c0">&nbsp;- Os projetos selecionados deverão atender aos seguintes critérios específicos:</span></p>
+<ol class="c6 lst-kix_5jz1lnjekohi-0 start" start="1">
+<li class="c1 li-bullet-0"><span class="c0">Critérios de eficiência energética, com a utilização de soluções e materiais que promovam a economia de energia e a redução de emissão de gases de efeito estufa;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Critérios de eficiência de sustentabilidade, com a utilização de materiais sustentáveis, reaproveitamento de recursos naturais, e a redução de resíduos;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Critérios de inovação técnica, com a utilização de tecnologias avançadas e inovadoras que promovam a melhoria da qualidade da edificação e a redução de custos;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Critérios de custo da obra, com a definição de soluções que visem a redução de custos na execução da obra, sem comprometer a qualidade da edificação.</span></li>
+</ol>
+<p class="c4"><span class="c3">Parágrafo único.</span><span class="c0">&nbsp;O órgão solicitante do projeto poderá estabelecer requisitos adicionais, desde que estes não conflitem com as disposições estabelecidas neste documento e sejam comunicados de forma clara e objetiva aos responsáveis pela execução do projeto.</span></p>
+<p class="c4"><span class="c3">Art. 4º</span><span class="c0">&nbsp;- Os concursos serão abertos para a participação de profissionais de arquitetura, engenharia e urbanismo, bem como estudantes dessas áreas, e deverão ser divulgados amplamente para a sociedade.</span></p>
+<p class="c4"><span class="c3">Art. 5º</span><span class="c0">. Os concursos públicos de projetos serão realizados conforme as normas e procedimentos estabelecidos pelo Instituto de Arquitetos do Brasil (IAB) e pela União Internacional dos Arquitetos (UIA), no que couber.</span></p>
+<p class="c4"><span class="c3">Art. 6º.</span><span class="c0">&nbsp;O edital do concurso público de projetos deverá estabelecer claramente as condições de participação, critérios de julgamento, prazos e requisitos técnicos para a elaboração dos projetos.</span></p>
+<p class="c4"><span class="c3">Art. 7º</span><span class="c0">. Os concursos públicos de projetos deverão ser realizados em duas etapas, com o anonimato dos concorrentes obrigatórios na primeira etapa e recomendado na segunda etapa.</span></p>
+<p class="c4"><span class="c3">Art. 8º</span><span class="c0">. A comissão julgadora do concurso público de projetos será composta por arquitetos, urbanistas, engenheiros e outros profissionais especialistas na área, indicados pelo Município, com a maioria dos membros indicada pelo IAB.</span></p>
+<p class="c4"><span class="c3">Art. 9º</span><span class="c0">. O projeto vencedor do concurso público de projetos deverá ser contratado pelo Município para a elaboração do projeto executivo, observando as disposições da legislação vigente e os critérios específicos estabelecidos no Art. 3º do Projeto de Lei nº [XX], de [XX] de [XX] de [XXXX].</span></p>
+<p class="c4"><span class="c3">Art. 8º</span><span class="c0">. O Município deverá pagar aos finalistas da segunda etapa do concurso público de projetos, independentemente do resultado, uma remuneração correspondente a [valor a ser definido pelo Município] por projeto, conforme estabelecido no Art. 8º do Projeto de Lei nº [XX], de [data].</span></p>
+<p class="c4"><span class="c3">Art. 9º</span><span class="c0">. Esta lei entrará em vigor na data de sua publicação.</span></p>
+
+<h1 class="c7 c16 c25" id="h.lsoojdkn9tt"><span>3. Projeto de Lei que cria o Plano de Mobilidade Ativa do município de Mauá</span></h1>
+<p class="c4"><span class="c0">O povo de Mauá, por meio de seus representantes legais, institui a presente lei que estabelece o Plano de Mobilidade Ativa no município, visando fomentar o uso de meios de transporte sustentáveis e seguros, promover a acessibilidade e a mobilidade urbana de forma inclusiva, e garantir a qualidade de vida dos cidadãos. A presente proposta é fundamentada na Constituição Federal, que estabelece o direito à mobilidade como um direito social, e no Plano Nacional de Mobilidade Urbana (PNMU), que estabelece como objetivo a priorização do transporte público e não motorizado, além de outros modos de transporte sustentáveis.</span></p>
+<p class="c4"><span class="c0">Considerando a necessidade de um modelo de mobilidade urbana que seja sustentável, inclusivo e que promova a qualidade de vida dos cidadãos, a presente proposta estabelece o Plano de Mobilidade Ativa no município de Mauá, que deverá ser elaborado com a participação popular e levando em consideração o Plano Diretor, o Plano de Mobilidade Urbana, os Planos de Mobilidade e Desenvolvimento Regionais e o Plano de Desenvolvimento Urbano Integrado da região metropolitana de São Paulo.</span></p>
+<p class="c4"><span class="c0">Assim, o presente projeto de lei tem por objetivo a promoção da mobilidade ativa, a garantia do direito à acessibilidade, a redução dos impactos ambientais e a promoção de uma vida mais saudável, por meio da implementação de medidas que incentivem o uso de meios de transporte sustentáveis e seguros, como caminhar, pedalar e o transporte público.</span></p>
+<h2 class="c5 c7" id="h.81dcwb58gdgj"><span class="c15">Justificativa</span></h2>
+<p class="c4"><span class="c0">A mobilidade urbana é um tema cada vez mais importante nas cidades brasileiras. A adoção de modos de transporte mais sustentáveis e saudáveis, como a caminhada e o uso da bicicleta, é fundamental para a promoção de cidades mais acessíveis, inclusivas e sustentáveis.</span></p>
+<p class="c4"><span class="c0">A criação do Plano de Mobilidade Ativa do município de Mauá é essencial para incentivar a adoção de hábitos mais saudáveis e sustentáveis de mobilidade, garantindo infraestrutura adequada, segurança viária e integração com o transporte público. O plano será elaborado de forma participativa, em consonância com o Plano Diretor, o Plano de Mobilidade Urbana, os planos de mobilidade e desenvolvimento regionais e o Planos de Desenvolvimento Urbano Integrado da região metropolitana de São Paulo, buscando promover uma mobilidade mais eficiente e integrada entre os municípios da região.</span></p>
+<p class="c4"><span class="c0">Além disso, o Plano de Mobilidade Ativa irá contribuir para o alcance dos Objetivos de Desenvolvimento Sustentável da ONU para 2030, em especial o objetivo 11 - Cidades e Comunidades Sustentáveis, que busca tornar as cidades mais inclusivas, seguras, resilientes e sustentáveis.</span></p>
+<p class="c4"><span class="c0">O projeto de lei também está em consonância com a Lei Federal nº 12.587/2012, que institui as diretrizes da Política Nacional de Mobilidade Urbana, e com o Estatuto da Pessoa com Deficiência (Lei Federal nº 13.146/2015), que prevê a acessibilidade como um direito fundamental.</span></p>
+<p class="c4"><span class="c0">Por fim, é importante destacar que o Plano de Mobilidade Ativa será elaborado de forma transparente e participativa, garantindo a participação da sociedade civil na tomada de decisões e na definição das prioridades de investimento. Dessa forma, a presente lei busca promover uma mobilidade mais democrática e inclusiva no município de Mauá.</span></p>
+<h2 class="c5" id="h.9s6398h0udd2"><span>PROJETO DE LEI Nº [XX/2024]</span></h2>
+<p class="c4 c16 c35"><span class="c0">Cria o Plano de Mobilidade Ativa do município de Mauá e dá outras providências.</span></p>
+<p class="c4"><span class="c3">Art. 1º</span><span class="c0">&nbsp;Fica instituído o Plano de Mobilidade Ativa do município de Mauá, visando promover a mobilidade urbana por meio de meios não motorizados, tais como caminhada, bicicleta, patins, skate, entre outros.</span></p>
+<p class="c4"><span class="c3">Art. 2º</span><span class="c0">&nbsp;O Plano de Mobilidade Ativa deverá ser elaborado pelo poder executivo municipal, com a participação da população, levando em consideração o Plano Diretor, o Plano de Mobilidade Urbana, os planos de mobilidade e desenvolvimento regionais e o Planos de Desenvolvimento Urbano Integrado da região metropolitana de São Paulo.</span></p>
+<p class="c4"><span class="c0">Parágrafo único - O Plano de Mobilidade Ativa deverá ser atualizado a cada 10 (dez) anos ou sempre que necessário para se adequar às mudanças no contexto urbano do município.</span></p>
+<p class="c4"><span class="c3">Art. 3º</span><span class="c0">&nbsp;O Plano de Mobilidade Ativa terá como objetivos:</span></p>
+<ol class="c6 lst-kix_q5dtlvblvzcf-0 start" start="1">
+<li class="c1 li-bullet-0"><span class="c0">Promover a segurança e a integração dos modos ativos de transporte com os demais modos de transporte;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Estimular o uso dos modos ativos de transporte, por meio da ampliação e qualificação das infraestruturas cicloviárias e de pedestres;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Garantir a acessibilidade universal das infraestruturas e equipamentos públicos, para promover a mobilidade inclusiva e a equidade social;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Reduzir as desigualdades socioespaciais, por meio da melhoria da infraestrutura e da oferta de serviços de mobilidade ativa em todas as regiões do Município;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Estimular o uso dos modos ativos de transporte em deslocamentos de curta e média distância, por meio da promoção de campanhas educativas, eventos e outras atividades que visem à sensibilização da população;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Promover a intermodalidade e a integração entre os diferentes modos de transporte, a fim de garantir a eficiência e a sustentabilidade do sistema de mobilidade urbana;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Adotar a Visão Zero como diretriz fundamental para a elaboração do Plano de Mobilidade Ativa, visando à redução das mortes e lesões no trânsito e à promoção da segurança viária.</span></li>
+</ol>
+<p class="c4"><span class="c3">Art. 4º</span><span class="c0">&nbsp;O Plano de Mobilidade Ativa deverá contemplar:</span></p>
+<ol class="c6 lst-kix_hivcru4617bc-0 start" start="1">
+<li class="c1 li-bullet-0"><span class="c0">a implantação de redes de ciclovias, ciclofaixas, faixas compartilhadas e rotas seguras para pedestres;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">a ampliação e melhoria da infraestrutura para bicicletas, incluindo bicicletários, paraciclos e serviços de aluguel;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">a promoção de campanhas educativas e de conscientização sobre a importância da mobilidade ativa e a segurança viária;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">a integração da mobilidade ativa com o transporte público, com a criação de bicicletários nos terminais de ônibus e estações de trem;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">a promoção da acessibilidade para todas as pessoas, incluindo pessoas com deficiência e mobilidade reduzida;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">a implantação de um sistema de monitoramento e avaliação da mobilidade ativa, para medir a eficácia das ações implementadas.</span></li>
+</ol>
+<p class="c4"><span class="c3">Art. 5º</span><span class="c0">&nbsp;Para a elaboração do Plano de Mobilidade Ativa, o Poder Executivo Municipal deverá estabelecer um processo participativo e transparente, que inclua a realização de audiências públicas, consultas populares e outras formas de participação da sociedade civil.</span></p>
+<p class="c4"><span class="c3">Art. 6º</span><span class="c0">&nbsp;Fica criado o Conselho Consultivo de Mobilidade Ativa, para acompanhar a aplicação do Plano de Mobilidade Ativa no Município de Mauá.</span></p>
+<p class="c4"><span class="c3">§1º</span><span class="c0">&nbsp;O Conselho Consultivo será composto por representantes da sociedade civil, organizações da sociedade civil, membros do Poder Executivo e do Poder Legislativo, designados pelos respectivos órgãos e entidades, com mandato de 2 (dois) anos.</span></p>
+<p class="c4"><span class="c3">§2º</span><span class="c0">&nbsp;O Conselho Consultivo terá as seguintes atribuições:</span></p>
+<ol class="c6 lst-kix_qzpu5s1kv2e8-0 start" start="1">
+<li class="c1 li-bullet-0"><span class="c0">Acompanhar a elaboração e a implementação do Plano de Mobilidade Ativa, sugerindo medidas e propondo soluções;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Monitorar o cumprimento das metas estabelecidas no Plano de Mobilidade Ativa, avaliando os resultados e a efetividade das ações;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Promover a articulação entre os diferentes setores envolvidos na implementação do Plano de Mobilidade Ativa;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Propor ações e iniciativas para a promoção da mobilidade ativa no Município;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Realizar reuniões periódicas para discussão e avaliação do Plano de Mobilidade Ativa.</span></li>
+</ol>
+<p class="c4"><span class="c3">§3º</span><span class="c0">&nbsp;O Conselho Consultivo poderá contar com a participação de especialistas e técnicos, convidados para prestar informações e subsidiar as discussões e decisões do Conselho.</span></p>
+<p class="c4"><span class="c3">§4º</span><span class="c0">&nbsp;O Conselho Consultivo terá uma Secretaria Executiva, responsável por prestar apoio técnico e administrativo às atividades do Conselho.</span></p>
+<p class="c4"><span class="c3">§5º</span><span class="c0">&nbsp;O Conselho Consultivo deverá elaborar um relatório anual de atividades, a ser encaminhado ao Poder Executivo Municipal, ao Poder Legislativo e à sociedade em geral, contendo informações sobre as atividades desenvolvidas, as deliberações tomadas e os resultados alcançados.</span></p>
+<p class="c4"><span class="c3">Art. 6º</span><span class="c0">&nbsp;Os recursos para a implementação do Plano de Mobilidade Ativa deverão ser previstos no orçamento do município, em consoante a legislação vigente.</span></p>
+<p class="c4"><span class="c3">Art. 7º</span><span class="c0">&nbsp;Está lei entra em vigor na data de sua publicação.</span></p>
+
+<h1 class="c25 c7 c16" id="h.dh2sn8139x7q"><span class="c30 c3">4. Política de Visão Zero</span></h1>
+<h2 class="c5 c7" id="h.ud00x4586z0z"><span class="c15">Justificativa</span></h2>
+<p class="c4"><span>A presente proposta de lei tem por objetivo instituir a Política de Visão Zero no município de Mauá, com o objetivo de reduzir o número de mortes e feridos graves em acidentes de trânsito e garantir a segurança e a qualidade de vida dos cidadãos. A presente proposta é fundamentada na Constituição Federal, que estabelece o direito à vida como um bem supremo a ser protegido pelo Estado, e no Plano Nacional de Redução de Mortes e Lesões no Trânsito (PNATRANS)</span><sup><a href="#ftnt1" id="ftnt_ref1">[1]</a></sup><span class="c0">, que estabelece como meta a redução de 50% do número de mortos e feridos graves no trânsito até 2028. A visão zero é uma abordagem que busca a eliminação de mortes e lesões graves no trânsito, por meio da integração de ações educacionais, de fiscalização, de engenharia de tráfego e de avaliação de dados.</span></p>
+<p class="c4"><span class="c0">A implementação da Política de Visão Zero é uma necessidade urgente, tendo em vista que os acidentes de trânsito são uma das principais causas de morte e incapacidade em todo o mundo, sendo responsáveis por milhares de óbitos e ferimentos graves anualmente. Além disso, o trânsito é um dos principais desafios para a mobilidade urbana no município, afetando a qualidade de vida dos cidadãos e a economia local.</span></p>
+<p class="c4"><span class="c0">A Política de Visão Zero visa colocar a segurança do pedestre, ciclista e do transporte coletivo como prioridade no planejamento urbano, incentivando a redução das velocidades permitidas nas vias urbanas, a melhoria da sinalização, a adequação da infraestrutura urbana às necessidades de mobilidade de pessoas com deficiência ou mobilidade reduzida, a promoção da educação para o trânsito e o incremento da fiscalização e da aplicação de penalidades aos infratores das normas de trânsito.</span></p>
+<p class="c4"><span class="c0">Dessa forma, a presente proposta visa à proteção da vida e à promoção da segurança no trânsito, além de contribuir para a melhoria da mobilidade urbana e da qualidade de vida dos cidadãos do município de Mauá.</span></p>
+<p class="c4"><span class="c3">Considerando</span><span class="c0">&nbsp;a necessidade urgente de reduzir os acidentes de trânsito e garantir a segurança no trânsito, a presente proposta estabelece a Política de Visão Zero no município de Mauá, que deverá ser seguida por todos os projetos e planos futuros no âmbito do município. A visão zero é uma abordagem que busca a eliminação de mortes e lesões graves no trânsito, por meio da integração de ações educacionais, de fiscalização, de engenharia de tráfego e de avaliação de dados.</span></p>
+<p class="c4"><span class="c0">Assim, o presente projeto de lei tem por objetivo a promoção da segurança no trânsito, a proteção da vida e a melhoria da qualidade de vida dos cidadãos do município de Mauá, por meio da implementação de medidas que buscam reduzir o número de acidentes e de vítimas no trânsito.</span></p>
+<h2 class="c5" id="h.5jesiv5iustl"><span class="c15">Minuta PROJETO DE LEI Nº [XX/2024]</span></h2>
+<p class="c4 c16 c35"><span class="c0">Institui a Política de Visão Zero no Município de Mauá e dá outras providências.</span></p>
+<p class="c4"><span class="c3">Art. 1º</span><span class="c0">&nbsp;Fica instituída a Política de Visão Zero no Município de Mauá, que será seguida por todos os projetos e planos futuros no município.</span></p>
+<p class="c4"><span class="c3">Art. 2º</span><span class="c0">&nbsp;Para os fins desta Lei, entende-se por Visão Zero a abordagem que busca reduzir a zero o número de mortes e feridos graves em acidentes de trânsito, por meio da implementação de ações integradas e coordenadas que englobam ações educacionais, de fiscalização, de engenharia de tráfego e de avaliação de dados.</span></p>
+<p class="c4"><span class="c3">Art. 3º</span><span class="c0">&nbsp;A Política de Visão Zero deverá ser implementada em todas as esferas do poder público municipal, devendo ser observados os seguintes princípios:</span></p>
+<ol class="c6 lst-kix_zgkgglmtd1k0-0 start" start="1">
+<li class="c1 li-bullet-0"><span class="c0">Prioridade à segurança do pedestre, ciclista e do transporte coletivo;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Redução das velocidades permitidas nas vias urbanas;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Melhoria da sinalização das vias urbanas;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Adequação da infraestrutura urbana às necessidades de mobilidade de pessoas com deficiência ou mobilidade reduzida;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Promoção da educação para o trânsito;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Incremento da fiscalização e da aplicação de penalidades aos infratores das normas de trânsito;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Uso de evidências (dados) para medir o sucesso ou insucesso da política.</span></li>
+</ol>
+<p class="c4"><span class="c3">Art. 4º</span><span class="c0">&nbsp;O Poder Executivo deverá estabelecer metas e prazos para a implementação da Política de Visão Zero, devendo ser acompanhado e avaliado regularmente pelos órgãos competentes.</span></p>
+<p class="c4"><span class="c3">Art. 5º</span><span class="c0">&nbsp;Fica criado o Portal de Dados Abertos sobre Acidentes de Trânsito no Município de Mauá, que será gerenciado pelo órgão municipal competente, em parceria com os demais órgãos envolvidos na Política de Visão Zero. </span></p>
+<p class="c4"><span class="c3">§ 1º</span><span class="c0">&nbsp;O Portal de Dados Abertos sobre Acidentes de Trânsito deverá disponibilizar, em formato aberto e de fácil acesso, as informações referentes aos acidentes de trânsito ocorridos no município, tais como: </span></p>
+<ol class="c6 lst-kix_473tlo3fbnzw-0 start" start="1">
+<li class="c1 li-bullet-0"><span class="c0">data, hora e local do acidente; </span></li>
+<li class="c1 li-bullet-0"><span class="c0">tipo e gravidade do acidente; </span></li>
+<li class="c1 li-bullet-0"><span class="c0">número e perfil das vítimas; </span></li>
+<li class="c1 li-bullet-0"><span class="c0">causas e fatores de risco do acidente; </span></li>
+<li class="c1 li-bullet-0"><span class="c0">consequências e custos sociais do acidente; </span></li>
+<li class="c1 li-bullet-0"><span class="c0">medidas adotadas para prevenção e redução dos acidentes. </span></li>
+</ol>
+<p class="c4"><span class="c3">§ 2º</span><span class="c0">&nbsp;O Portal de Dados Abertos sobre Acidentes de Trânsito deverá ser alimentado pelos dados oficiais do Registro Nacional de Acidentes e Estatísticas de Trânsito (Renaest), bem como por outras fontes confiáveis, que deverão ser devidamente identificadas e georeferenciadas. </span></p>
+<p class="c4"><span class="c3">§ 3º</span><span class="c0">&nbsp;O Portal de Dados Abertos sobre Acidentes de Trânsito deverá permitir a consulta, a análise, a visualização e o download dos dados, bem como a interação e a colaboração dos usuários, que poderão enviar sugestões, comentários, críticas e denúncias relacionadas à Política de Visão Zero. </span></p>
+<p class="c4"><span class="c3">§ 4º</span><span class="c0">&nbsp;O Portal de Dados Abertos sobre Acidentes de Trânsito deverá ser atualizado periodicamente, de acordo com a disponibilidade e a qualidade dos dados, e deverá seguir os padrões técnicos e as boas práticas de gestão de dados abertos.</span></p>
+<p class="c4"><span class="c3">Art. 6º</span><span class="c0">&nbsp;Os projetos de engenharia de tráfego e de mobilidade urbana futuros deverão ser concebidos com base nos princípios da Política de Visão Zero, buscando-se sempre a redução do número de acidentes e da gravidade dos seus resultados.</span></p>
+<p class="c4"><span class="c3">Art. 7º</span><span class="c0">&nbsp;O Poder Executivo Municipal deverá implantar um sistema de monitoramento e avaliação da Política de Visão Zero, para acompanhar a efetividade das ações desenvolvidas, com base em indicadores e parâmetros previamente estabelecidos.</span></p>
+<p class="c4"><span class="c3">Art. 8º</span><span class="c0">&nbsp;A Política de Visão Zero deverá ser revisada periodicamente, de forma a garantir sua adequação às novas demandas e evolução dos conhecimentos técnicos, científicos e tecnológicos.</span></p>
+<p class="c4"><span class="c3">Art. 9º</span><span class="c0">&nbsp;As despesas decorrentes da aplicação desta Lei correrão por conta de dotações orçamentárias próprias, suplementadas se necessário.</span></p>
+<p class="c4"><span class="c3">Art. 10º</span><span class="c0">&nbsp;Esta Lei entrará em vigor na data de sua publicação.</span></p>
+
+<h1 class="c25 c7 c16" id="h.u7bfndvuo9nl"><span class="c30 c3">5. Projeto de Lei para nomeação de logradouros visando a valorização da democracia e da história local da cidade de Mauá</span></h1>
+<h2 class="c5 c7" id="h.flqc217vu02r"><span class="c15">Justificativa</span></h2>
+<p class="c11 c16"><span class="c0">O presente projeto de lei tem como objetivo contribuir para a memória, a verdade e a justiça histórica no município de Mauá, em consonância com os princípios da Constituição Federal de 1988, que reconhece a dignidade da pessoa humana, os valores sociais do trabalho e da livre iniciativa, o pluralismo político e a construção de uma sociedade livre, justa e solidária.</span></p>
+<p class="c11 c16"><span class="c0">A Ditadura Militar Brasileira, que vigorou de 1964 a 1985, foi um período de graves violações de direitos humanos, marcado pela repressão política, pela censura, pela tortura, pelo desaparecimento forçado, pela execução e pela violação dos direitos humanos de milhares de pessoas que se opuseram ao regime autoritário. Além disso, o regime militar também se caracterizou pelo favorecimento econômico de grupos e setores que se beneficiaram de contratos, concessões, favorecimentos, isenções ou outras vantagens indevidas.</span></p>
+<p class="c11 c16"><span class="c0">A Comissão Nacional da Verdade, criada pela Lei nº 12.528, de 18 de novembro de 2011, foi um órgão temporário e colegiado, composto por sete membros, que teve como finalidade examinar e esclarecer as graves violações de direitos humanos praticadas pelo Estado brasileiro entre 1946 e 1988, a fim de efetivar o direito à memória e à verdade histórica e promover a reconciliação nacional. Em seu relatório final, apresentado em 10 de dezembro de 2014, a Comissão Nacional da Verdade identificou 377 agentes públicos e colaboradores que participaram da repressão política e da tortura, bem como 434 pessoas mortas ou desaparecidas por motivos políticos.</span></p>
+<p class="c11 c16"><span class="c0">O município de Mauá, localizado na região metropolitana de São Paulo, foi palco de importantes lutas sociais e políticas durante a Ditadura Militar Brasileira, especialmente no âmbito do movimento operário e sindical, que reivindicava melhores condições de trabalho, salário e vida para os trabalhadores das indústrias instaladas na região. Muitos desses trabalhadores foram perseguidos, presos, torturados e mortos pelo regime militar, que tentava sufocar qualquer forma de resistência e organização popular.</span></p>
+<p class="c11 c16"><span class="c0">Nesse sentido, o projeto de lei proposto visa a proibir a denominação de ruas, praças e demais logradouros públicos do município de Mauá com nomes de pessoas que tenham participado direta ou indiretamente da Ditadura Militar Brasileira, bem como a revogar as leis, decretos e demais atos normativos que tenham atribuído esses nomes, e a alterar os nomes dos logradouros públicos que contrariem essa proibição. O projeto de lei também estabelece critérios para a escolha dos novos nomes, priorizando nomes de pessoas que tenham contribuído para a defesa da democracia, da liberdade, dos direitos humanos e da justiça social no Brasil, especialmente as vítimas da Ditadura Militar Brasileira, e observando a representatividade de gênero, raça, etnia, orientação sexual e identidade de gênero, bem como a diversidade cultural, histórica e geográfica do município de Mauá.</span></p>
+<p class="c11 c16"><span class="c0">Com isso, o projeto de lei pretende resgatar a memória histórica do município de Mauá, reconhecer e homenagear as pessoas que lutaram contra a Ditadura Militar Brasileira, reparar simbolicamente as vítimas e seus familiares, educar as novas gerações sobre os valores democráticos e os direitos humanos, e contribuir para a construção de uma cultura de paz e de respeito à diversidade.</span></p>
+<p class="c11 c16"><span class="c3">Considerando</span><span class="c0">&nbsp;que a Carta Internacional dos Direitos Humanos, da qual o Brasil é signatário, estabelece os direitos fundamentais de todos os seres humanos, sem distinção de qualquer espécie, e que o seu artigo 8º afirma que toda pessoa tem direito a receber dos tribunais nacionais competentes remédio efetivo para os atos que violem os direitos fundamentais que lhe sejam reconhecidos pela constituição ou pela lei;</span></p>
+<p class="c11 c16"><span class="c3">Considerando</span><span class="c0">&nbsp;que a Constituição Federal de 19882, em seu artigo 5º, inciso X, garante a inviolabilidade da intimidade, da vida privada, da honra e da imagem das pessoas, assegurando o direito à indenização pelo dano material ou moral decorrente de sua violação, e em seu artigo 8º, inciso III, reconhece a legitimidade dos sindicatos para defender os direitos e interesses coletivos ou individuais da categoria, inclusive em questões judiciais ou administrativas;</span></p>
+<p class="c11 c16"><span class="c3">Considerando</span><span class="c0">&nbsp;que a Lei nº 12.528, de 18 de novembro de 20113, que criou a Comissão Nacional da Verdade, teve como finalidade examinar e esclarecer as graves violações de direitos humanos praticadas pelo Estado brasileiro entre 1946 e 1988, a fim de efetivar o direito à memória e à verdade histórica e promover a reconciliação nacional;</span></p>
+<p class="c11 c16"><span class="c3">Considerando</span><span class="c0">&nbsp;que a Lei nº 9.140, de 4 de dezembro de 19954, que reconhece como mortas pessoas desaparecidas em razão de participação, ou acusação de participação, em atividades políticas, no período de 2 de setembro de 1961 a 15 de agosto de 1979, e que concede anistia aos que, no mesmo período, foram atingidos por atos de exceção, institucionais ou complementares;</span></p>
+<p class="c11 c16"><span class="c3">Considerando</span><span class="c0">&nbsp;que a Lei nº 10.559, de 13 de novembro de 20025, que regulamenta o artigo 8º do Ato das Disposições Constitucionais Transitórias e dá outras providências, e que dispõe sobre a concessão de anistia política e de reparação econômica aos que foram perseguidos por motivos políticos no período de 18 de setembro de 1946 a 5 de outubro de 1988;</span></p>
+<p class="c11 c16"><span class="c3">Considerando</span><span class="c0">&nbsp;que a Lei Orgânica do Município de Mauá, em seu artigo 2º, reconhece o caráter multirracial do povo e da cultura brasileira, e em seu artigo 3º, inciso XII, atribui à Câmara Municipal a competência para autorizar convênios com entidades públicas ou particulares, e em seu artigo 193, inciso I, determina que a alienação de bens imóveis municipais depende de autorização legislativa;</span></p>
+<p class="c11 c16"><span class="c3">Considerando</span><span class="c0">&nbsp;que a Comissão da Verdade instalada no Município de Mauá, em seu relatório final, apresentado em 10 de dezembro de 2014, identificou e documentou casos de violações de direitos humanos ocorridos no município durante a Ditadura Militar Brasileira, bem como reconheceu e homenageou as vítimas e seus familiares;</span></p>
+<p class="c11 c16"><span class="c3">Considerando</span><span class="c0">&nbsp;que a competência para dar nomes a vias, logradouros e prédios públicos é concorrente entre o prefeito e a câmara municipal, conforme reconhecido pelo Supremo Tribunal Federal (STF) no julgamento do Recurso Extraordinário (RE) 1151237, que teve repercussão geral reconhecida na sessão de julgamento;</span></p>
+<p class="c11 c16"><span class="c3">Considerando</span><span class="c0">&nbsp;que o princípio da predominância do interesse local, que caracteriza as competências legislativas do município, permite que o Poder Legislativo local possa realizar homenagens cívicas, bem como colaborar na concretização da memorização da história e da proteção do patrimônio cultural imaterial do município, por meio da denominação de vias, logradouros e prédios públicos;</span></p>
+<p class="c11 c16"><span class="c3">Considerando</span><span class="c0">&nbsp;que a Lei Orgânica do Município de Mauá, em seu artigo 33, inciso XII, atribui à Câmara Municipal, com a sanção do prefeito, a competência para legislar sobre a denominação de vias, logradouros e prédios públicos, sem excluir a competência do prefeito para a prática de atos de gestão sobre a matéria;</span></p>
+<p class="c11 c16"><span class="c3">Considerando</span><span class="c0">, por fim, que o presente projeto de lei visa a proibir a denominação de ruas, praças e demais logradouros públicos do município de Mauá com nomes de pessoas que tenham participado direta ou indiretamente da Ditadura Militar Brasileira, bem como a revogar as leis, decretos e demais atos normativos que tenham atribuído esses nomes, e a alterar os nomes dos logradouros públicos que contrariem essa proibição, estabelecendo critérios para a escolha dos novos nomes, priorizando nomes de pessoas que tenham contribuído para a defesa da democracia, da liberdade, dos direitos humanos e da justiça social no Brasil, especialmente as vítimas da Ditadura Militar Brasileira, e observando a representatividade de gênero, raça, etnia, orientação sexual e identidade de gênero, bem como a diversidade cultural, histórica e geográfica do município de Mauá;</span></p>
+<p class="c11 c16"><span class="c3">Considerando</span><span class="c0">&nbsp;tudo o que foi exposto, conclui-se que o projeto de lei é de interesse público e de relevância social, e que está em consonância com os princípios constitucionais e legais que regem o Estado Democrático de Direito.</span></p>
+<h2 class="c5" id="h.rn4v0d3v4n6c"><span class="c15">PROJETO DE LEI Nº [XX/2024]</span></h2>
+<p class="c11 c16 c35"><span>Dispõe sobre a proibição de nomes de ruas, praças e demais logradouros públicos que homenageiam figuras ligadas aos militares que exerceram funções na Ditadura Militar Brasileira e sobre a alteração dos nomes dos atuais logradouros que fazem esse tipo de homenagem no município de Mauá.</span></p>
+<p class="c11"><span class="c3">Art. 1º</span><span class="c0">&nbsp;Fica proibida a denominação de ruas, praças e demais logradouros públicos do município de Mauá com nomes de pessoas que tenham participado direta ou indiretamente da Ditadura Militar Brasileira, que vigorou de 1964 a 1985.</span></p>
+<p class="c11"><span class="c3">Parágrafo único.</span><span>&nbsp;Para os fins desta lei, considera-se participação direta ou indiretamente na Ditadura Militar Brasileira, conforme apurado pela Comissão Nacional da Verdade, criada pela Lei nº 12.528, de 18 de novembro de 2011</span><span class="c0">:</span></p>
+<ol class="c6 lst-kix_vfmra3dqud4y-0 start" start="1">
+<li class="c10 li-bullet-0"><span class="c0">ter exercido cargo ou função pública de comando, chefia, direção ou assessoramento nos órgãos do regime militar, tais como presidentes, ministros, governadores, prefeitos, secretários, chefes de polícia, delegados, agentes, militares e outros;</span></li>
+<li class="c10 li-bullet-0"><span class="c0">ter colaborado com a repressão política, a censura, a tortura, o desaparecimento forçado, a execução ou a violação dos direitos humanos de qualquer pessoa durante o regime militar;</span></li>
+<li class="c10 li-bullet-0"><span class="c0">ter se beneficiado economicamente do regime militar, por meio de contratos, concessões, favorecimentos, isenções ou outras vantagens indevidas.</span></li>
+</ol>
+<p class="c11"><span class="c3">Art. 2º</span><span class="c0">&nbsp;Ficam revogadas as leis, decretos e demais atos normativos que tenham atribuído nomes de pessoas enquadradas no artigo anterior a ruas, praças e demais logradouros públicos do município de Mauá.</span></p>
+<p class="c11"><span class="c3">Art. 3º</span><span class="c0">&nbsp;Os nomes dos logradouros públicos que contrariem o disposto nesta lei deverão ser alterados no prazo de 180 (cento e oitenta) dias, contados da data de sua publicação, mediante proposta da Comissão Permanente de Cultura e Educação da Câmara Municipal de Mauá, ouvida a população local.</span></p>
+<p class="c11"><span class="c3">§ 1º</span><span class="c0">&nbsp;A alteração dos nomes dos logradouros públicos deverá respeitar os seguintes critérios:</span></p>
+<ol class="c6 lst-kix_v7rru12lp36i-0 start" start="1">
+<li class="c10 li-bullet-0"><span class="c0">priorizar nomes de pessoas que tenham contribuído para a defesa da democracia, da liberdade, dos direitos humanos e da justiça social no Brasil, especialmente as vítimas da Ditadura Militar Brasileira, tais como Carlos Marighella, Vladimir Herzog, Abdias do Nascimento, Ulysses Guimarães, Rubens Paiva, Zuzu Angel, Aurora Furtado, entre outros, dando preferência para nomes locais;</span></li>
+<li class="c10 li-bullet-0"><span class="c0">observar a representatividade de gênero, raça, etnia, orientação sexual e identidade de gênero, bem como a diversidade cultural, histórica e geográfica do município de Mauá;;</span></li>
+<li class="c10 li-bullet-0"><span class="c0">evitar nomes de pessoas vivas ou que tenham falecido há menos de dez anos, salvo casos excepcionais de reconhecido mérito público.</span></li>
+</ol>
+<p class="c11"><span class="c3">§ 2º</span><span class="c0">&nbsp;A alteração dos nomes dos logradouros públicos deverá ser amplamente divulgada pelos meios de comunicação oficiais e locais, a fim de informar a população sobre os motivos e os efeitos da mudança.</span></p>
+<p class="c11"><span class="c3">§ 3º</span><span class="c0">&nbsp;A Prefeitura Municipal de Mauá deverá providenciar a substituição das placas e demais sinalizações dos logradouros públicos que tiverem seus nomes alterados, bem como comunicar aos órgãos competentes para a atualização dos registros e documentos pertinentes.</span></p>
+<p class="c11"><span class="c3">Art. 4º</span><span class="c0">&nbsp;As despesas decorrentes da execução desta lei correrão por conta das dotações orçamentárias próprias, suplementadas se necessário.</span></p>
+<p class="c11"><span class="c3">Art. 5º</span><span class="c0">&nbsp;Esta lei entra em vigor na data de sua publicação.</span></p>
+<p class="c11"><span class="c3">Art. 6º</span><span class="c0">&nbsp;Ficam revogadas as disposições em contrário.</span></p>
+<h2 class="c7 c54" id="h.u1uyqqx3emd2"><span class="c15">Referências bibliográficas</span></h2>
+<p class="c11"><span class="c0">_ BRASIL. Constituição da República Federativa do Brasil de 1988. Disponível em: [Constituição Federal](https://leismunicipais.com.br/a/sp/s/sao-paulo/decreto/2008/4935/49346/decreto-n-49346-2008-regulamenta-a-lei-n-14454-de-27-de-junho-de-2007-que-consolida-a-legislacao-municipal-sobre-a-denominacao-e-a-alteracao-da-denominacao-de-vias-logradouros-e-proprios-municipais-bem-como-revoga-os-dispositivos-e-decretos-que-especifica). Acesso em: 13 dez. 2023.</span></p>
+<p class="c11"><span class="c0">_ BRASIL. Lei nº 12.528, de 18 de novembro de 2011. Cria a Comissão Nacional da Verdade, no âmbito da Casa Civil da Presidência da República. Disponível em: [Lei nº 12.528, de 18 de novembro de 2011](https://sigrh.sp.gov.br/enquadramentodoscorposdagua). Acesso em: 13 dez. 2023.</span></p>
+<p class="c11"><span class="c0">COMISSÃO NACIONAL DA VERDADE. Relatório final. Brasília: CNV, 2014. Disponível em: [Relatório final da Comissão Nacional da Verdade](https://oeco.org.br/dicionario-ambiental/28797-o-que-e-a-lei-das-aguas/). Acesso em: 13 dez. 2023.</span></p>
+<p class="c11"><span class="c0">FERREIRA, Marieta de Moraes; FICO, Carlos (orgs.). O Brasil Republicano: o tempo da ditadura - regime militar e movimentos sociais em fins do século XX. Rio de Janeiro: Civilização Brasileira, 2003.</span></p>
+<p class="c11"><span class="c0">_ MAUÁ. Lei Orgânica do Município de Mauá. Disponível em: [Lei Orgânica do Município de Mauá](https://www.migalhas.com.br/depeso/13778/os-corpos-d-agua--com-sua-classificacao-e-diretrizes). Acesso em: 13 dez. 2023.</span></p>
+<p class="c11"><span class="c0">RODRIGUES, Ricardo. Mauá: história e memória. São Paulo: Editora UNESP, 2007.</span></p>
+
+<h1 class="c25 c7 c16" id="h.204c86qaeclk"><span>6. Projeto de L</span><span class="c44 c36 c34">ei para nomeação e valorização de corpos hídricos</span></h1>
+<h2 class="c5 c7" id="h.uhjq20l9twvz"><span>Justificativa</span></h2>
+<p class="c11 c16"><span class="c0">O presente projeto de lei tem como objetivo contribuir para a conservação, a recuperação e a valorização dos recursos hídricos no município de Mauá, em consonância com os princípios da Política Nacional de Recursos Hídricos, instituída pela Lei nº 9.433, de 8 de janeiro de 1997, que reconhece a água como um bem de domínio público, um recurso natural limitado e dotado de valor econômico, e que estabelece a gestão integrada e participativa dos recursos hídricos, com base na bacia hidrográfica como unidade de planejamento.</span></p>
+<p class="c11 c16"><span class="c0">Os recursos hídricos são essenciais para a vida, para a saúde, para a produção de alimentos, para a geração de energia, para o transporte, para o lazer, para a cultura e para o desenvolvimento sustentável. No entanto, os recursos hídricos estão ameaçados pela poluição, pelo desmatamento, pela ocupação irregular, pelo desperdício, pelo consumo excessivo, pelas mudanças climáticas e pela falta de conscientização da população sobre a sua importância e a sua escassez.</span></p>
+<p class="c11 c16"><span class="c0">O município de Mauá, localizado na região metropolitana de São Paulo, possui uma rica e diversa rede hidrográfica, composta por nascentes, bicas, riachos, córregos, ribeirões, rios, lagoas, lagos e aquíferos, que integram as bacias hidrográficas dos rios Tamanduateí e rio Guaió. Esses corpos d&#39;água desempenham funções ecológicas, sociais e econômicas fundamentais para o município, como o abastecimento de água, a regulação do clima, a manutenção da biodiversidade, a prevenção de enchentes, a recreação, a pesca, a irrigação, a aqüicultura, a educação ambiental, entre outras.</span></p>
+<p class="c11 c16"><span class="c0">Nesse sentido, o projeto de lei proposto visa a determinar a instalação de placas identificando o tipo e o nome dos corpos d&#39;água existentes no município de Mauá, tais como nascentes, bicas, riachos, córregos, ribeirões, rios, lagoas, lagos e aquíferos. As placas deverão conter informações sobre a bacia hidrográfica a qual pertencem, a importância ecológica e social do corpo d&#39;água, a legislação ambiental aplicável à preservação do corpo d&#39;água e o seu respectivo nome. As placas deverão ser instaladas em todos os pontos onde o corpo d&#39;água cruzar uma ponte, viaduto, passarela, travessa ou rua. Para as nascentes que estejam ocultas ou dentro de uma propriedade privada, a placa deverá ser colocada em logradouro público no ponto mais próximo possível da referida nascente.</span></p>
+<p class="c11 c16"><span class="c0">O projeto de lei também visa a determinar a nomeação dos cursos e corpos d&#39;água permanentes que não possuam denominação oficial no município de Mauá, levando em consideração a história e a cultura local. A nomeação dos cursos e corpos d&#39;água permanentes deverá ser realizada mediante proposta da Comissão Permanente de Meio Ambiente e Desenvolvimento Sustentável da Câmara Municipal de Mauá, ouvida a população local.</span></p>
+<p class="c11 c16"><span class="c0">Com isso, o projeto de lei pretende promover a conscientização da população sobre os corpos hídricos existentes no município, esclarecer sobre a importância e a escassez dos recursos hídricos, promover a preservação, o cuidado e o zelo com os corpos hídricos, bem como, incentivar a participação social na gestão integrada e sustentável dos recursos hídricos, valorizar a identidade cultural e histórica do município de Mauá, e contribuir para a melhoria da qualidade ambiental e da qualidade de vida da população.</span></p>
+<p class="c11 c16"><span class="c3">Considerando</span><span class="c0">&nbsp;que os recursos hídricos são essenciais para a vida, para a saúde, para a produção de alimentos, para a geração de energia, para o transporte, para o lazer, para a cultura e para o desenvolvimento sustentável; </span></p>
+<p class="c11 c16"><span class="c3">Considerando</span><span class="c0">&nbsp;que os recursos hídricos estão ameaçados pela poluição, pelo desmatamento, pela ocupação irregular, pelo desperdício, pelo consumo excessivo, pelas mudanças climáticas e pela falta de conscientização da população sobre a sua importância e a sua escassez; </span></p>
+<p class="c11 c16"><span class="c3">Considerando</span><span class="c0">&nbsp;que o município de Mauá, localizado na região metropolitana de São Paulo, possui uma rica e diversa rede hidrográfica, composta por nascentes, bicas, riachos, córregos, ribeirões, rios, lagoas, lagos e aquíferos, que integram as bacias hidrográficas dos rios Tamanduateí e rio Guaió; </span></p>
+<p class="c11 c16"><span class="c3">Considerando</span><span class="c0">&nbsp;que esses corpos d&rsquo;água desempenham funções ecológicas, sociais e econômicas fundamentais para o município, como o abastecimento de água, a regulação do clima, a manutenção da biodiversidade, a prevenção de enchentes, a recreação, a pesca, a irrigação, a aqüicultura, a educação ambiental, entre outras;</span></p>
+<p class="c11 c16"><span class="c3">Considerando</span><span class="c0">&nbsp;que a identificação e a nomeação dos corpos d&rsquo;água existentes no município de Mauá contribuem para a sua conservação, a sua recuperação e a sua valorização, bem como para a educação ambiental e a cidadania da população;</span></p>
+<p class="c11 c16"><span class="c3">Considerando</span><span class="c0">&nbsp;que a Política Nacional de Recursos Hídricos, instituída pela Lei nº 9.433, de 8 de janeiro de 1997, reconhece a água como um bem de domínio público, um recurso natural limitado e dotado de valor econômico, e que estabelece a gestão integrada e participativa dos recursos hídricos, com base na bacia hidrográfica como unidade de planejamento.</span></p>
+<p class="c11 c16"><span class="c3">Considerando</span><span class="c0">&nbsp;que a Constituição Federal de 1988, em seus artigos 20, 21, 22, 23 e 31, estabelece a competência da União, dos Estados, do Distrito Federal e dos Municípios para legislar, gerenciar e fiscalizar os recursos hídricos, bem como para proteger o meio ambiente e combater a poluição em qualquer de suas formas;</span></p>
+<p class="c11 c16"><span class="c3">Considerando</span><span class="c0">&nbsp;que a Lei Federal nº 9.433, de 8 de janeiro de 1997, institui a Política Nacional de Recursos Hídricos, cria o Sistema Nacional de Gerenciamento de Recursos Hídricos, define os instrumentos de gestão integrada e participativa dos recursos hídricos, com base na bacia hidrográfica como unidade de planejamento, e estabelece os critérios de outorga de direitos de uso da água;</span></p>
+<p class="c11 c16"><span class="c3">Considerando</span><span class="c0">&nbsp;que o município de Mauá integra a Bacia Hidrográfica do Alto Tietê, que abrange 39 municípios da Região Metropolitana de São Paulo, e que possui duas sub-bacias hidrográficas de interesse para o município: a sub-bacia do Tamanduateí e a sub-bacia do Guaió;</span></p>
+<p class="c11 c16"><span class="c3">Considerando</span><span class="c0">&nbsp;que a sub-bacia do Tamanduateí possui uma área de 550 km&sup2;, abrangendo 11 municípios, e que apresenta uma situação crítica de degradação ambiental, com elevados índices de poluição das águas, ocupação irregular das margens, perda de biodiversidade e risco de enchentes;</span></p>
+<p class="c11 c16"><span class="c3">Considerando</span><span class="c0">&nbsp;que a sub-bacia do Guaió possui uma área de 140 km&sup2;, abrangendo 4 municípios, e que apresenta uma situação de vulnerabilidade ambiental, com baixa disponibilidade hídrica, conflitos pelo uso da água, pressão urbana sobre as áreas de mananciais e necessidade de recuperação da qualidade das águas;</span></p>
+<p class="c11 c16"><span class="c3">Considerando</span><span class="c0">&nbsp;que o Comitê da Bacia Hidrográfica do Alto Tietê (CBH-AT) é o órgão colegiado, deliberativo e consultivo, que integra o Sistema Nacional de Gerenciamento de Recursos Hídricos, e que tem como atribuição aprovar os Planos de Desenvolvimento e Proteção Ambiental (PDPAs) das sub-bacias hidrográficas que compõem a Bacia Hidrográfica do Alto Tietê;</span></p>
+<p class="c11 c16"><span class="c3">Considerando</span><span class="c0">&nbsp;que o Plano de Desenvolvimento e Proteção Ambiental da Sub-bacia do Guaió (PDPA Guaió) foi aprovado pelo CBH-AT em outubro de 2020, e que estabelece os critérios e as diretrizes para a gestão dos recursos hídricos, o zoneamento ambiental, as áreas de proteção e recuperação dos mananciais, os programas de intervenção e as recomendações para a elaboração de uma Lei Específica para o manancial Guaió;</span></p>
+<p class="c11 c16"><span class="c3">Considerando</span><span class="c0">&nbsp;que a Lei Orgânica do Município de Mauá, em seu artigo 60, inciso VIII, confere ao Prefeito Municipal a competência para sancionar, promulgar e fazer publicar as leis, bem como expedir decretos e regulamentos para a sua fiel execução;</span></p>
+<p class="c11 c16"><span class="c3">Considerando</span><span class="c0">&nbsp;que o Plano Diretor de Mauá, Lei Municipal nº 4.153, de 26 de março de 2007, define como função social da cidade a proteção, recuperação e preservação do meio ambiente, e que estabelece as diretrizes para o desenvolvimento urbano, o ordenamento territorial, o uso e a ocupação do solo, o saneamento básico, o transporte e a mobilidade, a habitação, o patrimônio histórico e cultural, entre outros aspectos;</span></p>
+<p class="c11 c16"><span class="c3">Considerando</span><span class="c0">&nbsp;que o Decreto Municipal nº 8.192, de 10 de agosto de 2016, dispõe sobre os critérios e procedimentos para o licenciamento ambiental municipal, e que determina a competência da Secretaria de Meio Ambiente para conceder as licenças ambientais relativas aos empreendimentos e atividades de impacto local, bem como a supressão de exemplares arbóreos e a intervenção em áreas ambientalmente protegidas;</span></p>
+<p class="c11 c16"><span class="c3">Considerando</span><span>, por fim, que o presente projeto de lei tem como objetivo contribuir para a conservação, a recuperação e a valorização dos recursos hídricos no município de Mauá, em consonância com os princípios da Política Nacional de Recursos Hídricos, com as diretrizes do Plano de Desenvolvimento e Proteção Ambiental da Sub-bacia do Guaió, e com as normas municipais vigentes.</span></p>
+<h2 class="c5" id="h.3yrdd2nkvfa2"><span class="c15">PROJETO DE LEI Nº [XX/2024]</span></h2>
+<p class="c11 c16 c35"><span>Dispõe sobre a instalação de placas identificando o tipo e o nome dos corpos d&#39;água no município de Mauá e sobre a nomeação dos cursos e corpos d&#39;água permanentes que não possuam denominação oficial.</span></p>
+<p class="c11"><span class="c3">Art. 1º</span><span class="c0">&nbsp;Fica determinada a instalação de placas identificando o tipo e o nome dos corpos d&#39;água existentes no município de Mauá, tais como nascentes, bicas, riachos, córregos, ribeirões, rios, lagoas, lagos e aquíferos.</span></p>
+<p class="c11"><span class="c3">§ 1º</span><span class="c0">&nbsp;As placas deverão ser instaladas em todos os pontos onde o corpo d&#39;água cruzar uma ponte, viaduto, passarela, travessa ou rua, mesmo que a nascente esteja oculta ou dentro de uma propriedade privada.</span></p>
+<p class="c11"><span class="c3">Parágrafo único.</span><span class="c0">&nbsp;Para os efeitos desta lei, considera-se corpo d&rsquo;água qualquer porção de água superficial ou subterrânea, natural ou artificial, que possa ser utilizada para fins de abastecimento, saneamento, lazer, recreação, pesca, navegação, geração de energia, irrigação, aqüicultura, educação ambiental ou outros usos benéficos para a sociedade.</span></p>
+<p class="c11"><span class="c3">§ 2º</span><span class="c0">&nbsp;Caso a nascente esteja oculta ou dentro de uma propriedade privada, a placa deverá ser colocada no logradouro público mais próximo da referida nascente.</span></p>
+<p class="c11"><span class="c3">§ 3º</span><span class="c0">&nbsp;As placas deverão conter as seguintes informações:</span></p>
+<ol class="c6 lst-kix_3jkdwslat3vc-0 start" start="1">
+<li class="c10 li-bullet-0"><span class="c0">o tipo e o nome do corpo d&#39;água;</span></li>
+<li class="c10 li-bullet-0"><span class="c0">a bacia hidrográfica a qual pertence;</span></li>
+<li class="c10 li-bullet-0"><span class="c0">a importância ecológica e social do corpo d&#39;água;</span></li>
+<li class="c10 li-bullet-0"><span class="c0">a legislação ambiental aplicável à preservação do corpo d&#39;água.</span></li>
+</ol>
+<p class="c11"><span class="c3">Art. 2º</span><span class="c0">&nbsp;Fica determinada a nomeação dos cursos e corpos d&#39;água permanentes que não possuam denominação oficial no município de Mauá, levando em consideração a história e a cultura local.</span></p>
+<p class="c11"><span class="c3">Parágrafo único.</span><span class="c0">&nbsp;A nomeação dos cursos e corpos d&rsquo;água permanentes deverá ser realizada mediante proposta da Comissão Permanente de Meio Ambiente e Desenvolvimento Sustentável da Câmara Municipal de Mauá, que deverá observar os seguintes critérios e procedimentos:</span></p>
+<ol class="c6 lst-kix_xecdj9dk0kj0-0 start" start="1">
+<li class="c11 c9 c13 li-bullet-0"><span class="c0">consultar as fontes históricas, culturais e geográficas disponíveis sobre o curso ou corpo d&rsquo;água a ser nomeado;</span></li>
+<li class="c11 c9 c13 li-bullet-0"><span class="c0">realizar audiências públicas com a participação de representantes do poder público, da sociedade civil, das comunidades locais e dos usuários dos recursos hídricos;</span></li>
+<li class="c11 c9 c13 li-bullet-0"><span class="c0">elaborar uma lista tríplice de nomes possíveis, com as respectivas justificativas, e submetê-la à votação do plenário da Câmara Municipal de Mauá;</span></li>
+<li class="c11 c9 c13 li-bullet-0"><span class="c0">publicar o resultado da votação e o nome escolhido no Diário Oficial do Município e em outros meios de comunicação.</span></li>
+</ol>
+<p class="c11"><span class="c3">Art. 3º</span><span class="c0">&nbsp;As despesas decorrentes da execução desta lei correrão por conta das dotações orçamentárias próprias, suplementadas se necessário, consignadas no orçamento do Fundo Municipal de Recursos Hídricos, a ser criado por Lei específica, que terá como receitas, entre outras, as seguintes:</span></p>
+<ol class="c6 lst-kix_5syunskwn8k2-0 start" start="1">
+<li class="c11 c9 c13 li-bullet-0"><span class="c0">dotações orçamentárias específicas;</span></li>
+<li class="c11 c9 c13 li-bullet-0"><span class="c0">recursos provenientes de convênios, contratos, acordos ou ajustes celebrados com entidades públicas ou privadas, nacionais ou internacionais;</span></li>
+<li class="c11 c9 c13 li-bullet-0"><span class="c0">recursos provenientes de multas aplicadas por infrações à legislação ambiental relacionada aos recursos hídricos;</span></li>
+<li class="c11 c9 c13 li-bullet-0"><span class="c0">recursos provenientes da cobrança pelo uso dos recursos hídricos, conforme estabelecido pela Lei Federal nº 9.433, de 8 de janeiro de 1997.</span></li>
+</ol>
+<p class="c11"><span class="c3">Art. 4º</span><span class="c0">&nbsp;Esta lei entra em vigor na data de sua publicação.</span></p>
+<h2 class="c5 c7" id="h.1fdwl6fm0ceo"><span class="c15">Referências bibliográficas</span></h2>
+<p class="c11"><span class="c0">_ BRASIL. Lei nº 9.433, de 8 de janeiro de 1997. Institui a Política Nacional de Recursos Hídricos, cria o Sistema Nacional de Gerenciamento de Recursos Hídricos, regulamenta o inciso XIX do art. 21 da Constituição Federal, e altera o art. 1º da Lei nº 8.001, de 13 de março de 1990, que modificou a Lei nº 7.990, de 28 de dezembro de 1989. Disponível em: [Lei nº 9.433, de 8 de janeiro de 1997](https://leismunicipais.com.br/a/sp/s/sao-paulo/decreto/2008/4935/49346/decreto-n-49346-2008-regulamenta-a-lei-n-14454-de-27-de-junho-de-2007-que-consolida-a-legislacao-municipal-sobre-a-denominacao-e-a-alteracao-da-denominacao-de-vias-logradouros-e-proprios-municipais-bem-como-revoga-os-dispositivos-e-decretos-que-especifica). Acesso em: 13 dez. 2023.</span></p>
+<p class="c11"><span class="c0">_ SAMA - Saneamento e Serviços do Município de Mauá. Recursos Hídricos. Disponível em: [SAMA - Saneamento e Serviços do Município de Mauá](https://www.gov.br/ana/pt-br/assuntos/gestao-das-aguas/politica-nacional-de-recursos-hidricos/enquadramento-dos-corpos-de-agua-em-classes). Acesso em: 13 dez. 2023.</span></p>
+<p class="c11"><span class="c0">_ Portal TA. Enquadramento e classificação dos corpos d&rsquo;água. Disponível em: [Enquadramento e classificação dos corpos d&rsquo;água | Portal TA](https://tratamentodeagua.com.br/classificacao-corpos-agua/). Acesso em: 13 dez. 2023.</span></p>
+<p class="c11"><span>_ MIGALHAS. Os corpos d&acute;água, com sua classificação e diretrizes. Disponível em: [Os corpos d&acute;água, com sua classificação e diretrizes](https://www.migalhas.com.br/depeso/13778/os-corpos-d-agua--com-sua-classificacao-e-diretrizes). Acesso em: 13 dez. 2023.</span></p>
+
+<h1 class="c25 c7 c16" id="h.2m96e2dibodd"><span>7</span><span class="c30 c3">. Projeto de Lei que cria a Catraca livre no horário entre pico</span></h1>
+<h2 class="c5 c7" id="h.jy35s7dedwit"><span class="c15">Justificativa</span></h2>
+<p class="c4"><span class="c0">O presente projeto de lei tem como finalidade promover a mobilidade urbana, a inclusão social, o desenvolvimento econômico e a sustentabilidade ambiental no município de Mauá, por meio da instituição do passe livre nos horários entre picos no transporte coletivo municipal.</span></p>
+<p class="c4"><span class="c0">O transporte coletivo é um serviço público essencial para garantir o direito de ir e vir dos cidadãos, bem como para possibilitar o acesso a outros direitos, como a educação, a saúde, o trabalho, a cultura e o lazer. No entanto, muitas pessoas enfrentam dificuldades para utilizar o transporte coletivo, seja pela falta de qualidade, pela insuficiência de oferta, pela insegurança ou pelo alto custo da tarifa.</span></p>
+<p class="c4"><span class="c0">Nesse sentido, o projeto de lei proposto visa a beneficiar os usuários do transporte coletivo municipal de Mauá, especialmente os que se encontram em situação de vulnerabilidade social e financeira, que poderão se deslocar gratuitamente nos horários entre picos, quando os ônibus apresentam baixa lotação e algumas viagens são feitas com ônibus vazios. Essa medida permitirá que essas pessoas possam realizar atividades que dependem de transporte, como estudar, trabalhar, fazer compras, ir ao médico, visitar parentes e amigos, entre outras, sem comprometer o seu orçamento familiar.</span></p>
+<p class="c4"><span>Além disso, o projeto de lei também visa a estimular o uso do transporte coletivo, reduzindo o tráfego de veículos particulares e contribuindo para o desenvolvimento sustentável e a descarbonização, o que nos possibilita usar créditos de carbono como fonte de custeio para o sistema de transporte público</span><sup><a href="#ftnt2" id="ftnt_ref2">[2]</a></sup><span>&nbsp;</span><sup><a href="#ftnt3" id="ftnt_ref3">[3]</a></sup><span class="c0">. Com isso, espera-se diminuir os problemas de congestionamento, poluição, acidentes, ruído e estresse, que afetam a qualidade de vida da população e o meio ambiente. O transporte coletivo é uma forma de transporte mais eficiente, econômica e ecológica, que deve ser priorizada nas políticas públicas de mobilidade urbana.</span></p>
+<p class="c4"><span class="c0">Outro objetivo do projeto de lei é fomentar o comércio local, incentivando a circulação de pessoas e o consumo nos estabelecimentos comerciais do município. Com o passe livre nos horários entre picos, os usuários do transporte coletivo terão mais oportunidades de conhecer e frequentar os comércios de sua cidade, gerando renda, emprego e desenvolvimento local. O comércio local é uma importante fonte de arrecadação e de dinamização da economia municipal, que deve ser valorizado e apoiado.</span></p>
+<p class="c4"><span class="c0">Por fim, o projeto de lei também visa a otimizar a operação do transporte coletivo, aproveitando a capacidade ociosa dos ônibus nos horários entre picos. Com o aumento da demanda nesses períodos, as empresas concessionárias do transporte coletivo poderão reduzir os custos operacionais, aumentar a produtividade e melhorar a qualidade do serviço. Além disso, o projeto de lei prevê o repasse de recursos às empresas concessionárias, a fim de compensar a perda de receita decorrente da medida, garantindo o equilíbrio econômico-financeiro dos contratos.</span></p>
+<p class="c4"><span class="c0">Diante do exposto, solicito aos nobres pares a aprovação do presente projeto de lei, que representa um avanço para a mobilidade urbana, a inclusão social, o desenvolvimento econômico e a sustentabilidade ambiental no município de Mauá.</span></p>
+<h2 class="c5" id="h.6oohp042i08d"><span class="c15">PROJETO DE LEI Nº [XX/2024]</span></h2>
+<p class="c4 c16 c35"><span class="c0">Dispõe sobre a instituição do passe livre mauaense nos horários entre picos no transporte coletivo municipal de Mauá e dá outras providências.</span></p>
+<p class="c4 c31"><span class="c0"></span></p>
+<p class="c4"><span class="c3">A Câmara Municipal de Mauá decreta:</span></p>
+<p class="c4"><span class="c0">Art. 1º Institui-se o passe livre mauaense nos horários entre picos no transporte coletivo municipal de Mauá, que consiste na liberação das catracas dos ônibus para os usuários que embarcarem nos seguintes períodos: das 9h às 11h, das 14h às 16h, das 20h às 22h, de segunda a sábado e durante todo o dia, aos domingos e feriados</span></p>
+<p class="c4"><span class="c0">Art. 2º O passe livre nos horários entre picos tem como objetivos:</span></p>
+<ol class="c6 lst-kix_35ub3n7c9my0-0 start" start="1">
+<li class="c1 li-bullet-0"><span class="c0">garantir o direito de ir e vir dos cidadãos, especialmente dos que se encontram em situação de vulnerabilidade social e financeira;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">estimular o uso do transporte coletivo, reduzindo o tráfego de veículos particulares e contribuindo para o desenvolvimento sustentável e a descarbonização;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">fomentar o comércio local, incentivando a circulação de pessoas e o consumo nos estabelecimentos comerciais do município;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">otimizar a operação do transporte coletivo, aproveitando a capacidade ociosa dos ônibus nos horários entre picos.</span></li>
+</ol>
+<p class="c4"><span class="c0">Art. 3º A Prefeitura Municipal de Mauá, por meio da Secretaria Municipal de Mobilidade Urbana, ficará responsável pela regulamentação, fiscalização e divulgação do passe livre nos horários entre picos, bem como pelo repasse de recursos às empresas concessionárias do transporte coletivo municipal, a fim de compensar a perda de receita decorrente da medida.</span></p>
+<p class="c4"><span class="c0">Art. 4º As despesas decorrentes da execução desta lei correrão por conta das dotações orçamentárias próprias, suplementadas se necessário.</span></p>
+<p class="c4"><span class="c0">Parágrafo único. Para custeio do Programa, o Poder Executivo priorizará o uso de recursos decorrentes das seguintes fontes:</span></p>
+<ol class="c6 lst-kix_qukzpk9l44xk-0 start" start="1">
+<li class="c1 li-bullet-0"><span class="c0">venda de &ldquo;créditos de carbono&rdquo; decorrentes da redução de emissões de gases de efeito estufa (GEE) no transporte coletivo municipal, conforme os critérios dos Padrões de Certificação Voluntários</span></li>
+<li class="c1 li-bullet-0"><span class="c0">multas de trânsito;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">exploração de ações publicitárias envolvendo o sistema de transporte;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">dotações orçamentárias próprias, decorrentes de outras fontes de financiamento relacionadas à mobilidade urbana e à sustentabilidade socioambiental.</span></li>
+</ol>
+<p class="c4"><span class="c0">Art. 5º Esta lei entra em vigor na data de sua publicação.</span></p>
+<h2 class="c5 c7" id="h.ee8q0v6kap85"><span class="c15">Referências bibliográficas:</span></h2>
+<p class="c4"><span class="c0">- BRASIL. Constituição da República Federativa do Brasil de 1988. Disponível em: [Constituição Federal](https://www.gov.br/transportes/pt-br/servicos/servicos/passe-livre). Acesso em: 13 dez. 2023.</span></p>
+<p class="c4"><span class="c0">- BRASIL. Lei nº 12.587, de 3 de janeiro de 2012. Institui as diretrizes da Política Nacional de Mobilidade Urbana. Disponível em: [Lei nº 12.587, de 3 de janeiro de 2012](https://g1.globo.com/sp/sao-paulo/noticia/2023/03/23/entenda-por-que-os-metroviarios-colocaram-liberacao-de-catracas-como-condicao-para-encerrar-greve-em-sp.ghtml). Acesso em: 13 dez. 2023.</span></p>
+<p class="c4"><span class="c0">- MAUÁ. Lei Orgânica do Município de Mauá. Disponível em: [Lei Orgânica do Município de Mauá](https://leismunicipais.com.br/legislacao-municipal/5066/leis-de-maua). Acesso em: 13 dez. 2023.</span></p>
+<p class="c4"><span class="c0">- MAUÁ. Lei nº 5.368, de 18 de dezembro de 2019. Dispõe sobre a concessão dos serviços públicos de transporte coletivo de passageiros no município de Mauá. Disponível em: [Lei nº 5.368, de 18 de dezembro de 2019](https://leismunicipais.com.br/camara/sp/maua). Acesso em: 13 dez. 2023.</span></p>
+<p class="c4"><span class="c0">- SANTOS, Carlos Alberto França dos; SILVA, Ana Paula Borba da. Passe livre nos transportes coletivos urbanos: uma análise da política pública de mobilidade urbana. Revista Brasileira de Gestão e Desenvolvimento Regional, v. 11, n. 3, p. 4-25, 2015. Disponível em: [Passe livre nos transportes coletivos urbanos: uma análise da política pública de mobilidade urbana](https://bing.com/search?q=catraca+aberta+%28passe+livre%29+nos+horarios+entre+picos). Acesso em: 13 dez. 2023.</span></p>
+<p class="c4"><span class="c0">- SILVA, Carlos Eduardo. Passe livre: a luta pela tarifa zero. São Paulo: Veneta, 2018.</span></p>
+
+<h1 class="c25 c7 c16" id="h.vdrstn43meaj"><span class="c30 c3">8. Projeto de Lei que cria o Portal de gestão urbana e territorial de Mauá</span></h1>
+<h2 class="c5 c7" id="h.v5y2fuqbnrzl"><span class="c15">Justificativa</span></h2>
+<p class="c8 c16"><span class="c21 c12">A cidade de Mauá, assim como muitas outras cidades brasileiras, enfrentam diversos desafios para garantir o desenvolvimento urbano sustentável, equitativo e participativo. Entre esses desafios, destacam-se a falta de planejamento integrado, a carência de informações atualizadas e acessíveis, a baixa capacidade de investimento público, a especulação imobiliária, a segregação socioespacial, a precariedade habitacional, a insuficiência de infraestrutura e equipamentos públicos, a degradação ambiental, a vulnerabilidade a riscos e desastres, a mobilidade deficiente, a exclusão social e a fragilidade da democracia.</span></p>
+<p class="c8 c16"><span class="c21 c12">Para enfrentar esses problemas e garantir os direitos da cidade e da propriedade, previstos na Constituição, no Estatuto da Cidade e no Plano Diretor de Mauá, é urgente e necessário criar um portal de gestão urbana para Mauá.</span></p>
+<p class="c8 c16"><span class="c12">Mauá Urbana é um site que reúne dados e informações sobre o Plano Diretor de Mauá e seus instrumentos de implementação, bem como os demais planos setoriais, como o Plano de Mobilidade Urbana, o Plano de Saneamento Básico, o Plano de Habitação de Interesse Social, entre outros. O portal também deverá apresentar dados e indicadores socioeconômicos, ambientais e urbanísticos do município, bem como os projetos e as obras públicas em andamento ou previstas. Além disso, o portal deverá </span><span class="c12">publicizar</span><span class="c21 c12">&nbsp;os editais, audiências, consultas e outras formas de participação pública nos processos de elaboração, revisão, monitoramento e avaliação dos planos, projetos e obras públicas. Por fim, o portal disponibiliza as legislações, as normas, as diretrizes e os critérios relativos ao uso e à ocupação do solo, ao parcelamento do solo, ao licenciamento ambiental, à preservação do patrimônio histórico e cultural, à regularização fundiária, entre outros temas de interesse urbano.</span></p>
+<p class="c8 c16"><span class="c21 c12">Mauá Geo é um portal de dados georreferenciados, integrado ao portal Mauá Urbana, que permite a visualização e a análise de dados espaciais do município de Mauá, de forma livre, aberta e gratuita. O portal contém ferramentas de busca, de navegação, de consulta, de download e de compartilhamento dos dados georreferenciados, bem como de geração de mapas temáticos, gráficos, tabelas e relatórios. O portal também deverá possibilitar a inserção, a edição, a validação e a atualização de dados georreferenciados por usuários devidamente autorizados para isso pela gestão municipal, mediante autenticação. O portal ainda integra as bases de dados georreferenciados de outras esferas de governo e de outras fontes de informação, como o IBGE, o INPE, o OpenStreetMap, entre outros.</span></p>
+<p class="c8 c16"><span class="c21 c12">O portal de gestão urbana, denominado Mauá Urbana, tem como objetivo principal promover a participação e o controle social do planejamento e da gestão urbana do município, por meio da disponibilização, da visualização e da análise de informações e serviços relacionados ao desenvolvimento urbano.</span></p>
+<p class="c8 c16"><span class="c21 c12">O portal Mauá Urbana também visa a integrar e a compatibilizar as diversas políticas setoriais, como habitação, saneamento, mobilidade, resíduos sólidos, proteção e defesa civil, entre outras, que devem estar alinhadas com o plano diretor e com as agendas internacionais de desenvolvimento sustentável.</span></p>
+<p class="c8 c16"><span class="c21 c12">O portal Mauá Urbana, por fim, busca fortalecer a cidadania, a transparência, a accountability e a governança democrática, por meio da ampliação dos canais de comunicação, de denúncia, de sugestão e de reclamação dos cidadãos e das entidades da sociedade civil com os órgãos e as instâncias responsáveis pelo planejamento e pela gestão urbana do município.</span></p>
+<p class="c8 c16"><span class="c12">Portanto, a criação do portal Mauá Urbana se justifica pela necessidade de modernizar, de qualificar e de democratizar a gestão urbana do município de Mauá, em benefício de toda a população e do território municipal.</span></p>
+<p class="c8"><span class="c3 c12">Considerando</span><span class="c21 c12">&nbsp;que a Constituição Federal de 1988, em seu art. 182, estabelece que a política de desenvolvimento urbano, executada pelo Poder Público municipal, conforme diretrizes gerais fixadas em lei, tem por objetivo ordenar o pleno desenvolvimento das funções sociais da cidade e garantir o bem-estar de seus habitantes;</span></p>
+<p class="c8"><span class="c3 c12">Considerando</span><span class="c21 c12">&nbsp;que a Constituição Federal de 1988, em seu art. 37, caput, impõe à administração pública direta e indireta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios a observância dos princípios de legalidade, impessoalidade, moralidade, publicidade e eficiência;</span></p>
+<p class="c8"><span class="c3 c12">Considerando</span><span class="c21 c12">&nbsp;que a Constituição Federal de 1988, em seu art. 74, § 2º, dispõe que qualquer cidadão, partido político, associação ou sindicato é parte legítima para, na forma da lei, denunciar irregularidades ou ilegalidades perante o Tribunal de Contas da União;</span></p>
+<p class="c8"><span class="c3 c12">Considerando</span><span class="c21 c12">&nbsp;que a Lei nº 10.257, de 10 de julho de 2001, que institui o Estatuto da Cidade, regulamenta os arts. 182 e 183 da Constituição Federal, estabelece diretrizes gerais da política urbana e dá outras providências;</span></p>
+<p class="c8"><span class="c3 c12">Considerando</span><span class="c21 c12">&nbsp;que a Lei nº 12.527, de 18 de novembro de 2011, que regula o acesso a informações previsto no inciso XXXIII do art. 5º, no inciso II do § 3º do art. 37 e no § 2º do art. 216 da Constituição Federal; cria o Serviço de Informações ao Cidadão; e dá outras providências;</span></p>
+<p class="c8"><span class="c3 c12">Considerando</span><span class="c21 c12">&nbsp;que a Lei nº 13.089, de 12 de janeiro de 2015, que institui o Estatuto da Metrópole, estabelece diretrizes gerais para o planejamento, a gestão e a execução das funções públicas de interesse comum em regiões metropolitanas e em aglomerações urbanas instituídas pelos Estados, normas gerais sobre o plano de desenvolvimento urbano integrado e outros instrumentos de governança interfederativa, e dá outras providências;</span></p>
+<p class="c8"><span class="c3 c12">Considerando</span><span class="c21 c12">&nbsp;que a Lei nº 12.587, de 3 de janeiro de 2012, que institui as diretrizes da Política Nacional de Mobilidade Urbana; revoga dispositivos dos Decretos-Leis nºs 3.326, de 3 de junho de 1941, e 5.405, de 13 de abril de 1943, da Lei nº 5.917, de 10 de setembro de 1973, e da Lei nº 6.261, de 14 de novembro de 1975; e dá outras providências;</span></p>
+<p class="c8"><span class="c3 c12">Considerando</span><span class="c21 c12">&nbsp;que a Lei Orgânica do Município de Mauá, promulgada em 5 de abril de 1990, em seu art. 2º, parágrafo único, inciso III, assegura a participação popular nos processos decisórios, através de audiências públicas e plebiscitos, nos termos da lei;</span></p>
+<p class="c8"><span class="c3 c12">Considerando</span><span class="c21 c12">&nbsp;que a Lei Orgânica do Município de Mauá, em seu art. 144, inciso I, alínea &ldquo;a&rdquo;, determina que o plano diretor, aprovado por lei municipal, é o instrumento básico da política de desenvolvimento do Município, devendo ser elaborado com a participação das entidades representativas da comunidade;</span></p>
+<p class="c8"><span class="c3 c12">Considerando</span><span class="c21 c12">&nbsp;que a Lei Complementar nº 95, de 26 de fevereiro de 1998, dispõe sobre a elaboração, a redação, a alteração e a consolidação das leis, conforme determina o parágrafo único do art. 59 da Constituição Federal, e estabelece normas para a consolidação dos atos normativos que menciona;</span></p>
+<p class="c8"><span class="c3 c12">Considerando</span><span class="c21 c12">&nbsp;que o Plano Diretor Estratégico de Mauá, instituído pela Lei Complementar nº 36, de 30 de dezembro de 2008, e alterado pela Lei Complementar nº 50, de 29 de dezembro de 2016, define os objetivos, as diretrizes e as proposições para o ordenamento territorial, a política urbana e o desenvolvimento socioeconômico do Município;</span></p>
+<p class="c8"><span class="c3 c12">Considerando</span><span class="c12">&nbsp;que a Open Knowledge Foundation</span><sup class="c12"><a href="#ftnt4" id="ftnt_ref4">[4]</a></sup><span class="c12">&nbsp;é uma organização global que promove o conhecimento aberto, entendido como qualquer conteúdo, informação ou dado que as pessoas são livres para usar, reutilizar e </span><span class="c12">redistribuir</span><span class="c21 c12">, sem restrições legais, sociais ou tecnológicas;</span></p>
+<p class="c8"><span class="c3 c12">Considerando</span><span class="c12">&nbsp;que a Open Knowledge Foundation publicou a Definição de Aberto</span><sup class="c12"><a href="#ftnt5" id="ftnt_ref5">[5]</a></sup><span class="c12">, que estabelece um significado preciso de &ldquo;aberto&rdquo; no que diz respeito ao conhecimento, e a Definição de Dados Abertos</span><sup class="c12"><a href="#ftnt6" id="ftnt_ref6">[6]</a></sup><span class="c21 c12">, que especifica os critérios para que os dados sejam considerados abertos;</span></p>
+<p class="c8"><span class="c3 c12">Considerando</span><span class="c12">&nbsp;que a Open Knowledge Foundation também publicou o Open Data Handbook</span><sup class="c12"><a href="#ftnt7" id="ftnt_ref7">[7]</a></sup><span class="c12">, que fornece orientações práticas para a publicação e o consumo de dados abertos, e o Open Data Index</span><sup class="c12"><a href="#ftnt8" id="ftnt_ref8">[8]</a></sup><span class="c21 c12">, que avalia o nível de abertura de dados dos governos em diferentes áreas temáticas;</span></p>
+<p class="c8"><span class="c3 c12">Considerando</span><span class="c12">&nbsp;que o Portal Brasileiro de Dados Abertos</span><sup class="c12"><a href="#ftnt9" id="ftnt_ref9">[9]</a></sup><span class="c21 c12">&nbsp;é uma iniciativa do governo federal que visa a disponibilizar dados e informações públicas em formatos abertos e interoperáveis, facilitando o acesso, o uso e a reutilização por cidadãos, organizações e empresas;</span></p>
+<p class="c8"><span class="c3 c12">Considerando</span><span class="c21 c12">&nbsp;que o Portal Brasileiro de Dados Abertos publicou o Plano de Ação para Dados Abertos, que define as diretrizes, os objetivos, as metas e as ações para a implementação da política de dados abertos no âmbito da administração pública federal;</span></p>
+<p class="c8"><span class="c3 c12">Considerando</span><span class="c21 c12">&nbsp;que o Portal Brasileiro de Dados Abertos também publicou o Guia de Dados Abertos, que apresenta conceitos, benefícios, boas práticas e ferramentas para a abertura de dados, e o Monitor da Infraestrutura Nacional de Dados Abertos, que acompanha o cumprimento do Plano de Ação para Dados Abertos;</span></p>
+<p class="c8"><span class="c3 c12">Considerando</span><span class="c21 c12">&nbsp;que as recomendações da Open Knowledge Foundation e do Portal Brasileiro de Dados Abertos contribuem para a promoção da transparência, da participação, da inovação e do desenvolvimento sustentável, por meio da abertura e do uso de dados públicos;</span></p>
+<p class="c8"><span class="c3 c12">Considerando</span><span class="c21 c12">&nbsp;a necessidade de modernizar, qualificar e democratizar a gestão urbana do Município de Mauá, em benefício de toda a população e do território municipal;</span></p>
+<p class="c8"><span class="c3 c12">Considerando</span><span class="c21 c12">&nbsp;a importância de promover a participação e o controle social do planejamento e da gestão urbana do Município, por meio da disponibilização, da visualização e da análise de informações e serviços relacionados ao desenvolvimento urbano;</span></p>
+<p class="c8"><span class="c3 c12">Considerando</span><span class="c21 c12">&nbsp;a conveniência de integrar e compatibilizar as diversas políticas setoriais, alinhadas com o plano diretor e com as agendas internacionais de desenvolvimento sustentável;</span></p>
+<p class="c8"><span class="c3 c12">Considerando</span><span class="c21 c12">&nbsp;a oportunidade de estimular a geração de receitas para o Município, por meio da aplicação de instrumentos urbanísticos e tributários que possam captar parte da valorização imobiliária decorrente das intervenções públicas, bem como combater a retenção especulativa e a subutilização de imóveis urbanos;</span></p>
+<p class="c8"><span class="c3 c12">Considerando</span><span class="c12">&nbsp;a relevância de fortalecer a cidadania, a transparência, a accountability e a governança democrática, por meio da ampliação dos canais de comunicação, de denúncia, de sugestão e de reclamação dos cidadãos e das entidades da sociedade civil com os órgãos e as instâncias responsáveis pelo planejamento e pela gestão urbana do Município;</span></p>
+<h2 class="c5 c7" id="h.bakvj2staiz8"><span>PROJETO DE LEI Nº</span><span class="c15">&nbsp;[XX/2024]</span></h2>
+<p class="c8 c16 c35"><span class="c12">Dispõe sobre a criação do portal Mauá Urbana, destinado à gestão, participação e ao controle social do planejamento territorial e da gestão urbana do município de Mauá. </span></p>
+<p class="c8"><span class="c3 c12">Art. 1º</span><span class="c21 c12">&nbsp;Fica criado o portal Mauá Urbana, vinculado à Secretaria Municipal de Administração e Modernização, com o objetivo de promover a participação e o controle social do planejamento e da gestão urbana do município de Mauá.</span></p>
+<p class="c8"><span class="c3 c12">Art. 2º</span><span class="c21 c12">&nbsp;O &nbsp;portal Mauá Urbana deverá disponibilizar, de forma atualizada, clara e acessível, as seguintes informações e serviços:</span></p>
+<ol class="c6 lst-kix_pkchvgni0osy-0 start" start="1">
+<li class="c8 c9 li-bullet-0"><span class="c21 c12">O Plano Diretor de Mauá e seus instrumentos de implementação, bem como os demais planos setoriais, como mas não somente, o Plano de Mobilidade Urbana, o Plano de Saneamento Básico, o Plano de Habitação de Interesse Social, entre outros;</span></li>
+<li class="c8 c9 li-bullet-0"><span class="c21 c12">Os dados e os indicadores socioeconômicos, ambientais e urbanísticos do município, bem como os mapas e as imagens georreferenciadas do território municipal;</span></li>
+<li class="c8 c9 li-bullet-0"><span class="c21 c12">Os projetos e as obras públicas em andamento ou previstas, bem como os respectivos cronogramas, orçamentos, fontes de financiamento e impactos esperados;</span></li>
+<li class="c8 c9 li-bullet-0"><span class="c21 c12">Os editais, as audiências, as consultas e as demais formas de participação pública nos processos de elaboração, revisão, monitoramento e avaliação dos planos, projetos e obras públicas;</span></li>
+<li class="c8 c9 li-bullet-0"><span class="c21 c12">Os canais de comunicação, de denúncia, de sugestão e de reclamação dos cidadãos e das entidades da sociedade civil com os órgãos e as instâncias responsáveis pelo planejamento e pela gestão urbana do município;</span></li>
+<li class="c8 c9 li-bullet-0"><span class="c21 c12">As legislações, as normas, as diretrizes e os critérios relativos ao uso e à ocupação do solo, ao parcelamento do solo, ao licenciamento ambiental, à preservação do patrimônio histórico e cultural, à regularização fundiária, entre outros temas de interesse urbano.</span></li>
+</ol>
+<p class="c8"><span class="c3 c12">Art. 3º</span><span class="c21 c12">&nbsp;O &nbsp;portal Mauá Urbana deverá ser gerenciado por uma equipe multidisciplinar, composta por servidores públicos municipais e por representantes da sociedade civil, que serão responsáveis pela alimentação, pela manutenção, pela atualização e pelo monitoramento do &nbsp;portal, bem como pela mediação, pela orientação e pelo atendimento aos usuários do &nbsp;portal.</span></p>
+<p class="c8"><span class="c3 c12">Art. 4º</span><span class="c21 c12">&nbsp;Fica criado o portal de dados georreferenciados, Mauá Geo, integrado ao site Mauá Urbana, destinado à disponibilização, à visualização e à análise de dados espaciais do município de Mauá.</span></p>
+<p class="c8"><span class="c3 c12">§ 1º</span><span class="c21 c12">&nbsp;O portal Mauá Geo deverá conter as seguintes funcionalidades:</span></p>
+<ol class="c6 lst-kix_lz62i22sq1uz-0 start" start="1">
+<li class="c8 c9 li-bullet-0"><span class="c21 c12">Acesso livre e gratuito aos dados georreferenciados do município, em formatos abertos e padronizados, respeitando os limites legais e éticos de proteção de dados pessoais e sigilosos;</span></li>
+<li class="c8 c9 li-bullet-0"><span class="c21 c12">Ferramentas de busca, de navegação, de consulta, de download e de compartilhamento dos dados georreferenciados, bem como de geração de mapas temáticos, gráficos, tabelas e relatórios;</span></li>
+<li class="c8 c9 li-bullet-0"><span class="c21 c12">Integração com as bases de dados georreferenciados de outras esferas de governo e de outras fontes de informação, como o IBGE, o INPE, o Google Maps, o OpenStreetMap, entre outros;</span></li>
+<li class="c8 c9 li-bullet-0"><span class="c21 c12">Possibilidade de inserção, de edição, de validação e de atualização de dados georreferenciados pelos usuários do portal, mediante cadastro e autenticação, respeitando as regras e os critérios definidos pelo gestor do portal;</span></li>
+<li class="c8 c9 li-bullet-0"><span class="c21 c12">Disponibilização de tutoriais, de manuais, de glossários e de outros materiais de apoio ao uso do portal, bem como de canais de comunicação, de suporte e de feedback aos usuários.</span></li>
+</ol>
+<p class="c8"><span class="c3 c12">§ 2º</span><span class="c21 c12">&nbsp;O portal Mauá Geo deverá ser alimentado com dados georreferenciados de diversas secretarias municipais, tais como mas não somente:</span></p>
+<ol class="c6 lst-kix_jpfowvx9csl6-0 start" start="1">
+<li class="c8 c9 li-bullet-0"><span class="c21 c12">Dados cadastrais e fiscais dos imóveis urbanos e rurais do município, bem como dos respectivos proprietários e ocupantes;</span></li>
+<li class="c8 c9 li-bullet-0"><span class="c21 c12">Dados sobre o uso e a ocupação do solo, o zoneamento urbano, o parcelamento do solo, o licenciamento ambiental, a regularização fundiária, a preservação do patrimônio histórico e cultural, entre outros temas de interesse urbano;</span></li>
+<li class="c8 c9 li-bullet-0"><span class="c21 c12">Dados sobre a infraestrutura e os equipamentos públicos do município, tais como redes de água, esgoto, energia, telecomunicações, iluminação, drenagem, vias, calçadas, ciclovias, transporte público, saúde, educação, cultura, lazer, segurança, assistência social, entre outros;</span></li>
+<li class="c8 c9 li-bullet-0"><span class="c21 c12">Dados sobre as características socioeconômicas, ambientais e urbanísticas da população e do território do município, tais como renda, escolaridade, emprego, saúde, habitação, vulnerabilidade, qualidade de vida, mobilidade, acessibilidade, poluição, risco, vegetação, clima, relevo, hidrografia, entre outros.</span></li>
+</ol>
+<p class="c8"><span class="c3 c12">§ 3º</span><span class="c21 c12">&nbsp;O portal Mauá Geo deverá servir como fonte de informação para as próprias secretarias municipais, autarquias, concessões e mpresas públicas, para a população e para os legisladores, auxiliando na formulação, na implementação, no monitoramento e na avaliação das políticas públicas, dos planos, dos projetos e das obras públicas, bem como na fiscalização, na participação e no controle social da gestão urbana do município.</span></p>
+<p class="c8"><span class="c3 c12">Art. 5º</span><span class="c21 c12">&nbsp;O &nbsp;portal Mauá Urbana deverá ser desenvolvido com base nas melhores práticas de tecnologia da informação e comunicação, garantindo a sua compatibilidade, integração e interoperabilidade com os demais sistemas de informação do poder público municipal, estadual e federal, bem como com os sistemas de informação da sociedade civil.</span></p>
+<p class="c8"><span class="c3 c12">Art. 6º</span><span class="c21 c12">&nbsp;O &nbsp;portal Mauá Urbana deverá observar os princípios da publicidade, da transparência, da acessibilidade, da usabilidade, da interatividade, da segurança, da confiabilidade e da atualização das informações e dos serviços prestados.</span></p>
+<p class="c8"><span class="c3 c12">§ 1º</span><span class="c21 c12">&nbsp;Para garantir a acessibilidade e a usabilidade dos dados, o &nbsp;portal Mauá Urbana deverá:</span></p>
+<ol class="c6 lst-kix_xpr8x73ddfvw-0 start" start="1">
+<li class="c8 c9 li-bullet-0"><span class="c21 c12">Disponibilizar os dados em formatos abertos e padronizados, que possam ser lidos e processados por qualquer software ou aplicativo;</span></li>
+<li class="c8 c9 li-bullet-0"><span class="c21 c12">Oferecer interfaces de programação de aplicações (APIs) que facilitem o acesso aos dados por algoritmos computacionais, permitindo consultas, filtros, ordenações e agregações personalizadas;</span></li>
+<li class="c8 c9 li-bullet-0"><span class="c12 c21">Respeitar os limites legais e éticos de proteção de dados pessoais e sigilosos, bem como as licenças de uso e de compartilhamento dos dados;</span></li>
+<li class="c8 c9 li-bullet-0"><span class="c21 c12">Seguir as boas práticas e as recomendações da Open Knowledge Foundation e do Portal Brasileiro de Dados Abertos sobre a publicação e o consumo de dados abertos.</span></li>
+</ol>
+<p class="c8"><span class="c3 c12">Art. 7º</span><span class="c21 c12">&nbsp;O Poder Executivo Municipal regulamentará esta lei no prazo de 90 (noventa) dias, contados da data de sua publicação, definindo as competências, as atribuições, as responsabilidades e os recursos necessários para a implantação e a operação dos &nbsp;portais Mauá Urbana e Mauá Geo.</span></p>
+<p class="c8"><span class="c3 c12">Art. 8º</span><span class="c21 c12">&nbsp;Esta lei entra em vigor na data de sua publicação.</span></p>
+<p class="c8 c31"><span class="c21 c12"></span></p>
+
+<h1 class="c25 c7 c16" id="h.i8hc39tolwws"><span class="c30 c3">9. Projeto de Lei que cria o Parque das Nascentes</span></h1>
+<h2 class="c5 c7" id="h.23t7whzghxp0"><span class="c15">Justificativa</span></h2>
+<h2 class="c5 c7" id="h.9kiycos0ughn"><span class="c15">PROJETO DE LEI Nº [XX/2024]</span></h2>
+<p class="c4 c31"><span class="c0"></span></p>
+<p class="c4 c16 c35"><span class="c0">Cria o Parque das Nascentes em Mauá, no Estado de São Paulo, e dá outras providências.</span></p>
+<p class="c4"><span class="c0">Art. 1º Fica criado o Parque das Nascentes em Mauá, no Estado de São Paulo, com o objetivo de proteger e garantir a permanência dos mananciais do Rio Guaió e do Rio Tamanduateí, bem como a manutenção da fauna e flora remanescentes da Mata Atlântica.</span></p>
+<p class="c4"><span class="c0">Art. 2º O Parque das Nascentes em Mauá abrange a área total do atual Parque Ecológico da Gruta Santa Luzia, criado em 1975, e mais uma área de cerca de 158 hectares, que contempla a nascente do Rio Guaió, conforme mapa anexo.</span></p>
+<p class="c4"><span class="c0">Art. 3º O Parque das Nascentes em Mauá será administrado pela Secretaria do Verde e Meio Ambiente da Prefeitura Municipal de Mauá , que deverão elaborar e implementar um plano de manejo para a unidade de conservação.</span></p>
+<p class="c4"><span class="c0">Art. 4º O Parque das Nascentes em Mauá será aberto à visitação pública, respeitando os limites de capacidade de carga e as normas de uso sustentável dos recursos naturais, visando à educação ambiental, à pesquisa científica, à recreação e ao turismo ecológico.</span></p>
+<p class="c4"><span class="c0">Art. 5º Ficam proibidas, no interior do Parque das Nascentes em Mauá, as seguintes atividades:</span></p>
+<ol class="c6 lst-kix_6gempc3z2eyc-0 start" start="1">
+<li class="c1 li-bullet-0"><span class="c0">supressão ou alteração da vegetação nativa;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">exploração de recursos minerais;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">caça, pesca ou coleta de espécimes da fauna e flora, com exceção para pesquisas científicas aprovadas por comitês de éticas específicos;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">introdução de espécies exóticas ou invasoras;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">uso de fogo;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">lançamento de efluentes ou resíduos sólidos;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">edificação ou ocupação irregular de qualquer natureza;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">quaisquer outras atividades que possam comprometer a integridade dos ecossistemas, a qualidade da água ou a paisagem natural.</span></li>
+</ol>
+<p class="c4"><span class="c0">Art. 6º Os proprietários ou possuidores de imóveis localizados no interior do Parque das Nascentes em Mauá deverão ser indenizados ou compensados, conforme o caso, de acordo com a legislação vigente.</span></p>
+<p class="c4"><span class="c0">Art. 7º Esta lei entra em vigor na data de sua publicação.</span></p>
+<p class="c4 c31"><span class="c0"></span></p>
+
+<h1 class="c25 c7 c16" id="h.kbwsxn7w3647"><span class="c30 c3">10. Projeto de Lei que institui o uso de epígrafes, QR Codes e identificação das Regiões de Planejamento nas placas de logradouro</span></h1>
+<h2 class="c5 c7" id="h.cryst02cjy2z"><span class="c15">Justificativa</span></h2>
+<p class="c4"><span class="c0">Em pesquisa através do site da Câmara Municipal, na última legislatura foram sancionados cerca de 56 projetos de lei de denominação, o que dá mais de um projeto por mês, levando em consideração que no mesmo período foram apresentados 1034 projetos, temos que 5,42% dos projetos são de denominações.</span></p>
+<p class="c4 c16"><span class="c0">Muitas vezes os moradores da cidade passam por vias, praças e outros logradouros e não sabem quem foi ou o que representa aquela data ou evento denominado na identificação do logradouro. </span></p>
+<p class="c4 c16"><span>Baseado em projetos existentes em outras cidades como Rio de Janeiro, RJ Uruguaiana, RS</span><sup><a href="#ftnt10" id="ftnt_ref10">[10]</a></sup><span>&nbsp;Anápolis, GO</span><sup><a href="#ftnt11" id="ftnt_ref11">[11]</a></sup><span>&nbsp;e São Paulo, SP</span><sup><a href="#ftnt12" id="ftnt_ref12">[12]</a></sup><span class="c0">&nbsp;e visando estimular a cultura e o conhecimento na população mauaense sobre sua própria cidade, proponho que seja criada uma lei para implementar nas placas uma epígrafe, de forma que esclareça rapidamente o significado do logradouro, bem como a inserção de um QR Code com informações mais aprofundadas e hiperlinks para que a população possa ampliar seu repertório de conhecimento.</span></p>
+<p class="c38"><span class="c0">Imagem 1 - Exemplo de placa com epígrafe no Rio de Janeiro</span></p>
+<p class="c38"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 421.50px; height: 262.88px;"><img alt="" src="images/image3.png" style="width: 421.50px; height: 262.88px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+<p class="c38"><span class="c26">(Fonte: gassreuy. Fórum daFont. Tipografia da sinalização municipal das ruas do Rio de Janeiro 2018.</span><sup class="c26"><a href="#ftnt13" id="ftnt_ref13">[13]</a></sup><span class="c18">)</span></p>
+<p class="c4 c16"><span class="c0">&nbsp;Proponho uma possível solução de design para ser aplicada na imagem 2, os itens destacados são:</span></p>
+<ol class="c6 lst-kix_6l5ylja060yl-0 start" start="1">
+<li class="c4 c13 c27 li-bullet-0"><span class="c0">QR Code que irá possibilitar a população saber mais informações sobre o logradouro.</span></li>
+<li class="c4 c13 c27 li-bullet-0"><span>RP - Identificação da Região de Planejamento que o logradouro se localiza, conforme o estabelecido na LEI Nº 4452, DE 2009, que institui no território do município de Mauá a divisão em catorze regiões de planejamento, na forma que estabelece e dá outras providências. </span><sup><a href="#ftnt14" id="ftnt_ref14">[14]</a></sup></li>
+</ol>
+<p class="c38"><span class="c0">Imagem 2 - Proposta de Design</span></p>
+<p class="c38"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 601.70px; height: 340.00px;"><img alt="" src="images/image1.png" style="width: 601.70px; height: 340.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+<p class="c38"><span class="c18">(Fonte: Elaboração Própria)</span></p>
+<p class="c8"><span class="c3 c12">Considerando</span><span class="c12">&nbsp;a similar proposta de projeto de lei PL 481 de 08/08/2017, aprovada na Câmara Municipal de São Paulo e promulgado pelo prefeito em LEI 17.302 de 24/01/2020</span><sup class="c12"><a href="#ftnt15" id="ftnt_ref15">[15]</a></sup><span class="c21 c12">&nbsp;e com isso a considerando constitucionalidade dessa proposição.</span></p>
+<p class="c4"><span class="c3 c12">Considerando</span><span class="c12">&nbsp;o</span><span>&nbsp;fundamento nos princípios da publicidade e transparência dos atos do Poder Público, e no direito à informação sobre os atos estatais, conforme estatuído pelos arts. 5º, XXXIII, e 37, caput, § 1º e § 3º, II, da Constituição Federal. E no mesmo sentido disciplinam ainda a Constituição do Estado de São Paulo (art. 111)</span><sup><a href="#ftnt16" id="ftnt_ref16">[16]</a></sup><span class="c0">&nbsp;e a Lei Orgânica do Município de Mauá (arts. 71 e 93.)</span></p>
+<p class="c4"><span class="c3">Considerando</span><span>&nbsp;o RE 878.911/RJ, de 2016</span><sup><a href="#ftnt17" id="ftnt_ref17">[17]</a></sup><span>, onde a decisão do STF em repercussão geral definiu a tese 917 para reafirmar que: &ldquo;Não usurpa competência privativa do Chefe do Poder Executivo lei que, embora crie despesa para a Administração, não trata da sua estrutura ou da atribuição de seus órgãos nem do regime jurídico de servidores públicos (art. 61, § 1º, II,a, c e e, da Constituição Federal).&rdquo;</span></p>
+<h2 class="c5 c7" id="h.m8syfidmtjal"><span>PROJETO DE LEI Nº</span><span class="c15">&nbsp;[XX/2024]</span></h2>
+<p class="c4 c40"><span class="c3">Dispõe sobre as placas de identificação de logradouros do Município de Mauá e dá outras providências.</span></p>
+<p class="c4"><span class="c3">Art. 1º</span><span class="c0">&nbsp;As placas indicativas da denominação dos logradouros oficiais do Município de Mauá devem conter sinopse, resumida e didática, sobre o significado da denominação atribuída, além do nome do logradouro, bairro, CEP e Região de Planejamento</span></p>
+<p class="c4"><span class="c3">Parágrafo único.</span><span class="c0">&nbsp;A sinopse de que trata o caput deste artigo conterá informações sucintas, neutras e imparciais sobre a personalidade homenageada e/ou sobre os fatos aludidos pela denominação. </span></p>
+<p class="c4"><span class="c3">Art. 2º</span><span class="c0">&nbsp;O disposto nesta Lei se aplicará de forma gradativa para os logradouros públicos já emplacados, na medida em que as atuais placas forem substituídas, a depender da disponibilidade orçamentária. </span></p>
+<p class="c4"><span class="c3">Art. 3º</span><span class="c0">&nbsp;O Poder Público regulamentará esta Lei no prazo de 90 (noventa) dias, contados da data de sua publicação, incluindo diretrizes sobre o design das placas para assegurar harmonia visual e consistência.</span></p>
+<p class="c4"><span class="c3">§ 1º</span><span class="c0">&nbsp;Será estabelecido um padrão mínimo de tamanho e legibilidade para a sinopse e o QR Code, sem prejuízo da identificação do logradouro assegurando identificação e usabilidade pelo público.</span></p>
+<p class="c4"><span class="c3">§ 2º</span><span class="c0">&nbsp;O Código QR ou outro similar permitirá acesso digital a um acervo atualizado de informações sobre a denominação do logradouro, seus significados, hiperlinks funcionais e outras informações relevantes, incluindo recursos de acessibilidade como áudio descrição, sobre o significado da denominação atribuída.</span></p>
+<p class="c4"><span class="c3">§ 3º </span><span class="c0">A implementação desta Lei seguirá um cronograma específico, com metas anuais para a substituição das placas, garantindo progresso mensurável e eficiente, com a obrigação de publicação anual de um relatório sobre a implementação da lei, incluindo o número de placas atualizadas e o custo total.</span></p>
+<p class="c4"><span class="c3">Art. 4º</span><span class="c0">&nbsp;As despesas decorrentes da execução desta Lei correrão por conta de dotações orçamentárias próprias, suplementadas, se necessário. </span></p>
+<p class="c4"><span class="c3">Art. 5º</span><span>&nbsp;Esta Lei entra em vigor na data de sua publicação, revogadas as disposições em contrário</span></p>
+
+<h1 class="c25 c7 c16" id="h.7z03rrc3avup"><span class="c30 c3">11. Projeto de Regulamentação de Projetos de Iniciativa Popular Digital</span></h1>
+<h2 class="c5 c7" id="h.9lvozkye2g5w"><span class="c15">Justificativa</span></h2>
+<p class="c4"><span>A presente proposta de regulamentação visa modernizar e facilitar o exercício da cidadania e da participação do Povo de Mauá através da alteração da Lei Orgânica Municipal na Seção VI que regula o processo legislativo, para permitir o uso de assinatura digital na apresentação de projetos de lei de iniciativa popular. A assinatura digital é um instrumento tecnológico que garante a autenticidade, a integridade e a validade jurídica dos documentos eletrônicos, mediante o uso de certificados emitidos por entidades credenciadas</span><sup><a href="#ftnt18" id="ftnt_ref18">[18]</a></sup><span class="c0">. Com essa medida, pretende-se facilitar a mobilização da sociedade, fortalecer a soberania popular e aprimorar a democracia participativa em Mauá, conforme previsto no art. 29, XIII, da Constituição Federal, e no art. 1, § 3º na alínea IV, da Lei Orgânica do Município de Mauá.</span></p>
+<p class="c4"><span class="c0">Ao permitir que os projetos de lei de iniciativa popular sejam apresentados por meio digital, esta regulamentação busca superar as dificuldades e os custos envolvidos na coleta de assinaturas em papel, que demanda muito tempo, recursos, logística, além de gerar um grande impacto ambiental com a quantidade de papel gerado para coletar 5% de assinaturas dos eleitores do município, hoje por exemplo isso seria mais de 15 mil assinaturas, o projeto visa ainda a facilitar a conferência por parte da câmara da validade das assinaturas, pois estamos propondo que elas sejam validadas através do mecanismo de autenticação do governo federal Gov.BR, o que geraria confiança de que a assinatura no projeto é realmente de um cidadão eleitor de Mauá e que ele não está duplicado.</span></p>
+<p class="c4"><span class="c0">Além de tudo isso traremos ainda para a nossa cidade um protagonismo em criar um sistema digital para a participação do Povo na política municipal, &nbsp;pois esse é um mecanismo ainda pouco explorado pelas cidades brasileiras. </span></p>
+<p class="c4"><span class="c3">Considerando</span><span>&nbsp;ainda a ideia legislativa proposta pela munícipe, Ana Larissa, &nbsp;21 de outubro de 2023, com email reismarianom@gmail.com, sob o assunto de Política e Direitos Humanos, que propunha a criação e implantação no município de dispositivos de democracia direta e participativa, permitindo que o cidadão possa participar, agir e reivindicar a sua participação ativa no município.</span><sup><a href="#ftnt19" id="ftnt_ref19">[19]</a></sup></p>
+<p class="c4"><span class="c3">Considerando</span><span>&nbsp;também o relatório apresentado pelo ITS Rios em 2017 sobre Projetos de lei de iniciativa popular no Brasil, que apresenta um panorama geral de a iniciativa popular está estruturada legalmente nas diferentes esferas federativas no Brasil o qual também baseia essa proposta</span><sup><a href="#ftnt20" id="ftnt_ref20">[20]</a></sup></p>
+<h2 class="c5 c7" id="h.x0q2sal1wd3l"><span>Projeto de Lei Complementar Nº [XX/2024]</span></h2>
+<p class="c4 c40"><span class="c3">Dispõe sobre a regulamentação dos projetos de lei de iniciativa popular digitais no município de Mauá, modifica o § 2º e acrescenta o §3º ao Art. 37. da Lei Orgânica do Município de Mauá e dá outras providências.</span></p>
+<p class="c4"><span class="c3">Art. 1º</span><span class="c0">&nbsp;O art. 37 da Lei Orgânica do Município de Mauá, passa a vigorar com o seguinte texto:</span></p>
+<p class="c9 c47"><span class="c32">&ldquo;</span><span class="c33">Art.37</span><span class="c24 c43">&nbsp;Observados os limites da competência legislativa municipal, caberá à iniciativa popular o envio de projetos de lei à Câmara Municipal, subscritos por no mínimo 5% (cinco por cento) do eleitorado do Município.</span></p>
+<p class="c16 c27 c41"><span class="c33">§ 1º</span><span class="c32">&nbsp; Obedecidos os requisitos do caput deste artigo, o recebimento de projetos de iniciativa popular dependerá, também, da identificação dos assinantes, através de nome, endereço e da indicação dos números dos respectivos títulos eleitorais.</span></p>
+<p class="c41 c16 c27"><span class="c33">§ 2º</span><span class="c24 c43">&nbsp; As subscrições das proposições de iniciativa popular poderão ser firmadas por meio eletrônico, para a coleta de assinaturas eletrônicas deverão ser observados os seguintes requisitos:</span></p>
+<ol class="c6 lst-kix_k75s0r5tlocr-0 start" start="1">
+<li class="c41 c13 c42 li-bullet-0"><span class="c24 c43">a unicidade de cada eleitor signatário; </span></li>
+<li class="c41 c13 c42 li-bullet-0"><span class="c24 c43">o emprego de técnicas de criptografia, verificáveis por meio de chaves públicas ou privadas, coletadas em provedor de aplicações que permita verificação e auditoria; </span></li>
+</ol>
+<p class="c41 c16 c27"><span class="c33">§ 3º</span><span class="c24 c43">&nbsp;O projeto, da natureza de que trata este artigo, terão prioridade na tramitação e na votação na Câmara Municipal de Mauá, devendo ser apreciados em até 90 dias, contados da data do seu protocolo. O prazo previsto poderá ser prorrogado por igual período, mediante justificativa fundamentada da Mesa Diretora da Câmara Municipal, que deverá ser publicada e comunicada aos eleitores signatários do projeto de lei de iniciativa popular.&rdquo;</span></p>
+<p class="c4"><span class="c3">Art. 2º</span><span class="c0">&nbsp; Para os fins desta Lei Complementar, a Câmara Municipal de Mauá deverá desenvolver plataforma para coleta de assinaturas eletrônicas, sem prejuízo das iniciativas desenvolvidas por outros entes, públicos ou privados, desde que observado o disposto no Art.37º no § 2º da Lei Orgânica do Município de Mauá.</span></p>
+<p class="c4 c16"><span class="c3">§ 1º</span><span class="c0">&nbsp;A plataforma a ser criada pela câmara municipal de Mauá deverá:</span></p>
+<ol class="c6 lst-kix_h7mlnhxdm2n3-0 start" start="1">
+<li class="c4 c13 c27 li-bullet-0"><span class="c0">utilizar a autenticação da plataforma Gov.BR, como forma de &nbsp;garantir a segurança, a autenticidade e a unicidade das assinaturas.</span></li>
+<li class="c4 c13 c27 li-bullet-0"><span class="c0">permitir a escrita colaborativa do projeto de lei de iniciativa popular, de forma que os eleitores possam contribuir com sugestões, comentários e alterações no texto, respeitando os princípios da transparência, da participação e da democracia.</span></li>
+<li class="c4 c13 c27 li-bullet-0"><span class="c0">possibilitar a fiscalização e o controle social por parte dos cidadãos e das entidades da sociedade civil, mediante o acesso às informações sobre os projetos de lei de iniciativa popular, as assinaturas eletrônicas coletadas, os pareceres técnicos e jurídicos emitidos, e o andamento da tramitação;</span></li>
+<li class="c4 c13 c27 li-bullet-0"><span class="c0">prever mecanismos de participação popular na sua criação e no seu aperfeiçoamento, por meio de consultas públicas, audiências públicas, fóruns de debate ou outras formas de interação.</span></li>
+<li class="c4 c13 c27 li-bullet-0"><span class="c0">ser criada respeitando as boas práticas de acessibilidade e segurança digital</span></li>
+</ol>
+<p class="c4"><span class="c3">Art. 3º</span><span class="c0">&nbsp;A Câmara Municipal terá o prazo de 180 dias, a contar da publicação desta regulamentação, para criar e disponibilizar a plataforma digital para os projetos de lei de iniciativa popular, devendo divulgar amplamente o seu funcionamento e as suas regras de uso.</span></p>
+<p class="c4"><span class="c3">Parágrafo único.</span><span class="c0">&nbsp; Fica autorizada a celebração de convênios com entidades públicas ou privadas que desenvolvam ou que mantenham plataforma de coleta de assinaturas eletrônicas.</span></p>
+<p class="c4"><span class="c3">Art. 4º</span><span class="c0">&nbsp;As despesas decorrentes da execução da presente lei onerarão as verbas próprias do orçamento vigente.</span></p>
+<p class="c4"><span class="c3">Art. 5º</span><span class="c0">&nbsp; Esta Lei Complementar entra em vigor na data de sua publicação.</span></p>
+<p class="c4 c31"><span class="c0"></span></p>
+
+<h1 class="c25 c7 c16" id="h.tbffvpv6s95j"><span>12. Projeto de Resolução - Projetos de Indicação de Lei</span></h1>
+<h2 class="c5 c7" id="h.c558hr1ox6am"><span class="c15">Justificativa</span></h2>
+<p class="c4"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;É frequente os vetos por inconstitucionalidade nos projetos de Lei feitos pela Câmara Municipal de Mauá, quando um projeto de lei é vetado por inconstitucionalidade, os recursos investidos na sua tramitação (tempo dos vereadores, consultorias, debates em plenário etc.) são desperdiçados. Isso impacta negativamente o orçamento da Câmara e, indiretamente, o dos contribuintes. Além disso, vetos frequentes geram instabilidade jurídica, pois a população fica sem saber quais leis serão efetivamente aplicadas e a insegurança jurídica afeta investimentos e o desenvolvimento local.</span></p>
+<p class="c4 c16"><span class="c0">O Projeto Indicativo de Lei é uma ferramenta legislativa que visa aprimorar a relação entre o Poder Legislativo e o Executivo. Nesse contexto, proponho a criação de um Projeto de Resolução na Câmara Municipal de Mauá para regulamentar essa modalidade de proposição.</span></p>
+<p class="c4 c16"><span class="c0">O Projeto Indicativo de Lei permitirá que os vereadores sugiram minutas de projetos de lei relacionados a competências exclusivas do Executivo. Essas sugestões poderão ser debatidas publicamente, envolvendo a sociedade e ampliando a participação cidadã.</span></p>
+<p class="c4 c16"><span class="c0">Ao propor minutas de projetos de lei, os vereadores colaboram com o Executivo na busca por soluções para questões municipais, ele estimulará o diálogo entre os Poderes, e o diálogo entre os Poderes contribui para a eficiência da gestão pública.</span></p>
+<p class="c4 c16"><span class="c0">Além disso, o Projeto Indicativo de Lei não terá caráter vinculante, ou seja, não obriga o Executivo a adotar a minuta proposta, a matéria pode ser encaminhada ao Executivo para análise ou permanecer como sugestão, conforme a conveniência, &nbsp;o que traz uma maior flexibilidade na tramitação dos projetos.</span></p>
+<p class="c4 c16"><span>Com isso teríamos os seguintes benefícios como o e</span><span class="c0">nriquecimento do debate legislativo, os vereadores poderão apresentar soluções concretas para problemas municipais, mesmo que não tenham competência para executá-las diretamente.</span></p>
+<p class="c4 c16"><span class="c0">Isso enriquecerá os debates na Câmara e ampliará a gama de propostas em benefício da cidade. </span></p>
+<p class="c4 c16"><span>Poderemos ainda ter o f</span><span>ortalecimento da democracia representativa, pois o</span><span class="c0">&nbsp;Projeto Indicativo de Lei reforça o papel da vereança como representação da população, possibilitando que ela possa expressar demandas e ideias, mesmo quando não têm poder de execução.</span></p>
+<p class="c4 c16"><span>Dessa forma, com essa regulamentação, a Câmara Municipal poderá contribuir de forma mais efetiva para o desenvolvimento da cidade, respeitando as competências de cada Poder.</span></p>
+<h2 class="c5 c7" id="h.e8wky343erpu"><span>PROJETO DE RESOLUÇÃO</span><span>&nbsp;Nº [XX/2024]</span></h2>
+<p class="c4 c40"><span class="c3">Dispõe sobre a Projetos de Indicação de Lei, modifica o Art. 110 e acrescenta o CAPÍTULO V da Resolução nº 03, de 12 de junho de 2015, que dispõe sobre o Regimento Interno da Câmara Municipal de Mauá, e dá outras providências</span></p>
+<p class="c4"><span class="c3">Art 1° </span><span class="c0">Altera o artigo 110 da Resolução nº 3, de 12 de junho de 2015, que dispõe sobre o Regimento Interno da Câmara Municipal de Mauá, passa a constar com a seguinte redação:</span></p>
+<p class="c2"><span class="c53">&ldquo;</span><span class="c45">Art. 110 Proposição é toda matéria sujeita à deliberação do Plenário, devendo ser redigida com clareza e em termos explícitos e sintéticos, podendo consistir em projetos de lei, de emenda à Lei Orgânica, de resolução, de decreto legislativo, indicações, projetos de indicação de lei, moções, requerimentos, substitutivos, emendas, subemendas, pareceres e recursos.&rdquo;</span></p>
+<p class="c4"><span class="c3">Art 2° </span><span>Acrescenta o </span><span class="c62">Capítulo V </span><span class="c0">a Resolução nº 3, de 12 de junho de 2015, que dispõe o Regimento Interno da Câmara Municipal de Mauá, com a seguinte redação:</span></p>
+<p class="c46"><span class="c0">&ldquo;CAPÍTULO V</span></p>
+<p class="c46"><span class="c0">DOS PROJETOS INDICATIVOS DE LEI</span></p>
+<p class="c2"><span class="c0">Art 1° Projeto Indicativo de Lei é a recomendação da Câmara Municipal de Mauá ao Poder Executivo local no sentido de que este promova a abertura de processo legislativo que verse sobre matéria de sua competência</span></p>
+<p class="c2"><span class="c0">Art 136 Os Projeto Indicativo de Lei serão lidas no Grande Expediente e encaminhadas a quem de direito, independentemente de deliberação do Plenário.</span></p>
+<p class="c2"><span class="c0">§ 1º A leitura dos Projeto Indicativo de Lei se dará pela leitura da ementa e do autor do mesmo. </span></p>
+<p class="c2"><span class="c0">§ 2º Poderá o autor do Projeto Indicativo de Lei usar do tempo disponível no encaminhamento de matéria no Grande Expediente para apresentar o projeto a câmara e a sociedade.</span></p>
+<p class="c2"><span class="c0">§ 3º No caso de entender o Presidente que o Projeto Indicativo de Lei não deva ser encaminhado, dará conhecimento da decisão ao autor e solicitará o pronunciamento da Comissão competente, cujo parecer será discutido e votado na pauta da Ordem do Dia.</span></p>
+<p class="c2"><span class="c0">§ 4º Para emitir parecer, a Comissão terá prazo improrrogável de 06 (seis) dias.</span></p>
+<p class="c2"><span>§ 5° O Prefeito terá um prazo de 30 (trinta) dias para acusar o recebimento.&rdquo;</span></p>
+<p class="c4"><span class="c3">Art. 3° </span><span>Está emenda ao Regimento Interno entra em vigor na data de sua publicação, revogadas as disposições em contrário.</span></p>
+<p class="c4 c31"><span class="c0"></span></p>
+<hr style="page-break-before:always;display:none;">
+<p class="c4 c31"><span class="c0"></span></p>
+<h4 class="c7 c51" id="h.ib5f9x8bx1pl"><span class="c22">ANEXO I - EXEMPLO DE MINUTA</span></h4>
+<p class="c4 c31"><span class="c0"></span></p>
+<p class="c4"><span class="c24 c3">PROJETO DE LEI INDICATIVO N° 001/2024 </span></p>
+<p class="c4 c16 c49"><span class="c0">SOLICITA QUE SEJA ENVIADO AO EXECUTIVO A INDICAÇÃO DA MINUTA DE PROJETO DE LEI, QUE DISPÕE SOBRE: TEMA QUE DA MATÉRIA PROPOSTO PELA VEREANÇA </span></p>
+<p class="c4"><span class="c0">Os vereadores que este subscrevem, solicitamos à Douta Mesa que, após ser ouvido o Egrégio Plenário, observadas as disposições regimentais, seja oficiada ao Poder Executivo para que este viabilize junto ao órgão responsável, a elaboração de projeto de lei por parte do executivo, para que o mesmo retorne ao legislativo para aprovação. </span></p>
+<p class="c4"><span class="c24 c3">JUSTIFICATIVA </span></p>
+<p class="c4"><span class="c0">Texto de Justificativa da lei, contendo problema identificado pela vereança, contextualização sobre a questão, exemplos, casos, dados que sejam necessários para mostrar a necessidade do projeto, sendo altamente recomendado o uso de referências bibliográficas.</span></p>
+<p class="c4"><span class="c24 c3">MINUTA DE PROJETO DE LEI </span></p>
+<p class="c4 c16 c49"><span class="c0">A EMENTA DO PROJETO DE LEI CONFORME O PADRÃO FEITO PELA CÂMARA.</span></p>
+<p class="c4"><span class="c0">A CÂMARA MUNICIPAL DE MAUÁ faz saber que o PLENÁRIO DA CÂMARA MUNICIPAL APROVOU e o PREFEITO SANCIONA a seguinte lei:</span></p>
+<p class="c4"><span class="c0">Art. 1°…</span></p>
+<p class="c4 c31"><span class="c0"></span></p>
+
+<h1 class="c25 c7 c16" id="h.ftwab0bsdybk"><span class="c30 c3">13. Projeto de Lei que Cria o Fundo Soberano Mauaense</span></h1>
+<h2 class="c5 c7" id="h.6h4umh9npi76"><span class="c15">Justificativa</span></h2>
+<h2 class="c5 c7" id="h.8gl5mr2fi9d0"><span>PROJETO DE LEI Nº [XX/2024]</span></h2>
+<p class="c4 c40"><span class="c24 c3">Cria o Fundo Soberano Mauaense - FUSMA, dispõe sobre sua estrutura, fontes de recursos e aplicações, e dá outras providências</span></p>
+<p class="c4"><span class="c0">O POVO DO MAUAENSE, por seus representantes na Câmara Municipal, aprovou e o Prefeito, em seu nome, sanciona a seguinte Lei:</span></p>
+<p class="c4"><span class="c3">Art. 1º </span><span>Fica criado o Fundo Soberano Mauaense - FUSMA, fundo especial de natureza contábil e financeira, vinculado à Secretaria Municipal de Finanças, com as finalidades de:</span></p>
+<ol class="c6 lst-kix_3064pqwg1vkq-0 start" start="1">
+<li class="c1 li-bullet-0"><span class="c0">Fortalecer e impulsionar o desenvolvimento de projetos de interesse estratégico do Município nas áreas de empreendedorismo, desenvolvimento sustentável e gestão ambiental, social e corporativa (ESG);</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Fortalecer e impulsionar o desenvolvimento regional;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Ampliar e estimular a criação de novas fontes de receita no Município;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Promover a diversificação da matriz econômica municipal </span></li>
+<li class="c1 li-bullet-0"><span class="c0">Estimular e fortalecer o sistema e a autonomia financeira municipal;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Formar poupança pública;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Garantir sustentabilidade fiscal;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Mitigar os efeitos dos ciclos econômicos.</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Patrocinar projetos de pesquisa e inovação tecnológica.</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Criar programa de estímulos financeiros para a atração de empreendimentos empresariais com o intuito de ampliar a oferta de emprego e renda;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Criar infraestrutura econômica e estimular o desenvolvimento de um ambiente propício à atração de cadeias de investimentos, de forma a intensificar o crescimento econômico regional;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Fomentar e financiar projetos de interesse estratégico que visem fortalecer e impulsionar o desenvolvimento regional;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Estimular, ampliar e fortalecer a criação de novas fontes de receita municipal e criar mecanismos de autonomia financeira municipal;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Mitigar a volatilidade dos fluxos de arrecadação provenientes de indenizações pela exploração de petróleo e gás natural;</span></li>
+</ol>
+<p class="c4"><span class="c3">Parágrafo único</span><span class="c0">. As diretrizes de aplicação dos recursos do Fundo deverão atender os objetivos no caput deste artigo.</span></p>
+<p class="c4"><span class="c3">Art. 2º</span><span class="c0">&nbsp;Os recursos do FUSMA serão utilizados exclusivamente para investimentos e inversões financeiras nas finalidades previstas no art. 1º desta Lei, na forma regulamentada pelo Conselho Diretor e Deliberativo.</span></p>
+<p class="c4"><span class="c3">Art. 3º</span><span class="c0">&nbsp;Constituirão receita do FUSMA:</span></p>
+<ol class="c6 lst-kix_5h4n57it5qz1-0 start" start="1">
+<li class="c1 li-bullet-0"><span class="c0">0,2% da receita total prevista para o orçamento anual do Município de Mauá;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Royalties da exploração das reservas naturais do município, tais como mineiros, recurso hídricos, recursos e serviços ambientais e reaproveitamento de resíduos, produção de energia e outras compensações &nbsp;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Royalties da distribuição e refino do petróleo</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Créditos de Carbono</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Transferências de outros fundos;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Rendimentos provenientes de depósitos bancários e aplicações financeiras do próprio Fundo;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Recursos provenientes de operações de crédito internas e externas destinadas ao Fundo;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Recursos do Tesouro Municipal correspondentes às dotações que lhe forem consignadas no orçamento anual;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Ações de sociedade de economia mista municipal excedentes ao necessário para manutenção de seu controle pelo Município;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Títulos da dívida pública mobiliária municipal;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Bens imóveis dominicais e de uso especial de propriedade do Município, autarquias, fundações, empresas públicas e sociedade de economia mista, devidamente avaliados e transferidos ao FUSMA.</span></li>
+</ol>
+<p class="c4"><span class="c3">Art. 4º</span><span class="c0">&nbsp;O resgate de recursos do FUSMA atenderá exclusivamente às finalidades previstas no art. 1º desta Lei, e ocorrerá na forma definida na Lei Orçamentária Anual - LOA.</span></p>
+<p class="c4"><span class="c3">Art. 5º</span><span class="c0">&nbsp;O FUSMA disporá de escrituração contábil própria e de autonomia administrativa e financeira para a gestão de seus recursos.</span></p>
+<p class="c4"><span class="c3">Art. 6º</span><span class="c0">&nbsp;Decreto do Poder Executivo instituirá o Conselho Diretor e Deliberativo do FUSMA, composto de forma paritária por membros do Poder Executivo e do Poder Legislativo.</span></p>
+<ul class="c6 lst-kix_jnkr0kn1sxoq-0 start">
+<li class="c1 li-bullet-0"><span class="c0">Prefeito do município, </span></li>
+<li class="c1 li-bullet-0"><span class="c0">Finanças</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Desenvolvimento Econômico</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Assistência Social</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Trabalho, renda e empreendedorismo</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Meio Ambiente</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Presidente da Câmara municipal</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Dois vereadores eleitos pelo plenário da Câmara Municipal</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Dois Cidadãos representantes do Conselho do Orçamento Participativo</span></li>
+</ul>
+<p class="c4"><span class="c3">Art. 7º</span><span class="c0">&nbsp;O Estatuto do FUSMA deverá ser aprovado pelo Conselho Diretor e Deliberativo, estabelecendo diretrizes de aplicação, gestão administrativa, orçamentária e financeira, regras de supervisão prudencial, entre outros dispositivos.</span></p>
+<p class="c4"><span class="c3">Art. 8º</span><span class="c0">&nbsp;Caberá ao Conselho Diretor e Deliberativo do FUSMA:</span></p>
+<ol class="c6 lst-kix_ym7i2kpgupu9-0 start" start="1">
+<li class="c1 li-bullet-0"><span class="c0">Elaborar a política de aplicação dos recursos;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Aprovar a forma, o prazo e a natureza dos investimentos do FUSMA;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Definir os critérios e níveis de rentabilidade e de risco;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Definir questões operacionais da gestão administrativa e financeira do Fundo;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Estabelecer regras de supervisão prudencial;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Administrar, gerir, ordenar empenhos e pagamentos das despesas do Fundo;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Gerir a contabilidade e tesouraria do Fundo;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Representar o Fundo perante as Instituições financeiras e órgãos de Controle Interno e Externo.</span></li>
+</ol>
+<p class="c4"><span class="c3">Art. 9º</span><span class="c0">&nbsp;As demonstrações contábeis e os resultados das aplicações do Fundo serão elaborados e apurados trimestralmente pelo Conselho Diretor e Deliberativo.</span></p>
+<p class="c4"><span class="c3">Art. 10.</span><span class="c0">&nbsp;Será encaminhado à Câmara Municipal de Mauá, trimestralmente, o relatório de desempenho do Fundo.</span></p>
+<p class="c4"><span class="c3">Art. 11.</span><span class="c0">&nbsp;O Conselho Diretor e Deliberativo do Fundo deverá, por meio de sítio eletrônico oficial, dar ampla publicidade aos atos do FUSMA.</span></p>
+<p class="c4"><span class="c3">Art. 12.</span><span class="c0">&nbsp;As despesas decorrentes da execução desta Lei correrão por conta das dotações orçamentárias próprias, suplementadas se necessário.</span></p>
+<p class="c4"><span class="c3">Art.</span><span class="c0">&nbsp;13. Esta Lei entrará em vigor na data de sua publicação</span></p>
+<p class="c4 c31"><span class="c0"></span></p>
+
+<h1 class="c25 c7 c16" id="h.1iplcbrmm0v8"><span class="c30 c3">14. Projeto de Lei que Cria Parque dos Alpes Mauaenses</span></h1>
+<h2 class="c5 c7" id="h.xqhgsf7cd9dg"><span>Justificativa</span></h2>
+<h2 class="c5 c7" id="h.r3579hm8by03"><span>PROJETO DE RESOLUÇÃO Nº [XX/2024]</span></h2>
+<p class="c4 c40"><span class="c3">Dispõe da criação do Parque dos Alpes Mauaenses e dá outras providências</span></p>
+<p class="c4"><span class="c3">Art. 1º </span><span class="c0">Fica instituído o Parque Municipal Alpes Mauaenses</span></p>
+<p class="c4 c31"><span class="c0"></span></p>
+
+<h1 class="c25 c7 c16" id="h.r1nq4nwzw55f"><span class="c30 c3">15. Projeto de Lei para Valorização da História e Cultura Local </span></h1>
+<h2 class="c5 c7" id="h.w1o795kig31"><span class="c15">Justificativa</span></h2>
+<p class="c4 c16"><span>Considerando as provocações acerca da inconstitucionalidade das escolas cívico-militares, feitas pelo Vereador Anderson Alves Simões (Sargento Simões), candidato a prefeito, feitas na sessão de 20 de agosto de 2024, as 14h na Câmara Municipal de Mauá, e dos argumentos que o projeto visava valorizar o espirito de amor pelo país e pelo município, na valorização da cidadania. E considerando que atualmente o município não tem ainda o ensino fundamental, médio, técnico ou superior municipalizados, proponho que seja feito um projeto que busque criar o sentimento de amor pela cidade, apresentando a história e seus símbolos interdisciplinarmente, valorizando a história local e regional e o patrimonio histórico artístico e cultural da cidade. Em sua aplicação essa lei poderia ser criados programas de visita em museus, em obras do Victor Brecheret que usava para fazer sua arte, o &nbsp;nosso granito natural</span><sup><a href="#ftnt21" id="ftnt_ref21">[21]</a></sup><span>, mencionado no hino municipal</span><sup><a href="#ftnt22" id="ftnt_ref22">[22]</a></sup><span class="c0">.</span></p>
+<p class="c4 c16"><span class="c0">A valorização da história e cultura local é fundamental para o desenvolvimento educacional &nbsp;e a formação do senso de cidadania os estudantes. Ao incluir conteúdos específicos sobre a cidade, região e país no currículo escolar, alcançamos os seguintes objetivos:</span></p>
+<ol class="c6 lst-kix_e5hsbxjqid5c-0 start" start="1">
+<li class="c1 li-bullet-0"><span class="c3">Identidade e Pertencimento</span><span class="c0">: </span></li>
+</ol>
+<ol class="c6 lst-kix_e5hsbxjqid5c-1 start" start="1">
+<li class="c4 c13 c27 li-bullet-0"><span class="c0">Conhecer a história da própria cidade e região fortalece o senso de identidade e pertencimento dos estudantes.</span></li>
+<li class="c4 c13 c27 li-bullet-0"><span class="c0">Eles se sentem parte ativa da comunidade, compreendendo sua origem e contribuição para o contexto local.</span></li>
+</ol>
+<ol class="c6 lst-kix_e5hsbxjqid5c-0" start="2">
+<li class="c1 li-bullet-0"><span class="c3">Preservação do Patrimônio Cultural</span><span class="c0">: </span></li>
+</ol>
+<ol class="c6 lst-kix_e5hsbxjqid5c-1 start" start="1">
+<li class="c4 c13 c27 li-bullet-0"><span class="c0">A história local abrange aspectos como patrimônio arquitetônico, patrimonio ambiental, tradições, personagens importantes e eventos marcantes.</span></li>
+<li class="c4 c13 c27 li-bullet-0"><span class="c0">Ao estudar esses elementos, os alunos aprendem a valorizar e preservar o patrimônio cultural da região.</span></li>
+</ol>
+<ol class="c6 lst-kix_e5hsbxjqid5c-0" start="3">
+<li class="c1 li-bullet-0"><span class="c3">Compreensão do Contexto Nacional</span><span class="c0">: </span></li>
+</ol>
+<ol class="c6 lst-kix_e5hsbxjqid5c-1 start" start="1">
+<li class="c4 c13 c27 li-bullet-0"><span>A história da formação do ABC está intrinsecamente ligada à formação do país e constituição do Democrática do Brasil </span><sup><a href="#ftnt23" id="ftnt_ref23">[23]</a></sup><span class="c0">.</span></li>
+<li class="c4 c13 c27 li-bullet-0"><span class="c0">Ao explorar essas conexões, os estudantes entendem melhor a história nacional e suas raízes. </span></li>
+</ol>
+<ol class="c6 lst-kix_e5hsbxjqid5c-0" start="4">
+<li class="c1 li-bullet-0"><span class="c3">Estímulo à Pesquisa e Curiosidade</span><span class="c0">:</span></li>
+</ol>
+<ol class="c6 lst-kix_e5hsbxjqid5c-1 start" start="1">
+<li class="c4 c13 c27 li-bullet-0"><span class="c0">Conteúdos locais despertam a curiosidade dos alunos, incentivando-os a buscar informações e aprofundar seus conhecimentos.</span></li>
+<li class="c4 c13 c27 li-bullet-0"><span>Isso promove o pensamento crítico e a pesquisa independente e a aprendizagem autodidata</span><sup><a href="#ftnt24" id="ftnt_ref24">[24]</a></sup><span class="c0">.</span></li>
+</ol>
+<ol class="c6 lst-kix_e5hsbxjqid5c-0" start="5">
+<li class="c1 li-bullet-0"><span class="c3">Enriquecimento do Currículo</span><span class="c0">:</span></li>
+</ol>
+<ol class="c6 lst-kix_e5hsbxjqid5c-1 start" start="1">
+<li class="c4 c13 c27 li-bullet-0"><span class="c0">A inclusão desses conteúdos enriquece o currículo escolar, tornando-o mais completo e relevante.</span></li>
+<li class="c4 c13 c27 li-bullet-0"><span class="c0">Os estudantes têm uma visão mais abrangente do mundo ao compreenderem a história local e global.</span></li>
+</ol>
+<p class="c4"><span class="c0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ao estudarmos a história da formação do ABC e da Cidade de Mauá podemos destacar que a relação com o rio Tamanduateí, do granito natural, da topografia que propicia que todos os rios que passem em Mauá nasçam em Mauá, com isso podemos dizer que a natureza é sim um importante bem de valorização da história loca. É também importante iniciar desde cedo a valorização da autoestima do cidadão Mauaense, que por muitas vezes é visto como inferior perante as outras cidades do da Região Metropolitana. Valorizar a história da cidade, da região e do país tem o potencial de aumentar a autoestima dos jovens cidadãos, que se interessarão mais pela cidade e com o cuidado dela e do meio ambiente que nos resta. Portanto: </span></p>
+<p class="c4"><span class="c3">Considerando</span><span class="c0">&nbsp;a Lei n.° 10.639, de 6 de janeiro de 2003, que altera a Lei n.° 9.394, de 20 de dezembro de 1996, e estabelece as diretrizes e bases da educação nacional, para incluir no currículo oficial da Rede de Ensino a obrigatoriedade da temática &ldquo;História e Cultura Afro-Brasileira&rdquo;</span></p>
+<p class="c4"><span class="c3">Considerando</span><span class="c0">&nbsp;a Lei nº 4592, de 01 setembro de 2010, regulamentada pelo Decreto n.º 7940, de 2014, que Dispõe Sobre a Preservação, Proteção, Fiscalização, Tombamento e Valorização do Patrimônio Histórico, Artístico, Natural e Cultural do Município de Mauá.</span></p>
+<p class="c4"><span class="c3">Considerando</span><span class="c0">&nbsp;a Lei n° 259, de 1 de outubro de 2003, torna obrigatório, em todo o país, nos estabelecimentos de ensino e associações de fins educativos, o canto do hino nacional.</span></p>
+<p class="c4"><span class="c3">Considerando </span><span>&nbsp;Lei n.º 14.926, de 17 de julho de 2024, que altera a Lei n.º 9.795, de 27 de abril de 1999, para assegurar atenção às mudanças do clima, à proteção da biodiversidade e aos riscos e vulnerabilidades a desastres socioambientais no âmbito da Política Nacional de Educação Ambiental. E prevê o estímulo à participação individual e coletiva, inclusive das escolas de todos os níveis de ensino, nas ações de prevenção, de mitigação e de adaptação relacionadas às mudanças do clima e no estancamento da perda de biodiversidade, bem como na educação direcionada à percepção de riscos e de vulnerabilidades a desastres socioambientais</span><sup><a href="#ftnt25" id="ftnt_ref25">[25]</a></sup></p>
+<h2 class="c5 c7" id="h.m8zlaf7tz5we"><span>PROJETO DE LEI Nº [XX/2024]</span></h2>
+<p class="c4 c40"><span class="c3">Dispõe da obrigatoriedade de inclusão de conteúdos curriculares que valorizem a história da cidade de Mauá, da formação do ABC e da história e símbolos nacionais.</span></p>
+<p class="c4"><span class="c3">Art. 1º </span><span class="c0">Fica instituída a obrigatoriedade da inclusão de conteúdos curriculares que valorizem a história da cidade, da formação da região do ABC e da história do país, bem como seus símbolos nas escolas municipais de Mauá.</span></p>
+<p class="c4"><span class="c3">Parágrafo único.</span><span class="c0">&nbsp;Ficam reconhecidos como símbolos da cidade de Mauá, para além dos já reconhecidos oficializados pela lei n.º 4268, de 05 de dezembro de 2007 que institui o Hino Oficial do Município, e pela lei n.º 267, de 20 agosto de 1959 que institui o Brasão de Armas e a Bandeira do Município de Mauá: </span></p>
+<ol class="c6 lst-kix_p75d4vi80uaf-0 start" start="1">
+<li class="c1 li-bullet-0"><span class="c0">Todos os bens materiais e imateriais tombados pelo CONDEPHAAT-MA - Conselho de Defesa do Patrimônio Histórico, Artístico, Arqueológico e Turístico de Mauá.</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Os rios, nascentes e a topografia única na Região Metropolitana de São Paulo.</span></li>
+<li class="c1 li-bullet-0"><span class="c0">A ferrovia, que foi elemento vital para a formação da cidade de Mauá.</span></li>
+</ol>
+<p class="c4"><span class="c3">Art. 2º </span><span class="c0">Os conteúdos curriculares mencionados no artigo 1º devem ser desenvolvidos interdisciplinarmente, integrando as áreas de História, Geografia, Artes, Cultura e outras disciplinas pertinentes.</span></p>
+<p class="c4"><span class="c3">Art. 3º </span><span class="c0">As escolas municipais deverão promover atividades extracurriculares, como visitas a museus, palestras com especialistas locais e projetos de pesquisa sobre a história e cultura da região.</span></p>
+<p class="c11"><span class="c3">Parágrafo único.</span><span class="c0">&nbsp;Poderão ser firmadas parcerias e/ou acordos de cooperação com IES &mdash; Instituições de Ensino Superior, OSCs &mdash; Organizações da Sociedade Civil e Coletivos para a execução dessas atividades.</span></p>
+<p class="c4"><span class="c3">Art. 4° </span><span class="c0">O Conselho Municipal de Educação será responsável por definir o conteúdo curriculares e a forma de ser implantado, se atentando para as realidades de cada escola, &nbsp;deverá criar índices e metas &nbsp;para acompanhar a implementação desses conteúdos curriculares e avaliar sua efetividade.</span></p>
+<p class="c4"><span class="c3">Art. 5º</span><span class="c0">&nbsp;As despesas decorrentes da execução desta Lei correrão por conta das dotações orçamentárias próprias, suplementadas se necessário.</span></p>
+<p class="c4"><span class="c3">Art. 6º</span><span class="c0">&nbsp;Está Lei entrará em vigor na data de sua publicação</span></p>
+
+<h1 class="c25 c7 c16" id="h.e0gs52et3wdv"><span class="c30 c3">16. Projeto de Lei para Criação de Passe do Conselheiro </span></h1>
+<h2 class="c5 c7" id="h.gq7oxrh4adbt"><span class="c15">Justificativa</span></h2>
+<p class="c4"><span>A presente proposta visa garantir que os conselheiros municipais possam participar das reuniões do conselho sem arcar com custos de deslocamento, promovendo a participação ativa e contínua nas atividades do conselho. A medida busca também valorizar o trabalho dos conselheiros, reconhecendo a importância de sua contribuição para a gestão municipal. Além disso, a inclusão de mecanismos de fiscalização e controle visa assegurar o uso adequado do benefício, promovendo a transparência e a eficiência na gestão dos recursos públicos.</span></p>
+<h2 class="c5 c7" id="h.q5mjble8oe0h"><span>PROJETO DE LEI Nº [XX/2024]</span></h2>
+<p class="c4 c40"><span class="c3">Dispõe da criação de passe do conselheiro, e dá outras providências</span></p>
+<p class="c4"><span>O POVO DO MAUAENSE, por seus representantes na Câmara Municipal, aprovou e o Prefeito, em seu nome, sanciona a seguinte Lei:</span></p>
+<p class="c4"><span class="c3">Art. 1º</span><span class="c0">&nbsp;Fica o Poder Executivo autorizado a conceder isenção do pagamento de tarifa de transporte público aos Membros de Conselhos Municipais, instituindo o Passe do Conselheiro Municipal, destinado ao deslocamento gratuito dos conselheiros municipais até o local de reunião do conselho municipal ou evento do conselho, considerando ida e volta.</span></p>
+<p class="c4"><span class="c3">Art. 2º</span><span class="c0">&nbsp;O Passe do Conselheiro Municipal será concedido por meio de um cartão de ônibus específico, o Cartão do Conselheiro Municipal, contendo:</span></p>
+<ol class="c6 lst-kix_2oedla2lct02-0 start" start="1">
+<li class="c1 li-bullet-0"><span class="c0">Nome completo e/ou nome social</span></li>
+<li class="c1 li-bullet-0"><span class="c0">foto</span></li>
+<li class="c1 li-bullet-0"><span class="c0">número do CPF</span></li>
+<li class="c1 li-bullet-0"><span class="c0">conselho do qual participa.</span></li>
+</ol>
+<p class="c4"><span class="c3">Parágrafo único</span><span class="c0">. No caso de conselheiros que participem de mais de um conselho municipal, será emitido um único Cartão do Conselheiro Municipal, com cotas adicionais de passe proporcional ao número de conselhos em que o conselheiro atua, desde que não haja sobreposição de horários das reuniões.</span></p>
+<p class="c4"><span class="c3">Art. 3º</span><span class="c0">&nbsp;O Cartão do Conselheiro Municipal será de uso pessoal e intransferível, sendo vedada sua utilização por terceiros.</span></p>
+<p class="c4"><span class="c3">§ 1º</span><span class="c0">&nbsp;O uso indevido do Cartão do Conselheiro Municipal acarretará seu bloqueio.</span></p>
+<p class="c4"><span class="c3">§ 2º</span><span class="c0">&nbsp;Para que se proceda ao desbloqueio do Cartão do Conselheiro Municipal, o conselheiro deverá comparecer ao setor competente para fins de justificação do uso indevido, sob pena de continuidade do bloqueio.</span></p>
+<p class="c4"><span class="c3">Art. 4º</span><span class="c0">&nbsp;A administração municipal será responsável pela emissão e distribuição dos Cartão do Conselheiro Municipal aos conselheiros municipais, mediante comprovação de participação ativa nas reuniões do conselho.</span></p>
+<p class="c4"><span class="c3">Art. 5º</span><span class="c0">&nbsp;O conselheiro municipal deverá apresentar o Cartão do Conselheiro Municipal no validador da catraca do transporte público para validar a gratuidade do deslocamento.</span></p>
+<p class="c4"><span class="c3">Art. 6º </span><span class="c0">O Passe do Conselheiro Municipal terá validade de um ano, sendo necessária a renovação anual mediante comprovação de participação ativa nas reuniões do conselho.</span></p>
+<p class="c4"><span class="c3">Art. 7º</span><span class="c0">&nbsp;A administração municipal realizará auditorias periódicas para garantir o uso adequado do Passe do Conselheiro Municipal.</span></p>
+<p class="c4"><span class="c3">Art. 8º </span><span>Os custos decorrentes da implementação desta lei serão cobertos por dotações orçamentárias próprias, suplementadas se necessário.</span></p>
+<p class="c4"><span class="c3">Art. 9º </span><span class="c0">Está lei entra em vigor na data de sua publicação.</span></p>
+
+<h1 class="c25 c7 c16" id="h.6hn8z2k2c51d"><span class="c3 c30">17. Projeto de Lei que Cria o Fundo de Resiliência Urbana e Climática de Mauá - FRUCM</span></h1>
+<h2 class="c5 c7" id="h.b9fl9eoz5wr"><span class="c15">Justificativa</span></h2>
+<h2 class="c5 c7" id="h.2z11cl40j7v8"><span>PROJETO DE LEI Nº [XX/2026]</span></h2>
+<p class="c4 c40"><span class="c24 c3">Cria o Fundo de Resiliência Urbana e Climática de Mauá - FRUCM, dispõe sobre seus objetivos, fontes de recursos, comitê gestor, mecanismos de aplicação e dá outras providências.</span></p>
+<p class="c4"><span class="c0">O POVO O MAUAENSE, por seus representantes na Câmara Municipal, aprovou e o Prefeito, em seu nome, sanciona a seguinte Lei:</span></p>
+<p class="c4"><span class="c3">Art. 1º</span><span class="c0">&nbsp;Fica criado o Fundo Municipal de Resiliência Climática Mauaense (FMRCM), fundo especial de natureza contábil e financeira, vinculado conjuntamente à Secretaria Municipal de Meio Ambiente e à Secretaria Municipal de Defesa Civil, com o objetivo de prover recursos para o financiamento de ações de adaptação, mitigação, resiliência urbana e o pronto atendimento a sinistros decorrentes de eventos climáticos extremos.</span></p>
+<p class="c4 c31"><span class="c0"></span></p>
+<p class="c4"><span class="c3">Art. 2º</span><span class="c0">&nbsp;O FMRCM destina-se a financiar as seguintes linhas de ação:</span></p>
+<ol class="c6 lst-kix_ulfy45kdpral-0 start" start="1">
+<li class="c1 li-bullet-0"><span class="c3">Adaptação e Mitigação: </span><span class="c0">Financiar obras de infraestrutura verde para prevenção de deslizamentos e alagamentos, bem como obras estruturais de contenção de encostas, macrodrenagem, sistemas de alerta precoce e mapeamento geológico de áreas de risco;</span></li>
+<li class="c1 li-bullet-0"><span class="c3">Ressarcimento e Assistência:</span><span class="c0">&nbsp;Custear auxílio-aluguel emergencial, aquisição de unidades habitacionais para reassentamento de famílias em áreas de risco e indenizações decorrentes de desastres ambientais;</span></li>
+<li class="c1 li-bullet-0"><span class="c3">Emergência Operacional:</span><span class="c0">&nbsp;Financiar serviços de prontidão, como caminhões-pipa em períodos de seca extrema e logística imediata de defesa civil;</span></li>
+<li class="c1 li-bullet-0"><span class="c3">Pesquisa e Inovação:</span><span class="c0">&nbsp;Fomentar o desenvolvimento de inventários de emissões e planos de transição ecológica para o município de Mauá, além de apoiar o mapeamento geológico de alta precisão e sistemas de alerta precoce para a população de Mauá.</span></li>
+</ol>
+<p class="c4"><span class="c3">Art. 3º</span><span class="c0">&nbsp;Constituem receitas do FMRCM:</span></p>
+<ol class="c6 lst-kix_3zsxijsorqz3-0 start" start="1">
+<li class="c1 li-bullet-0"><span class="c0">Os repasses correspondentes a 50% das receitas líquidas descritas na Subconta de Resiliência do Fundo Soberano Mauaense (FUSMA);</span></li>
+<li class="c1 li-bullet-0"><span class="c0">100% do produto da arrecadação de multas administrativas aplicadas pelo Município a concessionárias de serviços públicos (energia e saneamento) por falhas que agravam a vulnerabilidade climática do municipio;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">O produto da arrecadação de Taxa de Controle e Fiscalização Ambiental Municipal e de multas por infrações ambientais aplicadas no território do município;</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Recursos provenientes de taxas ou contribuições instituídas sobre atividades de alto impacto degradador (Princípio do Poluidor-Pagador);</span></li>
+<li class="c1 li-bullet-0"><span class="c0">Dotações orçamentárias específicas, créditos adicionais suplementares e doações de agências de fomento, fundos globais do clima e organizações internacionais.</span></li>
+</ol>
+<p class="c4"><span class="c0">Art. 4º - O FMRCM será gerido por um Comitê Gestor de Resiliência, órgão colegiado e paritário, composto por 10 (dez) membros titulares e seus respectivos suplentes, garantindo a participação de:</span></p>
+<ol class="c6 lst-kix_syg1m7yu1etn-0 start" start="1">
+<li class="c1 li-bullet-0"><span class="c0">05 (cinco) representantes do Poder Executivo Municipal, sendo obrigatoriamente das seguintes pastas ou das que lhes sucederem:</span></li>
+</ol>
+<ol class="c6 lst-kix_syg1m7yu1etn-1 start" start="1">
+<li class="c4 c13 c27 li-bullet-0"><span class="c0">Secretaria Municipal de Defesa Civil;</span></li>
+<li class="c4 c13 c27 li-bullet-0"><span class="c0">Secretaria Municipal de Meio Ambiente;</span></li>
+<li class="c4 c13 c27 li-bullet-0"><span class="c0">Secretaria Municipal de Finanças;</span></li>
+<li class="c4 c13 c27 li-bullet-0"><span class="c0">Secretaria Municipal de Habitação;</span></li>
+<li class="c4 c13 c27 li-bullet-0"><span class="c0">01 (um) representante indicado pelo Chefe do Poder Executivo.</span></li>
+</ol>
+<ol class="c6 lst-kix_syg1m7yu1etn-0" start="2">
+<li class="c1 li-bullet-0"><span class="c0">05 (cinco) representantes da Sociedade Civil e Comunidade Científica, distribuídos da seguinte forma:</span></li>
+</ol>
+<ol class="c6 lst-kix_syg1m7yu1etn-1 start" start="1">
+<li class="c4 c13 c27 li-bullet-0"><span class="c0">02 (dois) membros indicados pelo Conselho Municipal de Meio Ambiente (CONDEMA);</span></li>
+<li class="c4 c13 c27 li-bullet-0"><span class="c0">01 (um) membro indicado pelo Conselho do Orçamento Participativo;</span></li>
+<li class="c4 c13 c27 li-bullet-0"><span class="c0">02 (dois) representantes da comunidade acadêmica regional com notório saber e especialidade nas áreas de geociências, engenharia ambiental, biologia ou planejamento urbano.</span></li>
+</ol>
+<p class="c4"><span class="c3">§1° </span><span class="c0">A nomeação dos membros, a periodicidade das reuniões e o estatuto interno de funcionamento do Comitê Gestor serão definidos por Decreto do Poder Executivo no prazo de até 90 (noventa) dias após a publicação desta Lei.</span></p>
+<p class="c4"><span class="c3">§2°</span><span class="c0">&nbsp;É vedada a utilização dos recursos do FMRCM para o custeio de folha salarial ou despesas correntes ordinárias da administração pública municipal sem relação direta com os objetivos do art. 2º.</span></p>
+<p class="c4"><span class="c3">Art. 5º</span><span class="c0">&nbsp;Fica autorizada a criação de uma &quot;Linha de Fluxo Imediato&quot; dentro do fundo, visando a desburocratização de saques para o atendimento de famílias em situação de calamidade pública ou emergência declarada.</span></p>
+<p class="c4"><span class="c3">Art. 6º</span><span class="c0">&nbsp;A gestão do fundo deverá observar os princípios da transparência e publicidade, com relatórios trimestrais de aplicação de recursos disponíveis em sítio eletrônico oficial.</span></p>
+<p class="c4"><span class="c3">Art. 7º</span><span class="c0">&nbsp;Esta Lei entra em vigor na data de sua publicação.</span></p>
+<p class="c4 c31"><span class="c0"></span></p>
+<p class="c4 c31"><span class="c0"></span></p>
+
+<div><p class="c46"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 46.67px; height: 46.67px;"><img alt="" src="images/image2.png" style="width: 46.67px; height: 46.67px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p></div>
+<hr class="c59">
+<div><p class="c17"><a href="#ftnt_ref1" id="ftnt1">[1]</a><span class="c18">Pnatrans. Disponível em:&lt; https://www.gov.br/transportes/pt-br/assuntos/transito/pnatrans&gt; Acesso em 15 Fev 2024.</span></p></div>
+<div><p class="c17"><a href="#ftnt_ref2" id="ftnt2">[2]</a><span class="c26">&nbsp;BNDES. </span><span class="c3 c26">BNDES Créditos de Carbono.</span><span class="c18">&nbsp;Disponível em: &lt;https://www.bndes.gov.br/wps/portal/site/home/mercado-de-capitais/creditos-de-carbono&gt;. Acesso em: 15 Fev 2024.</span></p><p class="c17 c31"><span class="c18"></span></p></div>
+<div><p class="c17"><a href="#ftnt_ref3" id="ftnt3">[3]</a><span class="c26">&nbsp;Future Transporte. </span><span class="c3 c26">Créditos de carbono podem reduzir emissões no transporte</span><span class="c18">. Disponível em: &lt;https://futuretransport.com.br/creditos-de-carbono-podem-reduzir-emissoes-no-transporte/&gt; Acesso em: 15 Fev 2024.</span></p></div>
+<div><p class="c17"><a href="#ftnt_ref4" id="ftnt4">[4]</a><span class="c18">&nbsp;https://ok.org.br/</span></p></div>
+<div><p class="c17"><a href="#ftnt_ref5" id="ftnt5">[5]</a><span class="c26">&nbsp;&ldquo;1) conhecimento é um bem-comum, ou seja, qualquer pessoa pode usar e participar de sua construção; e 2) informatizados ou não, os sistemas devem ser &ldquo;interoperáveis&rdquo;, o que significa ampliar ao máximo sua capacidade de se comunicar de forma transparente e de se conectar com outros sistemas.&rdquo; </span><span class="c32 c26">[Definição de Conhecimento Aberto. Disponível em: &lt;https://ok.org.br/dados-abertos/&gt; acesso em: 13 dez 2023.]</span></p></div>
+<div><p class="c17"><a href="#ftnt_ref6" id="ftnt6">[6]</a><span class="c26">&nbsp;Dados abertos são dados que podem ser livremente usados, reutilizados e redistribuídos por qualquer pessoa &ndash; sujeitos, no máximo, à exigência de atribuição da fonte e compartilhamento pelas mesmas regras. Destacamos aqui os pontos mais importantes da definição: </span><span class="c3 c26">DISPONIBILIDADE DE ACESSO</span><span class="c18">: Os dados devem estar disponíveis como um todo e sob custo não maior que um custo razoável de reprodução, preferencialmente possíveis de serem baixados pela internet. Os dados devem também estar disponíveis de uma forma conveniente e modificável; </span></p><p class="c17"><span class="c3 c26">REUTILIZAÇÃO E REDISTRIBUIÇÃO</span><span class="c18">: Os dados devem ser fornecidos sob termos que permitam a reutilização e a redistribuição, inclusive a combinação com outros conjuntos de dados;</span></p><p class="c17"><span class="c3 c26">PARTICIPAÇÃO UNIVERSAL</span><span class="c26">: Todos devem ser capazes de usar, reutilizar e redistribuir. Não deve haver discriminação contra áreas de atuação ou contra pessoas ou grupos. Por exemplo, restrições de uso &lsquo;não-comercial&rsquo; que impediriam o uso &lsquo;comercial&rsquo;, ou restrições de uso para certos fins (ex.: somente educativos) excluem determinados dados do conceito de &lsquo;abertos&rsquo;; </span><span class="c32 c26">[Definição de Conhecimento Aberto. Disponível em: &lt;https://ok.org.br/dados-abertos/&gt; acesso em: 13 dez 2023.]</span></p></div>
+<div><p class="c17"><a href="#ftnt_ref7" id="ftnt7">[7]</a><span class="c18">Guia de Dados Abertos. Disponível em: &lt;https://opendatahandbook.org/guide/pt_BR/&gt;</span></p></div>
+<div><p class="c17"><a href="#ftnt_ref8" id="ftnt8">[8]</a><span class="c18">Open Data Index. Disponível em: &lt;https://ok.org.br/projetos/open-data-index/&gt;</span></p></div>
+<div><p class="c17"><a href="#ftnt_ref9" id="ftnt9">[9]</a><span class="c18">&nbsp;Portal Brasileiro de Dados Abertos. Disponível em: &lt;https://dados.gov.br/home&gt;</span></p></div>
+<div><p class="c17"><a href="#ftnt_ref10" id="ftnt10">[10]</a><span class="c18">&nbsp;Correio do Povo. QR Code contará a história daqueles que dão nome às ruas e avenidas de Uruguaiana. Disponível em:&lt;https://g1.globo.com/rs/rio-grande-do-sul/noticia/2021/06/08/projeto-instala-qr-codes-em-placas-de-ruas-de-uruguaiana.ghtml&gt;</span></p></div>
+<div><p class="c17"><a href="#ftnt_ref11" id="ftnt11">[11]</a><span class="c18">&nbsp;Prefeitura de Anapolis. Novas placas com QR Code em pontos turísticos de Anápolis explicam história dos locais. Disponível em:&lt;https://www.anapolis.go.gov.br/novas-placas-com-qr-code-em-pontos-turisticos-de-anapolis-explicam-historia-dos-locais/&gt;</span></p></div>
+<div><p class="c17"><a href="#ftnt_ref12" id="ftnt12">[12]</a><span class="c18">SP1. Publicitários usam placas de ruas para homenagear negros que fizeram história em SP. Disponível em:&lt; https://globoplay.globo.com/v/4622402/&gt; 2min. Acesso em 05 de Jun de 2024.</span></p></div>
+<div><p class="c17"><a href="#ftnt_ref13" id="ftnt13">[13]</a><span class="c18">&nbsp;Disponível em: &lt;https://www.dafont.com/forum/read/353075/tipografia-da-sinalizacao-municipal-das-ruas-do-rio-de-janeiro&gt; Acesso em 05 de Jun de 2024</span></p></div>
+<div><p class="c17"><a href="#ftnt_ref14" id="ftnt14">[14]</a><span class="c18">Mapa Regiões de Planejamento. Disponível em: &lt;https://www.maua.sp.gov.br/MapasTematicos/Mapa_RegiaoPlanejamento.pdf&gt;</span></p></div>
+<div><p class="c17"><a href="#ftnt_ref15" id="ftnt15">[15]</a><span class="c18">&nbsp;Projeto de Lei 481 de 08/08/2017, que dispõe sobre a obrigatoriedade de discriminar sinopse nas placas com logradouro e dá outras providências. Câmara Municipal de São Paulo. Documentação. Disponível em: &lt;http://documentacao.saopaulo.sp.leg.br/cgi-bin/wxis.bin/iah/scripts/?IsisScript=iah.xis&amp;form=A&amp;navBar=OFF&amp;hits=200&amp;lang=pt&amp;nextAction=search&amp;base=proje&amp;conectSearch=init&amp;exprSearch=%24&amp;indexSearch=%5EnCm%5ELTipo+de+projeto%5Etshort%5Ex%2F20%5EyDATABASE&amp;conectSearch=and&amp;exprSearch=481&amp;indexSearch=%5EnPj%5ELN%FAmero+do+projeto%5Ex%2F30%5EyDATABASE&amp;conectSearch=and&amp;exprSearch=2017&amp;indexSearch=%5EnDp%5ELAno+do+projeto%5Ex%2F40%5Etshort%5EyDATABASE&gt; Acesso em 01 Mar 2024.</span></p></div>
+<div><p class="c17"><a href="#ftnt_ref16" id="ftnt16">[16]</a><span class="c26">Disponível em: &lt;</span><span class="c26 c37"><a class="c19" href="https://www.google.com/url?q=http://documentacao.saopaulo.sp.leg.br/iah/fulltext/parecer/JUSTS1402-2018.pdf&amp;sa=D&amp;source=editors&amp;ust=1792784123713100&amp;usg=AOvVaw3B2rq8YFd34YdxQ3NFk2qC">http://documentacao.saopaulo.sp.leg.br/iah/fulltext/parecer/JUSTS1402-2018.pdf</a></span><span class="c18">&gt; </span></p></div>
+<div><p class="c17"><a href="#ftnt_ref17" id="ftnt17">[17]</a><span class="c18">STF. REPERCUSSÃO GERAL NO RECURSO EXTRAORDINÁRIO COM AGRAVO 878.911 RIO DE JANEIRO. Inteiro Teor do Acórdão. 2016. Disponível em: &lt; https://redir.stf.jus.br/paginadorpub/paginador.jsp?docTP=TP&amp;docID=11828222&gt; Acesso em 05 de Jun de 2024.</span></p></div>
+<div><p class="c17"><a href="#ftnt_ref18" id="ftnt18">[18]</a><span class="c26">DIAS, Wladimir Rodrigues. JUS.com.br. </span><span class="c3 c26">Assinatura digital em projeto de lei de iniciativa popular</span><span class="c18">. 04/11/2013. Disponível em: &lt; &nbsp;https://jus.com.br/pareceres/25673/assinatura-digital-em-projeto-de-lei-de-iniciativa-popular&gt; Acesso em 19 Fev 2023 as 15h30min</span></p></div>
+<div><p class="c17"><a href="#ftnt_ref19" id="ftnt19">[19]</a><span class="c26">&nbsp;Câmara Municipal de Mauá. </span><span class="c3 c26">Banco de Ideias Legislativas</span><span class="c18">. https://www.camaramaua.sp.gov.br/BancoIdeiasLegislativas/List/</span></p></div>
+<div><p class="c17"><a href="#ftnt_ref20" id="ftnt20">[20]</a><span class="c26">ITS Rio. </span><span class="c3 c26">Projetos de lei de iniciativa popular no Brasil</span><span class="c18">. https://itsrio.org/wp-content/uploads/2017/08/relatorio-plips-l_final.pdf</span></p></div>
+<div><p class="c17"><a href="#ftnt_ref21" id="ftnt21">[21]</a><span class="c26">&nbsp;LAMA, Eliane Aparecida Del. </span><span class="c3 c26">Rochas Que Construíram o Centro Velho de São Paulo</span><span class="c18">. Docente do Instituto de Geociências da Universidade de São Paulo. (IGC-USP). Disponível em &lt;https://patrimonioeconservacao.wordpress.com/wp-content/uploads/2017/11/del-lama-passeio_petreo_museu_arte_sacra.pdf&gt; Acesso em 20 ago 2024 as 15h58min</span></p></div>
+<div><p class="c17"><a href="#ftnt_ref22" id="ftnt22">[22]</a><span class="c26">Lei Municipal n.º 4268/2007. </span><span class="c3 c26">Hino Oficial do Município de Mauá</span><span class="c18">, Letra: Américo Del Corto &nbsp;Música: Carlos Binder. Disponível em &lt; https://www.camaramaua.sp.gov.br/Downloads/Simbolos-Oficiais/himo-maua-letra.pdf&gt;</span></p></div>
+<div><p class="c17"><a href="#ftnt_ref23" id="ftnt23">[23]</a><span class="c26">CALAZANS, Wesley Café. </span><span class="c3 c26">Tamanduatehy da nascente a foz &mdash; &nbsp;A nova mobilidade como estrutura de retransformação regional</span><span class="c18">. 2019, TFG. Universidade Anhembi Morumbi.</span></p></div>
+<div><p class="c17"><a href="#ftnt_ref24" id="ftnt24">[24]</a><span class="c18">&nbsp;Aprendizagem autodidata: como professores e alunos podem se beneficiar da prática?. Disponível em &lt;https://transformando.com.vc/aprendizagem-autodidata-como-professores-e-alunos-podem-se-beneficiar-da-pratica/&gt; Acesso em 20 Ago 2024 as 15h33min.</span></p></div>
+<div><p class="c17"><a href="#ftnt_ref25" id="ftnt25">[25]</a><span class="c18">&nbsp;Lei inclui mudança climática e biodiversidade na educação ambiental. Agência Senado. Disponível em &lt;https://www12.senado.leg.br/noticias/materias/2024/07/18/lei-inclui-mudanca-climatica-e-biodiversidade-na-educacao-ambiental#:~:text=A%20partir%20de%202025%2C%20as,Uni%C3%A3o%20desta%20quinta%20(18)&gt; Acesso em 20 Ago 2024 as 15h50min.</span></p></div>
+</body>
+</html>
